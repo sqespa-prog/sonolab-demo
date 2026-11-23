@@ -1,0 +1,88 @@
+{
+ "schema": "sonolab.bodymodel/1",
+ "frame": "body: +X к голове, +Y вентрально (вверх), +Z к левой стороне пациента; метры; спина на Y=0; таз в X=Z=0",
+ "landmarks": {
+  "shoulderR": [
+   0.45355,
+   0.11936,
+   -0.20517
+  ],
+  "elbowR": [
+   0.40987,
+   0.11936,
+   -0.45291
+  ],
+  "wristR": [
+   0.36429,
+   0.11936,
+   -0.71141
+  ],
+  "middleFingerBaseR": [
+   0.33346,
+   0.12357,
+   -0.82042
+  ],
+  "thumbTipR": [
+   0.4325,
+   0.1199,
+   -0.84033
+  ],
+  "head": [
+   0.65471,
+   0.14449,
+   0.0
+  ],
+  "headTop": [
+   0.80858,
+   0.14398,
+   0.0
+  ],
+  "pelvis": [
+   0.0,
+   0.10424,
+   0.0
+  ],
+  "anklesMid": [
+   -0.87383,
+   0.11641,
+   0.0
+  ]
+ },
+ "forearmMinY": 0.08375,
+ "heightM": 1.7481,
+ "pose": {
+  "rightArmAbductionDeg": 80.0,
+  "leftArmFromBodyDeg": 10.0,
+  "rightForearm": "supination",
+  "supinationCheck": {
+   "twistDeg": 129,
+   "thumbCranialM": 0.0682,
+   "palmNormalVentral": 0.818
+  }
+ },
+ "macroTargets": [
+  [
+   "macrodetails/universal-male-young-averagemuscle-averageweight.target.gz",
+   1.0
+  ],
+  [
+   "macrodetails/caucasian-male-young.target.gz",
+   1.0
+  ],
+  [
+   "macrodetails/proportions/male-young-averagemuscle-averageweight-idealproportions.target.gz",
+   0.5
+  ]
+ ],
+ "assets": [
+  "clothes/male_casualsuit06/male_casualsuit06.mhclo",
+  "hair/short02/short02.mhclo",
+  "eyes/high-poly/high-poly.mhclo",
+  "eyebrows/eyebrow001/eyebrow001.mhclo",
+  "eyelashes/eyelashes01/eyelashes01.mhclo",
+  "skins/young_caucasian_male/young_caucasian_male.mhmat",
+  "eyes/materials/brownlight.mhmat"
+ ],
+ "triangles": 34652,
+ "license": "CC0-1.0 (MakeHuman / MPFB assets); сборка — SonoLab"
+}
