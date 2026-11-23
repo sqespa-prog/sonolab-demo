@@ -1,0 +1,6 @@
+{
+  "schema": "sonolab.catalog/1",
+  "cases": [
+    { "caseId": "cuhk-tracked-us-ep0", "region": "forearm", "path": "cases/cuhk-tracked-us-ep0/case.json", "default": true }
+  ]
+}
