@@ -231,6 +231,133 @@
    "label": "Шея справа — SegThy 029 (P2, скан 1)",
    "path": "cases/segthy-029-p2-1-right/case.json",
    "annotations": "cases/segthy-029-p2-1-right/annotations.json"
+  },
+  {
+   "caseId": "pfus1-p055",
+   "region": "pelvis",
+   "label": "Тазовое дно — PFUS1 P055 (трансперинеально)",
+   "path": "cases/pfus1-p055/case.json",
+   "annotations": "cases/pfus1-p055/annotations.json"
+  },
+  {
+   "caseId": "shoulder-pa001-a-0001",
+   "region": "shoulder",
+   "label": "Плечо — 3D-объём УЗИ (Zenodo 20283247)",
+   "path": "cases/shoulder-pa001-a-0001/case.json"
+  },
+  {
+   "caseId": "figshare8153201-left-liver",
+   "region": "abdomen",
+   "label": "Печень, левая доля — 3D-УЗИ (Figshare)",
+   "path": "cases/figshare8153201-left-liver/case.json"
+  },
+  {
+   "caseId": "figshare8153201-right-liver",
+   "region": "abdomen",
+   "label": "Печень, правая доля — 3D-УЗИ (Figshare)",
+   "path": "cases/figshare8153201-right-liver/case.json"
+  },
+  {
+   "caseId": "figshare8153201-left-kidney",
+   "region": "abdomen",
+   "label": "Левая почка — 3D-УЗИ (Figshare)",
+   "path": "cases/figshare8153201-left-kidney/case.json"
+  },
+  {
+   "caseId": "figshare8153201-right-kidney",
+   "region": "abdomen",
+   "label": "Правая почка — 3D-УЗИ (Figshare)",
+   "path": "cases/figshare8153201-right-kidney/case.json"
+  },
+  {
+   "caseId": "chang2018-nerve-01",
+   "region": "upperarm",
+   "label": "Плечо (сегмент руки) — медиальный кожный нерв плеча (видео S1, Chang 2018)",
+   "path": "cases/chang2018-nerve-01/case.json"
+  },
+  {
+   "caseId": "chang2018-nerve-02",
+   "region": "upperarm",
+   "label": "Плечо (сегмент руки) — межрёберно-плечевой нерв (видео S2, Chang 2018)",
+   "path": "cases/chang2018-nerve-02/case.json"
+  },
+  {
+   "caseId": "chang2018-nerve-03",
+   "region": "forearm",
+   "label": "Предплечье — медиальный кожный нерв предплечья (видео S3, Chang 2018)",
+   "path": "cases/chang2018-nerve-03/case.json"
+  },
+  {
+   "caseId": "chang2018-nerve-04",
+   "region": "forearm",
+   "label": "Предплечье — латеральный кожный нерв предплечья (видео S4, Chang 2018)",
+   "path": "cases/chang2018-nerve-04/case.json"
+  },
+  {
+   "caseId": "chang2018-nerve-05",
+   "region": "forearm",
+   "label": "Предплечье — задний кожный нерв предплечья (видео S5, Chang 2018)",
+   "path": "cases/chang2018-nerve-05/case.json"
+  },
+  {
+   "caseId": "chang2018-nerve-06",
+   "region": "forearm",
+   "label": "Предплечье — поверхностная ветвь лучевого нерва (видео S6, Chang 2018)",
+   "path": "cases/chang2018-nerve-06/case.json"
+  },
+  {
+   "caseId": "chang2018-nerve-07",
+   "region": "wrist",
+   "label": "Запястье — тыльная кожная ветвь локтевого нерва (видео S7, Chang 2018)",
+   "path": "cases/chang2018-nerve-07/case.json"
+  },
+  {
+   "caseId": "chang2018-nerve-08",
+   "region": "wrist",
+   "label": "Запястье — ладонная кожная ветвь срединного нерва (видео S8, Chang 2018)",
+   "path": "cases/chang2018-nerve-08/case.json"
+  },
+  {
+   "caseId": "chang2018-nerve-09",
+   "region": "thigh",
+   "label": "Бедро — передние кожные ветви бедренного нерва (видео S9, Chang 2018)",
+   "path": "cases/chang2018-nerve-09/case.json"
+  },
+  {
+   "caseId": "chang2018-nerve-10",
+   "region": "thigh",
+   "label": "Бедро — задний кожный нерв бедра (видео S10, Chang 2018)",
+   "path": "cases/chang2018-nerve-10/case.json"
+  },
+  {
+   "caseId": "chang2018-nerve-11",
+   "region": "thigh",
+   "label": "Бедро — латеральный кожный нерв бедра (видео S11, Chang 2018)",
+   "path": "cases/chang2018-nerve-11/case.json"
+  },
+  {
+   "caseId": "chang2018-nerve-12",
+   "region": "lowerleg",
+   "label": "Голень — медиальный кожный нерв икры (видео S12, Chang 2018)",
+   "path": "cases/chang2018-nerve-12/case.json"
+  },
+  {
+   "caseId": "chang2018-nerve-13",
+   "region": "lowerleg",
+   "label": "Голень — латеральный кожный нерв икры (видео S13, Chang 2018)",
+   "path": "cases/chang2018-nerve-13/case.json"
+  },
+  {
+   "caseId": "chang2018-nerve-14",
+   "region": "lowerleg",
+   "label": "Голень — икроножный нерв (видео S14, Chang 2018)",
+   "path": "cases/chang2018-nerve-14/case.json"
+  },
+  {
+   "caseId": "chang2018-nerve-15",
+   "region": "knee",
+   "label": "Колено — подкожный нерв: поднадколенниковая и портняжная ветви (видео S15, Chang 2018)",
+   "path": "cases/chang2018-nerve-15/case.json"
   }
  ]
 }

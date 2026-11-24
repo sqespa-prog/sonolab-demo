@@ -1,0 +1,550 @@
+{
+ "schema": "sonolab.case/1",
+ "caseId": "figshare8153201-right-kidney",
+ "dataVersion": "1.0.0",
+ "title": "Правая почка — настоящий томографический 3D-объём УЗИ (Figshare 8153201)",
+ "region": {
+  "id": "abdomen",
+  "name": "Живот"
+ },
+ "patientSide": "right",
+ "imageType": "volume-reslice",
+ "imageTypeNote": "Настоящее УЗИ: объём, реконструированный аппаратом Curefab CS из кадров датчика с трекингом. Кадр — поперечный срез (плитка z) пересчитанного 256³ объёма; это не исходный кадр аппарата, есть интерполяция и чёрные области вне охвата. Не КТ (в DICOM экспорт помечен CT) и не симуляция.",
+ "source": {
+  "dataset": "Blank et al. 2019, SonoDia3D (CurefabCS) control cohort",
+  "subset": "SonoDia3D_TS_01_Scan 2016-03-10 16_59_rightKidney",
+  "episode": 1,
+  "revision": "figshare 8153201 v1, https://ndownloader.figshare.com/files/15192854",
+  "url": "https://doi.org/10.6084/m9.figshare.8153201.v1",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Blank V, Wiegand J, Keim V, Karlas T (2019), Evaluation of a novel tomographic ultrasound device for abdominal examinations. PLoS ONE 14(6): e0218754. Public control-cohort DICOM data, CC BY 4.0.",
+  "task": "Томографическое 3D-УЗИ: Right kidney",
+  "articleUrl": "https://doi.org/10.1371/journal.pone.0218754",
+  "voxelSha256": "29a8d29f3aa63a620f45c813010bff6b8e79bff314232a01c24ac3066d086326",
+  "atlasSha256": "a36de390dfb5d044c1fb062cb5fa4dae57e25633456a7c37c3b84f5e07e761d0",
+  "modalityCaveat": "The CurefabCS tomographic ultrasound exporter stores CT Image Storage and Modality=CT. The source article and Figshare record establish that these are reconstructed ultrasound, not CT acquisitions. No Hounsfield-unit interpretation is appropriate.",
+  "via": "S:/SonoLab-local/assets/right-kidney-volume-data.js (старая сборка SonoLab-local 0.8), SHA-256 b9c10a6d130f66b870411165f9176c81e0a743b777ec5e9e913f3a23a9bb945b",
+  "files": {
+   "assets/right-kidney-volume-data.js": {
+    "bytes": 2532385,
+    "sha256": "b9c10a6d130f66b870411165f9176c81e0a743b777ec5e9e913f3a23a9bb945b",
+    "verifiedAgainst": "S:/SonoLab-local/package-manifest.json",
+    "note": "производный файл старой сборки SonoLab-local 0.8 (метаданные + атлас срезов); исходный файл набора не читался"
+   }
+  }
+ },
+ "probe": {
+  "model": "Curefab CS (SonoDia3D)",
+  "kind": "томографическое УЗИ с трекингом датчика",
+  "imageFormat": "срез реконструированного объёма",
+  "centerFrequencyMHz": 0,
+  "imagingDepthCm": 16.6,
+  "note": "Частота не указана (0 = неизвестно). В DICOM записано Modality=CT — это особенность экспорта Curefab, данные — УЗИ (по статье и записи Figshare)."
+ },
+ "frames": {
+  "count": 77,
+  "fps": 0,
+  "width": 253,
+  "height": 185,
+  "pattern": "frames/{id:04d}.jpg",
+  "conversion": "плитки атласа 256² → JPEG q=90; срезы z=49…201 с шагом 2; обрезка x 2…254, y 36…220; без масштабирования"
+ },
+ "imageGeometry": {
+  "orientation": "строки — ось y DICOM, столбцы — ось x DICOM, без отражений; соответствие осям пациента источником не подтверждено",
+  "pixelSpacingMm": 0.8967,
+  "pixelSpacingNote": "0.8967 мм (сетка объёма после пересчёта 512→256 в старой сборке).",
+  "depthSettingCm": 16.6,
+  "probeMarkerSide": "unknown",
+  "flipApplied": false,
+  "lateralOrientation": "Метка датчика не указана; оси — локальные оси источника, ориентация к пациенту не установлена."
+ },
+ "acquisition": {
+  "scanner": "Curefab CurefabCS",
+  "probe": null,
+  "probeType": "томографическое УЗИ: датчик с трекингом, объём реконструирован аппаратом",
+  "centerFrequencyMHz": null,
+  "depthCm": null,
+  "frameDepthCm": 16.6,
+  "tracking": "трекинг датчика аппаратом CurefabCS; позы кадров в выгрузке отсутствуют",
+  "sourceUnits": {
+   "spatial": "mm",
+   "intensity": "DICOM uint16, 12 bits stored (значения [0, 234]) → uint8 без изменения значений"
+  },
+  "fieldStatus": {
+   "scanner": "provided",
+   "probe": "unknown",
+   "probeType": "provided",
+   "centerFrequencyMHz": "unknown",
+   "depthCm": "unknown",
+   "frameDepthCm": "heuristic",
+   "sourceUnits": "provided"
+  },
+  "note": "Аппарат — по тегам DICOM Manufacturer/ManufacturerModelName (Modality=CT — особенность экспорта, данные УЗИ). Модель датчика, частота и глубина не указаны. frameDepthCm — высота кадра после обрезки."
+ },
+ "transforms": [
+  {
+   "op": "read",
+   "format": "javascript (JSON + атлас PNG в base64)",
+   "file": "assets/right-kidney-volume-data.js",
+   "dimensions": [
+    256,
+    256,
+    256
+   ],
+   "spacingMm": [
+    0.896685,
+    0.896685,
+    0.896685
+   ],
+   "note": "объём уже пересчитан старой сборкой [512, 512, 512] → [256, 256, 256]: 256^3 linear interpolation with first and last voxel centers aligned; integer output rounding by scipy; exact original physical center bounds preserved; no intensity enhancement or masking"
+  },
+  {
+   "op": "decode",
+   "library": "Pillow",
+   "mode": "L",
+   "note": "атлас 16×16 плиток 256², зазор 0 px; плитка z = строка z // 16, столбец z % 16"
+  },
+  {
+   "op": "slice",
+   "axis": "z",
+   "start": 49,
+   "stop": 201,
+   "step": 2,
+   "criterion": "от первого до последнего среза, где доля пикселей > 8 больше 0.005; кадр N ← z = start + step·N"
+  },
+  {
+   "op": "crop",
+   "x0": 2,
+   "y0": 36,
+   "x1": 255,
+   "y1": 221,
+   "units": "px",
+   "note": "общий охват (значение > 8) всех выбранных срезов; x1, y1 не включаются"
+  },
+  {
+   "op": "resample",
+   "method": "none",
+   "scale": 1
+  },
+  {
+   "op": "encode",
+   "format": "jpeg",
+   "quality": 90,
+   "library": "Pillow",
+   "mode": "L",
+   "optimize": true
+  }
+ ],
+ "coordinateConvention": {
+  "sourceFrame": {
+   "kind": "voxel-volume (атлас старой сборки)",
+   "axes": {
+    "x": "столбцы DICOM",
+    "y": "строки DICOM",
+    "z": "номер среза DICOM"
+   },
+   "units": "mm",
+   "voxelSizeMm": [
+    0.896685,
+    0.896685,
+    0.896685
+   ],
+   "dimensions": [
+    256,
+    256,
+    256
+   ],
+   "sourceDimensions": [
+    512,
+    512,
+    512
+   ],
+   "sourceSpacingMm": [
+    0.44746515154838556,
+    0.44746515154838556,
+    0.4474651515483856
+   ],
+   "voxelToDicomLpsMm": [
+    [
+     0.8966850683969608,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.8966850683969608,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.8966850683969609,
+     578.3895111083984
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "worldMeaning": "unknown",
+   "note": "Направления DICOM — единичные, начало локальное; оси пациента и совмещение между органами источником не установлены."
+  },
+  "frame": {
+   "origin": "левый верхний угол пикселя (0,0)",
+   "x": "вправо",
+   "y": "вниз (глубина)",
+   "units": "px",
+   "pixelSpacingMm": 0.8967
+  },
+  "frameToSource": {
+   "x": "x + 2",
+   "y": "y + 36",
+   "z": "49 + 2·frameId",
+   "status": "provided",
+   "note": "в индексах вокселей атласа старой сборки (сетка 256×256×256); к исходной сетке 512×512×512 — через её пересчёт (см. read.note)"
+  }
+ },
+ "validity": {
+  "status": "heuristic",
+  "noData": "value <= 8",
+  "threshold": 8,
+  "definition": "Правило импортёра: пиксели ≤ 8 считались пустыми при выборе срезов и обрезке. Источник: «нет независимой маски охвата»; в сетке есть чёрные пустые области и артефакты. После JPEG граница размывается; анэхогенные ткани тоже близки к нулю.",
+  "minCoverage": 0.005
+ },
+ "trajectory": {
+  "kind": "relative-sweep-index",
+  "kindNote": "Навигация по оси объёма. Регистрации к фигуре нет: проход уложен условно.",
+  "s": [
+   0.0,
+   0.0132,
+   0.0263,
+   0.0395,
+   0.0526,
+   0.0658,
+   0.0789,
+   0.0921,
+   0.1053,
+   0.1184,
+   0.1316,
+   0.1447,
+   0.1579,
+   0.1711,
+   0.1842,
+   0.1974,
+   0.2105,
+   0.2237,
+   0.2368,
+   0.25,
+   0.2632,
+   0.2763,
+   0.2895,
+   0.3026,
+   0.3158,
+   0.3289,
+   0.3421,
+   0.3553,
+   0.3684,
+   0.3816,
+   0.3947,
+   0.4079,
+   0.4211,
+   0.4342,
+   0.4474,
+   0.4605,
+   0.4737,
+   0.4868,
+   0.5,
+   0.5132,
+   0.5263,
+   0.5395,
+   0.5526,
+   0.5658,
+   0.5789,
+   0.5921,
+   0.6053,
+   0.6184,
+   0.6316,
+   0.6447,
+   0.6579,
+   0.6711,
+   0.6842,
+   0.6974,
+   0.7105,
+   0.7237,
+   0.7368,
+   0.75,
+   0.7632,
+   0.7763,
+   0.7895,
+   0.8026,
+   0.8158,
+   0.8289,
+   0.8421,
+   0.8553,
+   0.8684,
+   0.8816,
+   0.8947,
+   0.9079,
+   0.9211,
+   0.9342,
+   0.9474,
+   0.9605,
+   0.9737,
+   0.9868,
+   1.0
+  ],
+  "lutSize": 77,
+  "lut": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41,
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49,
+   50,
+   51,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57,
+   58,
+   59,
+   60,
+   61,
+   62,
+   63,
+   64,
+   65,
+   66,
+   67,
+   68,
+   69,
+   70,
+   71,
+   72,
+   73,
+   74,
+   75,
+   76
+  ],
+  "directionOnBody": {
+   "value": "unknown",
+   "status": "unknown",
+   "evidence": "Направление оси объёма относительно тела в источнике не установлено."
+  },
+  "bodyPlacement": {
+   "startFractionOfForearm": 0,
+   "endFractionOfForearm": 0,
+   "surface": "правый бок, задняя подмышечная линия (условно)",
+   "status": "условное размещение",
+   "path": {
+    "from": [
+     0.2,
+     0.07,
+     -0.1
+    ],
+    "to": [
+     0.1,
+     0.07,
+     -0.1
+    ],
+    "rayDir": [
+     0.0,
+     -0.8,
+     1.0
+    ]
+   }
+  },
+  "lengthMm": 136.3
+ },
+ "supportedMotions": {
+  "slideAlongSweep": true,
+  "lateralShift": false,
+  "rotation": false,
+  "tilt": false,
+  "compression": false,
+  "note": "Перемещение вдоль оси объёма."
+ },
+ "calibration": {
+  "imageToSensor": "absent",
+  "note": "Калибровка учтена (или нет) источником при сборке объёма; в приложение не передаётся."
+ },
+ "controlPoints": [
+  {
+   "id": "КТ1",
+   "t": 0,
+   "frameId": 0,
+   "frameSha256": "2814ba9982da0551adb44d0214c02c9d60a81735e70da034f534394bed0af8b0",
+   "image": "cases/figshare8153201-right-kidney/frames/0000.jpg"
+  },
+  {
+   "id": "КТ2",
+   "t": 0.25,
+   "frameId": 19,
+   "frameSha256": "d40761aaa2b624e619120334875b8a6357ceca2042c1d89547eed635659e31c2",
+   "image": "cases/figshare8153201-right-kidney/frames/0019.jpg"
+  },
+  {
+   "id": "КТ3",
+   "t": 0.5,
+   "frameId": 38,
+   "frameSha256": "35f8ff63e71b257eb7aec282b1f7fe350b73272812c91d425c24f61a0944088f",
+   "image": "cases/figshare8153201-right-kidney/frames/0038.jpg"
+  },
+  {
+   "id": "КТ4",
+   "t": 0.75,
+   "frameId": 57,
+   "frameSha256": "e1547afdf398b942981bbcc56761d6f05c6610176d49e0f017bb2cf04ea167e5",
+   "image": "cases/figshare8153201-right-kidney/frames/0057.jpg"
+  },
+  {
+   "id": "КТ5",
+   "t": 1,
+   "frameId": 76,
+   "frameSha256": "1978a986310ef24521f0a456bebf1da8e98bbbf56e604e0237d6c46ff1a9fdc5",
+   "image": "cases/figshare8153201-right-kidney/frames/0076.jpg"
+  }
+ ],
+ "verification": {
+  "frameSha256": [
+   "2814ba9982da0551adb44d0214c02c9d60a81735e70da034f534394bed0af8b0",
+   "9177488916c7c8a8527d72ffe2b48c4ed867b98d05d2305f1c9b021decfb83ef",
+   "e7e94c35f903235e8992368c1b58e1cd6b3769ff6bf7c5ec63e09f1aac8941c0",
+   "4841ec19616edfd29a7c81cce3287dd0a442e26d930e692e6578c09eb3bf9052",
+   "19807dc3e8a19efa2ff72d841239cb3b9b3aafbace79018cc5d2d74c59d1618a",
+   "aacb76bf0aef037784efc4814c7e5acb90f4f759295349c7aac2ef7047cef9eb",
+   "8086e2d9e88217f2587d5e16e59803ef4c4c1c8ebae79d792e776c5f8a53ac0e",
+   "0f4a3fa8da03d5c07239084e31a1678335a911d767aa791724e54560234a9bb4",
+   "c665bb79124a9c2c4b921a9b2dc88262b3e847bc41a541b892bc55c26af5a46a",
+   "ab2421d5f0cdc07b36a3519feb2af4627559f26a6212a6245c77c15e61ed1967",
+   "c40a9634db8ab2d5cb07fb9351ec0808d059470ee381b093135d3524da5dba17",
+   "7ea147d8889f0eec71e8d64cd5f0548374e701e7826723882034ddaaba59cb13",
+   "ab65f6487a3ea127e99896aaf1d01312f90ddd0d74a0229bb4e9cf71832c8072",
+   "53bfd6dcfb6255c864365973c3b3130c2ca06ee8bed098bf3d7121da75749631",
+   "8feb6c0f5f1904480fdf29109e7c34900bc624e06e997ad8d6354fd90b38caf2",
+   "ee1e25a38d93624055af07375ed0096760105a07f1c7dbb117edc020fed4674f",
+   "ae07b6f371dd9919adf5b48c6dd5e2e0be47ec4f5f50c1da625884dfa2286e61",
+   "d7b6a335bddba75e40612897719d1e8bc5106e0eef1ec0f1f265f0ad40da38e3",
+   "f7eb50f3990c94506b2c86bef1393eac2305e32c5d1ea75fd5aaeb94d19ec4a7",
+   "d40761aaa2b624e619120334875b8a6357ceca2042c1d89547eed635659e31c2",
+   "5eca48227ebac42f8bdb47bac904bfa9fc224012914621b65b892b42aec64c82",
+   "defcff07b2d1d96a87fafb4593aadd308758cfc0cc917864527bbe9eff012a3e",
+   "b7b36f93acef9dcdfd879c94a79767e019448cc1e1af34986efe4eb3aea22596",
+   "2832700a2060503cb4319449a2a68858bf3a91053065c6d28c4c0dcd25f99118",
+   "f8ff616122b4b836303f3eaf581a46fd606a2b2098c97c4a86a6e45859ca1520",
+   "81fdd4118cb23eedcda02a7c0e24395f287706bd2a92214ce5d1f8926e3c631a",
+   "b88bba97eb81548bc364393f79682290be8ff8cca5db81926773d74579931bfc",
+   "420ca50fcfafe80e03c08946776e6e0e93257757132ec94750437df021571073",
+   "76f52fa688503a6d7eccbf787c7e6e42408058d1534cf468e6d863cb80161dde",
+   "83a8217ee4309dedfc2cc0191820d41b6d3b5f6cf5bc092f6154158232381c66",
+   "fedc48d64f26d1181fdbfe3f25e3f67b35ae9440179288826aee9993c1806d80",
+   "2ba6d5878fb1814864698aa9cf2cf0e93cbd0e8db1af70a19293e320190332b6",
+   "804d26308adf3f9854af6c861a6f7eb11d34bfef024738035f18f6bc8b32fd03",
+   "5fb5d53d94baad3add930139eea0c2a24edb0d24d915c3a63b9f2cc8f07cd10a",
+   "3d62bacef0e6e67a2433d4fb273ba5fffb308b7ad5444a07f72320eed1238a21",
+   "7fc5ae670e3d372f4f72a2ee6bea288aaf925e6ec30fbb7e8eef370c26f61bbc",
+   "53ab51ab76712b35fd0a6ffcfd1467cb9e746133963620608f0dd14d709397f2",
+   "23950770ca4f72869edc910dc22ce61998f237dfb81fb93ec2155d1dd5395ea5",
+   "35f8ff63e71b257eb7aec282b1f7fe350b73272812c91d425c24f61a0944088f",
+   "b7985a67077f29414cd4812f847d6838ec9558c5ea904a0457614da51c4dbf73",
+   "7df698a086842c43e6fb830a31b974705e35186a090a93d758c9ee49ee189bbd",
+   "4f8ff1337296fc75d0f0e2c4ce17f5a902f172ecc162fd32e948f930cbe77d7f",
+   "d784d7266101f7b426dabbdc40df3aa1f35942825cc5d1ee6340b55de89271ff",
+   "43d70bf44938c0a38d416a1fdd657637a7b9e0d1c89f8ec4e53df933e9d7f877",
+   "ef7a9d9da80c0ad1df8e9fb13fc0cf1bf12eafb67bb2d4c1e09fdd877a5bc2ab",
+   "2761a08ccedeec235f7c50550748d31ad3734648da6b61af643f1202c1de8251",
+   "f2e8f0ec81040771596a899de33b4d4ac6696be006b93ea66064dcc7b580de5c",
+   "bf5c9fa0f50f5ef6bfd601e1976b0c922cbabacd3e17f281bc894380f6fd5a34",
+   "63067bb891771c7e3a7d51e0c4b53f77c7a66fae0433c1dce2536622c71412c1",
+   "084e389f573ab8aa8e8359d3ec664917bfc311e019daf41a85f1a16f51cc2b9d",
+   "7f16f112f5c462c53d2154fa188ca36580da0395994f2c645d78edb98a5625f8",
+   "0e5c6da61133a25773c4882b49decc1c0220679adbab4c9ba9699b64fae3f2f9",
+   "cd6b4d21c0d44537b3a955b93414366c5614f00d570e4dc9ac44d96421036318",
+   "4176d495eca7b810b66e01624918e9fbac5a59756711b199c1bcd31f273b94c6",
+   "306bf783a98b0cf8d852ac75aa916c9cf2bd7f319d8b3e3010a959c4859ef640",
+   "d43b46ed1896c85564a47993ab559e102821240c91af00b9d3f98348ed542542",
+   "2e20d742e7216e54fe6564fb50e0d27eedd00e1714c2c9e96eee53b157f188ef",
+   "e1547afdf398b942981bbcc56761d6f05c6610176d49e0f017bb2cf04ea167e5",
+   "68af7c9aec1c95e12cdd6d1454093e88b2e87244ef8428f18584c65aa2fba998",
+   "1312eaf498dff6456c5cf9a07df237db748b53b32e37afae738698d69625db12",
+   "247737d4187b31a9480e9330ea71133b2936048c6be71a22c03716132c4d9139",
+   "ac31c67ae39dafc1a9e480bcb6682449c3f91eb61269083207c0e5683d7d0f1b",
+   "44c248ac167840f661d3406eb0fb1d7a4fd8ed822c2f202e4e9a8d8756055501",
+   "d660b2f5379847a0cfd9780ae41754468873f63f2ab260c5dfc8a05bb24c140c",
+   "874794377933666f2d47e7679547e7e043e1fb23c94ac32e59777448a0be64dc",
+   "c9c7eecb8fa3185af4212e99844bef305b5161f4dd7266635fd37edfddd6448a",
+   "6f80f65cd39736302ffd893dfdf4188d233cae5757f3fb70ecc0589863da0fdd",
+   "0761c7db8e7a46266292c9aeb75f8c475f7717ae8e84f5327f34cbf45ba23ff6",
+   "e9f9d4400cf4fb55d43e081a9cfd1b915f0d42a7676e7d0b0b848caf71981ba9",
+   "efed39ad99d37e28f466ca23af1015e33854407b395ea066fbdb59641ec33d68",
+   "63a8bf18ef0d233fc6a130ae5aa35b225dafee9256ed3447b567cf762c9f6be4",
+   "0f8c83557efc8b2ccc410bb466c7b0b6aef1b6dbcfbb2469308bc285ceaec583",
+   "ace74fe64e82dfad00b926e7e66b88613e9308b93ece2a79622724df3203671d",
+   "105db63ecc2194a8c3f00d221d4d040bd17bbd65872a59331966643f7b54b484",
+   "e2559a5aa88cf27dd2c0930723931e7b86992011b0570bf2556df963ae134d28",
+   "4df108e5396ede2864233d3395449f2ca92bccaa36bd5b03a2c69674e68a9610",
+   "1978a986310ef24521f0a456bebf1da8e98bbbf56e604e0237d6c46ff1a9fdc5"
+  ],
+  "sourceAssetSha256": "b9c10a6d130f66b870411165f9176c81e0a743b777ec5e9e913f3a23a9bb945b",
+  "atlasSha256": "a36de390dfb5d044c1fb062cb5fa4dae57e25633456a7c37c3b84f5e07e761d0"
+ },
+ "knownIssues": [
+  "Один контрольный доброволец; объёмы органов не совмещены между собой и с фигурой.",
+  "В DICOM указано Modality=CT (особенность экспорта Curefab) — данные являются УЗИ; единицы Хаунсфилда неприменимы.",
+  "Оси объёма локальные: что кадр «поперечный» относительно тела, источником не подтверждено.",
+  "Кадры — срезы реконструкции (пересчёт 512³ → 256³), не исходные кадры аппарата.",
+  "Проход по фигуре — условное размещение."
+ ]
+}

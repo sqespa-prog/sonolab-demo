@@ -75,6 +75,102 @@
   "probeMarkerSide": "unknown",
   "flipApplied": false
  },
+ "acquisition": {
+  "scanner": null,
+  "probe": "Pentax EG-3870 UTK",
+  "probeType": "endoscopic-ultrasound (EUS), приложен снаружи",
+  "centerFrequencyMHz": 7.5,
+  "depthCm": 7.0,
+  "gain": 1.0,
+  "acquisitionFps": 25.0,
+  "sourceUnits": {
+   "spatial": "unknown",
+   "intensity": "8-бит видео (AV1), уровни после кодека",
+   "probeAcquisitionParam": "единицы не подписаны; приняты МГц, см, отн. ед., кадр/с"
+  },
+  "fieldStatus": {
+   "scanner": "unknown",
+   "probe": "provided",
+   "centerFrequencyMHz": "provided",
+   "depthCm": "provided",
+   "sourceUnits": "heuristic"
+  },
+  "note": "probe и параметры — из observation.meta.probe_type / probe_acquisition_param; модель аппарата в источнике не указана; единицы величин выведены по их значениям."
+ },
+ "transforms": [
+  {
+   "op": "read",
+   "format": "mp4",
+   "file": "Ultrasound/cuhk/hongliang_ren/tracked_us/videos/chunk-000/observation.images.ultrasound/episode_000000.mp4",
+   "codec": "av1",
+   "width": 720,
+   "height": 415,
+   "fps": 25
+  },
+  {
+   "op": "decode",
+   "library": "ffmpeg",
+   "frames": "все кадры по порядку, frameId = номер кадра видео с 0"
+  },
+  {
+   "op": "crop",
+   "x0": 0,
+   "y0": 0,
+   "x1": 720,
+   "y1": 415,
+   "units": "px",
+   "note": "без обрезки"
+  },
+  {
+   "op": "resample",
+   "method": "none",
+   "scale": 1
+  },
+  {
+   "op": "encode",
+   "format": "jpeg",
+   "library": "ffmpeg mjpeg",
+   "qscale": 2,
+   "pixelFormat": "yuvj444p",
+   "note": "q:v — шкала ffmpeg (меньше — лучше), не качество 0..100"
+  }
+ ],
+ "coordinateConvention": {
+  "sourceFrame": {
+   "kind": "video-frame",
+   "axes": {
+    "x": "вправо",
+    "y": "вниз (глубина)"
+   },
+   "units": "px",
+   "pixelSpacingMm": null,
+   "worldMeaning": "unknown",
+   "note": "Калибровки изображение→датчик нет (prob_cali_mtx — заглушка); масштаб пикселя неизвестен."
+  },
+  "frame": {
+   "origin": "левый верхний угол пикселя (0,0)",
+   "x": "вправо",
+   "y": "вниз (глубина)",
+   "units": "px",
+   "pixelSpacingMm": null
+  },
+  "frameToSource": {
+   "x": "x",
+   "y": "y",
+   "t": "frameId",
+   "status": "provided",
+   "note": "геометрия кадра совпадает с видео (сверка отражений — verification)"
+  },
+  "trackerFrame": {
+   "units": "unknown",
+   "note": "observation.state: tx,ty,tz,qx,qy,qz,qw; единицы не задокументированы"
+  }
+ },
+ "validity": {
+  "status": "unknown",
+  "noData": null,
+  "definition": "Маска области изображения (сектор) источником не дана. Тёмные области вне сектора и анэхогенные ткани по значению не различаются; маска не строилась."
+ },
  "trajectory": {
   "kind": "relative-sweep-index",
   "kindNote": "Навигация по нормированному пути записи. Пространственной регистрации к телу нет.",
