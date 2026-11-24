@@ -1,6 +1,7 @@
 {
   "schema": "sonolab.catalog/1",
   "cases": [
-    { "caseId": "cuhk-tracked-us-ep0", "region": "forearm", "path": "cases/cuhk-tracked-us-ep0/case.json", "default": true }
+    { "caseId": "cuhk-tracked-us-ep0", "region": "forearm", "label": "Предплечье — CUHK tracked_us", "path": "cases/cuhk-tracked-us-ep0/case.json", "default": true },
+    { "caseId": "segthy-001-p1-1-left", "region": "neck", "label": "Шея слева — SegThy 001", "path": "cases/segthy-001-p1-1-left/case.json", "annotations": "cases/segthy-001-p1-1-left/annotations.json" }
   ]
 }
