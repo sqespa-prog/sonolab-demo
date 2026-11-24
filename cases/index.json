@@ -1,7 +1,236 @@
 {
-  "schema": "sonolab.catalog/1",
-  "cases": [
-    { "caseId": "cuhk-tracked-us-ep0", "region": "forearm", "label": "Предплечье — CUHK tracked_us", "path": "cases/cuhk-tracked-us-ep0/case.json", "default": true },
-    { "caseId": "segthy-001-p1-1-left", "region": "neck", "label": "Шея слева — SegThy 001", "path": "cases/segthy-001-p1-1-left/case.json", "annotations": "cases/segthy-001-p1-1-left/annotations.json" }
-  ]
+ "schema": "sonolab.catalog/1",
+ "cases": [
+  {
+   "caseId": "cuhk-tracked-us-ep0",
+   "region": "forearm",
+   "label": "Предплечье — CUHK tracked_us",
+   "path": "cases/cuhk-tracked-us-ep0/case.json",
+   "default": true
+  },
+  {
+   "caseId": "segthy-001-p1-1-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 001 (P1, скан 1)",
+   "path": "cases/segthy-001-p1-1-left/case.json",
+   "annotations": "cases/segthy-001-p1-1-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-001-p1-1-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 001 (P1, скан 1)",
+   "path": "cases/segthy-001-p1-1-right/case.json",
+   "annotations": "cases/segthy-001-p1-1-right/annotations.json"
+  },
+  {
+   "caseId": "segthy-002-p2-2-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 002 (P2, скан 2)",
+   "path": "cases/segthy-002-p2-2-left/case.json",
+   "annotations": "cases/segthy-002-p2-2-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-002-p2-2-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 002 (P2, скан 2)",
+   "path": "cases/segthy-002-p2-2-right/case.json",
+   "annotations": "cases/segthy-002-p2-2-right/annotations.json"
+  },
+  {
+   "caseId": "segthy-003-p3-1-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 003 (P3, скан 1)",
+   "path": "cases/segthy-003-p3-1-left/case.json",
+   "annotations": "cases/segthy-003-p3-1-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-003-p3-1-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 003 (P3, скан 1)",
+   "path": "cases/segthy-003-p3-1-right/case.json",
+   "annotations": "cases/segthy-003-p3-1-right/annotations.json"
+  },
+  {
+   "caseId": "segthy-005-p1-1-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 005 (P1, скан 1)",
+   "path": "cases/segthy-005-p1-1-left/case.json",
+   "annotations": "cases/segthy-005-p1-1-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-005-p1-1-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 005 (P1, скан 1)",
+   "path": "cases/segthy-005-p1-1-right/case.json",
+   "annotations": "cases/segthy-005-p1-1-right/annotations.json"
+  },
+  {
+   "caseId": "segthy-006-p2-1-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 006 (P2, скан 1)",
+   "path": "cases/segthy-006-p2-1-left/case.json",
+   "annotations": "cases/segthy-006-p2-1-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-006-p2-1-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 006 (P2, скан 1)",
+   "path": "cases/segthy-006-p2-1-right/case.json",
+   "annotations": "cases/segthy-006-p2-1-right/annotations.json"
+  },
+  {
+   "caseId": "segthy-007-p3-1-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 007 (P3, скан 1)",
+   "path": "cases/segthy-007-p3-1-left/case.json",
+   "annotations": "cases/segthy-007-p3-1-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-007-p3-1-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 007 (P3, скан 1)",
+   "path": "cases/segthy-007-p3-1-right/case.json",
+   "annotations": "cases/segthy-007-p3-1-right/annotations.json"
+  },
+  {
+   "caseId": "segthy-008-p1-1-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 008 (P1, скан 1)",
+   "path": "cases/segthy-008-p1-1-left/case.json",
+   "annotations": "cases/segthy-008-p1-1-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-008-p1-1-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 008 (P1, скан 1)",
+   "path": "cases/segthy-008-p1-1-right/case.json",
+   "annotations": "cases/segthy-008-p1-1-right/annotations.json"
+  },
+  {
+   "caseId": "segthy-011-p2-3-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 011 (P2, скан 3)",
+   "path": "cases/segthy-011-p2-3-left/case.json",
+   "annotations": "cases/segthy-011-p2-3-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-011-p2-3-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 011 (P2, скан 3)",
+   "path": "cases/segthy-011-p2-3-right/case.json",
+   "annotations": "cases/segthy-011-p2-3-right/annotations.json"
+  },
+  {
+   "caseId": "segthy-014-p3-1-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 014 (P3, скан 1)",
+   "path": "cases/segthy-014-p3-1-left/case.json",
+   "annotations": "cases/segthy-014-p3-1-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-014-p3-1-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 014 (P3, скан 1)",
+   "path": "cases/segthy-014-p3-1-right/case.json",
+   "annotations": "cases/segthy-014-p3-1-right/annotations.json"
+  },
+  {
+   "caseId": "segthy-015-p1-1-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 015 (P1, скан 1)",
+   "path": "cases/segthy-015-p1-1-left/case.json",
+   "annotations": "cases/segthy-015-p1-1-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-015-p1-1-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 015 (P1, скан 1)",
+   "path": "cases/segthy-015-p1-1-right/case.json",
+   "annotations": "cases/segthy-015-p1-1-right/annotations.json"
+  },
+  {
+   "caseId": "segthy-020-p2-1-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 020 (P2, скан 1)",
+   "path": "cases/segthy-020-p2-1-left/case.json",
+   "annotations": "cases/segthy-020-p2-1-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-020-p2-1-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 020 (P2, скан 1)",
+   "path": "cases/segthy-020-p2-1-right/case.json",
+   "annotations": "cases/segthy-020-p2-1-right/annotations.json"
+  },
+  {
+   "caseId": "segthy-021-p3-1-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 021 (P3, скан 1)",
+   "path": "cases/segthy-021-p3-1-left/case.json",
+   "annotations": "cases/segthy-021-p3-1-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-021-p3-1-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 021 (P3, скан 1)",
+   "path": "cases/segthy-021-p3-1-right/case.json",
+   "annotations": "cases/segthy-021-p3-1-right/annotations.json"
+  },
+  {
+   "caseId": "segthy-024-p3-1-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 024 (P3, скан 1)",
+   "path": "cases/segthy-024-p3-1-left/case.json",
+   "annotations": "cases/segthy-024-p3-1-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-024-p3-1-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 024 (P3, скан 1)",
+   "path": "cases/segthy-024-p3-1-right/case.json",
+   "annotations": "cases/segthy-024-p3-1-right/annotations.json"
+  },
+  {
+   "caseId": "segthy-026-p2-2-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 026 (P2, скан 2)",
+   "path": "cases/segthy-026-p2-2-left/case.json",
+   "annotations": "cases/segthy-026-p2-2-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-026-p2-2-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 026 (P2, скан 2)",
+   "path": "cases/segthy-026-p2-2-right/case.json",
+   "annotations": "cases/segthy-026-p2-2-right/annotations.json"
+  },
+  {
+   "caseId": "segthy-028-p3-1-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 028 (P3, скан 1)",
+   "path": "cases/segthy-028-p3-1-left/case.json",
+   "annotations": "cases/segthy-028-p3-1-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-028-p3-1-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 028 (P3, скан 1)",
+   "path": "cases/segthy-028-p3-1-right/case.json",
+   "annotations": "cases/segthy-028-p3-1-right/annotations.json"
+  },
+  {
+   "caseId": "segthy-029-p2-1-left",
+   "region": "neck",
+   "label": "Шея слева — SegThy 029 (P2, скан 1)",
+   "path": "cases/segthy-029-p2-1-left/case.json",
+   "annotations": "cases/segthy-029-p2-1-left/annotations.json"
+  },
+  {
+   "caseId": "segthy-029-p2-1-right",
+   "region": "neck",
+   "label": "Шея справа — SegThy 029 (P2, скан 1)",
+   "path": "cases/segthy-029-p2-1-right/case.json",
+   "annotations": "cases/segthy-029-p2-1-right/annotations.json"
+  }
+ ]
 }
