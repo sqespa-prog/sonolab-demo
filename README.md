@@ -5,4 +5,3 @@
 Фигура человека: ассеты MakeHuman (CC0).
 Кадры УЗИ: Erqi Wang, Rui Ji, Zhen Li, Ning Zhong, Xiuli Zuo, Hongliang Ren (CUHK; Qilu Hospital of Shandong University), набор NVIDIA Open-H-Embodiment, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Изменения: перекодирование AV1 → JPEG.
 Учебный материал, не для диагностики.
-Анатомия режима «Симуляция»: Z-Anatomy — CC BY-SA 4.0; BodyParts3D — The Database Center for Life Science — CC BY-SA 2.1 Japan. Файлы models/anatomy.* распространяются под CC BY-SA 4.0.
