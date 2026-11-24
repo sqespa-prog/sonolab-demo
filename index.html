@@ -3,70 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="description" content="Тренажёр УЗИ-навигации: перемещайте датчик по предплечью и смотрите соответствующие кадры записанного прохода." />
-    <title>SonoLab — УЗИ-навигация</title>
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 4 4 26h24z' fill='%230a6fd6'/%3E%3C/svg%3E" />
-    <script type="module" crossorigin src="./assets/index-DAPOFhS7.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DHDIuz6b.css">
+    <meta name="color-scheme" content="dark" />
+    <meta name="description" content="SonoLab — тренажёр УЗИ-навигации для врачей: датчик на теле человека → соответствующее УЗИ-изображение (симуляция всего тела и настоящие записи)." />
+    <title>SonoLab — тренажёр УЗИ-навигации</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230e1116'/%3E%3Cpath d='M7 9h18l-3 15H10z' fill='none' stroke='%232fb8ac' stroke-width='2.4' stroke-linejoin='round'/%3E%3C/svg%3E" />
+    <script type="module" crossorigin src="./assets/index-Di6SaaRW.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-UcodXFle.css">
   </head>
   <body>
     <div id="app">
       <header class="topbar">
-        <div class="brand">SonoLab <span>тренажёр УЗИ-навигации · этап 1</span></div>
-        <div class="mode-switch" role="tablist" aria-label="Источник изображения">
-          <button type="button" id="modeRec" class="active">Запись · предплечье</button>
-          <button type="button" id="modeSim">Симуляция · всё тело</button>
+        <div class="brand" title="SonoLab — тренажёр УЗИ-навигации. Учебный материал, не для диагностики.">
+          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M7 9h18l-3 15H10z" /></svg>
+          <span class="brand-name">SonoLab</span>
+          <span class="brand-sub">тренажёр УЗИ-навигации</span>
         </div>
-        <select id="caseSelect" class="case-select" aria-label="Учебный случай (запись)" hidden></select>
-        <div class="case-title" id="caseTitle">Загрузка учебного случая…</div>
+
+        <div class="mode-switch" role="group" aria-label="Источник изображения">
+          <button type="button" id="modeSim" aria-pressed="true"
+            title="Изображение рассчитывается из 3D-анатомии: датчик можно поставить в любую точку тела">Симуляция · всё тело</button>
+          <button type="button" id="modeRec" aria-pressed="false"
+            title="Настоящие УЗИ-записи: датчик ведётся вдоль записанного прохода">Реальные записи</button>
+        </div>
+
+        <label class="case-pick" id="casePick" hidden title="Выбор настоящей УЗИ-записи. Записи сгруппированы по областям тела.">
+          <span>Запись:</span>
+          <select id="caseSelect" aria-label="Запись"></select>
+        </label>
+        <div class="case-title" id="caseTitle" hidden></div>
+
+        <div class="top-actions">
+          <span class="edu-badge" title="Учебный тренажёр. Изображения не предназначены для диагностики.">Не для диагностики</span>
+          <button type="button" id="btnHelp" class="icon-btn" aria-haspopup="dialog" aria-label="Инструкция" title="Инструкция (клавиша F1)">?</button>
+        </div>
       </header>
 
-      <section class="scene" id="scene" aria-label="Человек и датчик">
-        <div class="scene-tools">
-          <button id="btnArm" type="button">Приблизить руку</button>
-          <button id="btnBody" type="button">Весь человек</button>
-          <button id="btnResetProbe" type="button">Сброс датчика</button>
+      <section class="scene" id="scene" aria-label="Пациент и датчик">
+        <div class="pane-head scene-head">
+          <span class="pane-title">Пациент</span>
+          <span class="scene-help" tabindex="0" id="sceneHint"
+            title="Датчик: перетащите его по коже или щёлкните по коже — он встанет в эту точку. Вид: перетаскивание по фону — вращение, колесо мыши — масштаб, правая кнопка — сдвиг.">Как управлять?</span>
         </div>
-        <div class="scene-hint" id="sceneHint">
-          Перетащите датчик вдоль синего пунктира на предплечье. Вращение вида — перетаскивание по фону,
-          масштаб — колесо или два пальца. Касание кожи ставит датчик в точку.
+        <div class="scene-tools" role="toolbar" aria-label="Вид на пациента">
+          <button id="btnBody" type="button" title="Показать всё тело целиком">Всё тело</button>
+          <button id="btnArm" type="button" title="Приблизить область, где стоит датчик">Область</button>
+          <button id="btnResetProbe" type="button" title="Вернуть датчик в исходное положение">Сброс датчика</button>
         </div>
         <div class="scene-loading" id="sceneLoading">Загрузка модели человека…</div>
-        <div class="scene-note">Фигура (MakeHuman, CC0) — навигатор по учебному случаю, а не копия участника записи.</div>
       </section>
 
-      <section class="us" aria-label="УЗИ-изображение">
-        <div class="us-head">
+      <main class="us" aria-label="УЗИ-изображение">
+        <div class="us-strip" id="usStrip">
+          <span class="mode-badge" id="modeBadge" data-kind="sim">СИМУЛЯЦИЯ</span>
           <span class="status" id="status" data-s="loading">Загрузка</span>
-          <span class="frame-info" id="frameInfo">—</span>
+          <span class="strip-item" id="stripRegion" title="Область тела, где стоит датчик"></span>
+          <span class="strip-spacer"></span>
+          <span class="strip-item" id="stripDepth" title="Глубина изображения"></span>
+          <span class="strip-item" id="stripGain" title="Усиление (яркость) изображения"></span>
+          <span class="strip-item frame-info" id="frameInfo" title="Номер показанного кадра записи и положение на проходе">—</span>
         </div>
-        <div class="tabs" id="annTabs" role="tablist" aria-label="Режим"></div>
         <div class="us-screen">
           <canvas id="usCanvas" aria-label="УЗИ-кадр"></canvas>
           <div class="us-overlay" id="usOverlay" hidden></div>
+          <div class="us-hover" id="usHover" data-testid="sim-hover" hidden></div>
         </div>
-        <label class="slider">
-          <span>Позиция на проходе <small>(дублирует датчик)</small></span>
-          <input id="slider" type="range" min="0" max="1000" step="1" value="500" />
+        <label class="slider" id="posSlider" title="Положение датчика на записанном проходе. Двигает датчик на теле так же, как перетаскивание мышью.">
+          <span class="slider-label">Положение на проходе</span>
+          <input id="slider" type="range" min="0" max="1000" step="1" value="500" aria-label="Положение датчика на проходе" />
           <span class="slider-ends"><span>начало записи</span><span>конец записи</span></span>
         </label>
-      </section>
+      </main>
 
       <aside class="side" aria-label="Управление">
-        <section id="annBody" aria-label="Разметка"></section>
+        <!-- Режим «Реальные записи» -->
+        <section class="card rec-only" id="recProbeCard" aria-labelledby="recProbeTitle">
+          <h2 class="card-title" id="recProbeTitle">Датчик</h2>
+          <p class="card-note" id="recProbeNote">Ведите датчик вдоль пунктира на теле или ползунком «Положение на проходе» под изображением.</p>
+          <div id="resliceHost"></div>
+        </section>
+        <section class="card rec-only" id="recTrainCard" aria-labelledby="recTrainTitle">
+          <h2 class="card-title" id="recTrainTitle">Обучение и разметка</h2>
+          <div class="tabs" id="annTabs" role="tablist" aria-label="Режим работы с разметкой"></div>
+          <section id="annBody" aria-label="Разметка"></section>
+        </section>
+
+        <!-- Режим «Симуляция» -->
         <section id="simPanel" aria-label="Симуляция"></section>
-        <div id="simInfo"></div>
-        <details class="info" id="infoBox" open>
-          <summary>О случае и ограничениях</summary>
-          <dl id="caseFacts"></dl>
-          <ul class="motions" id="motions"></ul>
-          <p class="source" id="sourceLine"></p>
+
+        <details class="card card-collapsible" id="infoBox">
+          <summary class="card-title">О случае</summary>
+          <div class="rec-only">
+            <dl id="caseFacts"></dl>
+            <ul class="motions" id="motions"></ul>
+            <p class="source" id="sourceLine"></p>
+          </div>
+          <div class="sim-only" id="simInfo"></div>
+          <p class="source">Фигура человека — MakeHuman (CC0): навигатор по телу, а не копия участника записи.</p>
         </details>
-        <details class="diag" id="diagBox">
-          <summary>Диагностика</summary>
+        <details class="card card-collapsible" id="diagBox">
+          <summary class="card-title">Диагностика</summary>
           <div id="diag">—</div>
         </details>
       </aside>
-    </div>
+    </div>
+
+    <dialog id="helpDialog" class="help" aria-labelledby="helpTitle">
+      <div class="help-head">
+        <h2 id="helpTitle">Как пользоваться SonoLab</h2>
+        <button type="button" class="icon-btn" id="helpClose" aria-label="Закрыть">✕</button>
+      </div>
+      <div class="help-body" id="helpBody"></div>
+    </dialog>
   </body>
 </html>
