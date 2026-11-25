@@ -1,0 +1,424 @@
+{
+ "schema": "sonolab.case/1",
+ "caseId": "spine-canine-phantom-us",
+ "dataVersion": "1.0.0",
+ "title": "Позвоночник собаки в фантоме — срезы настоящего 3D-УЗИ (CaninePhantom, Masoumi et al., Zenodo 4813508)",
+ "region": {
+  "id": "back",
+  "name": "Позвоночник (фантом)"
+ },
+ "patientSide": "unknown",
+ "imageType": "volume-reslice",
+ "imageTypeNote": "Настоящее УЗИ, но ФАНТОМ — НЕ пациент: срезы трёхмерного УЗИ-объёма CaninePhantom (позвоночник собаки в фантоме, по названию набора). Каждый кадр — срез объёма вдоль третьей оси файла, а не исходный кадр аппарата. Отдел позвоночника в архиве не указан — неизвестно. Ориентация «верх = сторона датчика» не подтверждена источником. Не симуляция (смоделированное SimUS не использовано).",
+ "source": {
+  "dataset": "Multimodal 3D US and CT in image-guided spinal surgery (Masoumi et al.)",
+  "subset": "Data.zip/CaninePhantom.zip/CaninePhantom/US.nii",
+  "revision": "Data.zip MD5 8cc7d00b91919335ca43ad038eabfcb9",
+  "url": "https://zenodo.org/records/4813508",
+  "doi": "10.5281/zenodo.4813508",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseAsStated": "cc-by-4.0 (Creative Commons Attribution 4.0 International, per Zenodo record metadata)",
+  "attribution": "Masoumi, Nima; Belasso, Clyde; M. Omair Ahmad; Habib Benali; Xiao, Yiming; Rivaz, Hassan (2021-03-08). Zenodo. https://doi.org/10.5281/zenodo.4813508",
+  "task": "Регистрация 3D-УЗИ и КТ позвоночника",
+  "files": {
+   "Data.zip": {
+    "bytes": 148576333,
+    "sha256": "8c04eb370e30ea2e9e471bc4ff62f52b8d287e071a13ead82f0c0eb13c928149",
+    "verifiedAgainst": "SOURCE.json"
+   },
+   "Data.zip/CaninePhantom.zip/CaninePhantom/US.nii": {
+    "bytes": 7003852,
+    "sha256": "7629189ffd6b3c841ad0daf390339f23225a61dfa9151e8efc82095d19e88af3",
+    "note": "прочитан из архива в памяти; архив не распакован"
+   }
+  }
+ },
+ "probe": {
+  "model": "не указан",
+  "kind": "неизвестно",
+  "imageFormat": "срез реконструированного объёма",
+  "centerFrequencyMHz": 0,
+  "imagingDepthCm": 0,
+  "note": "Аппарат и датчик в архиве не указаны (0 = неизвестно)."
+ },
+ "frames": {
+  "count": 58,
+  "fps": 0,
+  "width": 105,
+  "height": 145,
+  "pattern": "frames/{id:04d}.jpg",
+  "conversion": "NIfTI float32 → uint8 (округление, 0…255), срезы k = 0…114 с шагом 2 вдоль третьей оси; без масштабирования, JPEG q=92"
+ },
+ "imageGeometry": {
+  "orientation": "столбцы — первая ось файла, строки — вторая ось файла (как записано); соответствие сторонам тела и датчику неизвестно",
+  "pixelSpacingMm": 0.5,
+  "pixelSpacingNote": "0,5 мм по pixdim заголовка NIfTI; матрица ориентации (qform/sform) в файле не задана.",
+  "depthSettingCm": 0,
+  "probeMarkerSide": "unknown",
+  "flipApplied": false,
+  "lateralOrientation": "Неизвестно: в NIfTI нет матрицы ориентации; лево/право и верх/низ к телу не привязаны."
+ },
+ "acquisition": {
+  "scanner": null,
+  "probe": null,
+  "centerFrequencyMHz": null,
+  "depthCm": null,
+  "tracking": "объём собран авторами набора (метод в архиве не описан)",
+  "sourceUnits": {
+   "spatial": "mm",
+   "intensity": "float32 0…251.8 (B-режим после реконструкции)"
+  },
+  "fieldStatus": {
+   "scanner": "unknown",
+   "probe": "unknown",
+   "centerFrequencyMHz": "unknown",
+   "depthCm": "unknown",
+   "sourceUnits": "provided"
+  },
+  "note": "Аппарат, датчик, частота и глубина в архиве не указаны."
+ },
+ "transforms": [
+  {
+   "op": "read",
+   "format": "nifti-1",
+   "file": "CaninePhantom/US.nii",
+   "shape": [
+    105,
+    145,
+    115
+   ],
+   "dtype": "float32"
+  },
+  {
+   "op": "decode",
+   "note": "round + clip 0…255 → uint8"
+  },
+  {
+   "op": "slice",
+   "axis": "k (третья ось)",
+   "start": 0,
+   "stop": 114,
+   "step": 2
+  },
+  {
+   "op": "resample",
+   "method": "none",
+   "scale": 1
+  },
+  {
+   "op": "encode",
+   "format": "jpeg",
+   "quality": 92,
+   "library": "Pillow",
+   "mode": "L",
+   "optimize": true
+  }
+ ],
+ "coordinateConvention": {
+  "sourceFrame": {
+   "kind": "voxel",
+   "axes": {
+    "i": "первая ось",
+    "j": "вторая ось",
+    "k": "третья ось"
+   },
+   "units": "voxel (0,5 мм)",
+   "worldMeaning": "unknown",
+   "note": "qform_code = 1, sform_code = 0: мировых координат в файле нет"
+  },
+  "frame": {
+   "origin": "левый верхний угол пикселя (0,0)",
+   "x": "вправо",
+   "y": "вниз (глубина)",
+   "units": "px",
+   "pixelSpacingMm": 0.5
+  },
+  "frameToSource": {
+   "i": "x",
+   "j": "y",
+   "k": "2·frameId",
+   "status": "provided"
+  }
+ },
+ "validity": {
+  "status": "unknown",
+  "noData": null,
+  "definition": "Вне охвата записи значения нулевые, но и анэхогенные участки могут быть близки к нулю; маска охвата не дана."
+ },
+ "trajectory": {
+  "kind": "relative-sweep-index",
+  "kindNote": "Навигация по номеру среза объёма. Регистрации к телу нет; проход по пояснице фигуры условный.",
+  "s": [
+   0.0,
+   0.0175,
+   0.0351,
+   0.0526,
+   0.0702,
+   0.0877,
+   0.1053,
+   0.1228,
+   0.1404,
+   0.1579,
+   0.1754,
+   0.193,
+   0.2105,
+   0.2281,
+   0.2456,
+   0.2632,
+   0.2807,
+   0.2982,
+   0.3158,
+   0.3333,
+   0.3509,
+   0.3684,
+   0.386,
+   0.4035,
+   0.4211,
+   0.4386,
+   0.4561,
+   0.4737,
+   0.4912,
+   0.5088,
+   0.5263,
+   0.5439,
+   0.5614,
+   0.5789,
+   0.5965,
+   0.614,
+   0.6316,
+   0.6491,
+   0.6667,
+   0.6842,
+   0.7018,
+   0.7193,
+   0.7368,
+   0.7544,
+   0.7719,
+   0.7895,
+   0.807,
+   0.8246,
+   0.8421,
+   0.8596,
+   0.8772,
+   0.8947,
+   0.9123,
+   0.9298,
+   0.9474,
+   0.9649,
+   0.9825,
+   1.0
+  ],
+  "lutSize": 58,
+  "lut": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41,
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49,
+   50,
+   51,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57
+  ],
+  "directionOnBody": {
+   "value": "unknown",
+   "status": "unknown",
+   "evidence": "Движение датчика не отслеживалось."
+  },
+  "bodyPlacement": {
+   "startFractionOfForearm": 0,
+   "endFractionOfForearm": 0,
+   "surface": "поясница, срединная линия (условно; фантом, не пациент)",
+   "status": "условное размещение",
+   "path": {
+    "from": [
+     0.055,
+     0.05,
+     0.0
+    ],
+    "to": [
+     0.105,
+     0.05,
+     0.0
+    ],
+    "rayDir": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   }
+  }
+ },
+ "supportedMotions": {
+  "slideAlongSweep": true,
+  "lateralShift": false,
+  "rotation": false,
+  "tilt": false,
+  "compression": false,
+  "note": "Только выбор среза."
+ },
+ "calibration": {
+  "imageToSensor": "absent",
+  "note": "Калибровки и трекинга нет."
+ },
+ "controlPoints": [
+  {
+   "id": "КТ1",
+   "t": 0,
+   "frameId": 0,
+   "frameSha256": "2d5f405cf6d29e9a6d544a68583c2cc8ab982bb4e677bace1603146c050d4458",
+   "image": "cases/spine-canine-phantom-us/frames/0000.jpg"
+  },
+  {
+   "id": "КТ2",
+   "t": 0.25,
+   "frameId": 14,
+   "frameSha256": "8daa9839afb7dd2917a25fb47e4d120b1e529eb5b48d5c34d2d345afc71fcbdf",
+   "image": "cases/spine-canine-phantom-us/frames/0014.jpg"
+  },
+  {
+   "id": "КТ3",
+   "t": 0.5,
+   "frameId": 29,
+   "frameSha256": "97ed67e9c336143081851636bb1491b36912f9617c83f5d39690fc977fe6d997",
+   "image": "cases/spine-canine-phantom-us/frames/0029.jpg"
+  },
+  {
+   "id": "КТ4",
+   "t": 0.75,
+   "frameId": 43,
+   "frameSha256": "d259c8efa405b2121d7115bf77b0d351d0e18ee7d4cde09a904fe28a0d56d029",
+   "image": "cases/spine-canine-phantom-us/frames/0043.jpg"
+  },
+  {
+   "id": "КТ5",
+   "t": 1,
+   "frameId": 57,
+   "frameSha256": "4e1b83ec36608e3d08e7d198d640106ed4b7aecb252874e86962e872f5778817",
+   "image": "cases/spine-canine-phantom-us/frames/0057.jpg"
+  }
+ ],
+ "verification": {
+  "frameSha256": [
+   "2d5f405cf6d29e9a6d544a68583c2cc8ab982bb4e677bace1603146c050d4458",
+   "b31e80073884d6c1b327084720cf560e0d579cfb95a01ea952047b99e23087b4",
+   "b97398e4ca96762d38824af984cfbc57f9cfc45ee12addf206cbb93f25ab2ebf",
+   "81d098a2d0577bbccddc6b755e4012a2ba33d5330dbe6a14cac093a12c78a49f",
+   "3cd63b945c19ec441b932c0ccda676266c58eaaee353401d7272b2e7891f4541",
+   "ee41d0394608dfae12dcbf5ebb0d4ec28824265acc7054273f1d7d90c76fc759",
+   "791d57f123bfa601f4bbc391c8432f77d0862f363450f1fbd24fddb6a71122a0",
+   "e7fdc6105320ee063fd1cb5c655196935b0ec79de801d4fc3e74a02d384047d1",
+   "9f41e93b0cb3a8d596293e85df27b46757ba14f77ddd8ff70228e0a1b8798df1",
+   "cca42729a2e904f8feb405c13a52909452f1989fbe5f2e671b4b3196c8509f7f",
+   "43b7bbb3b4580ca6ff944af1f2aab491792bfc210862d15d606cd5916a7c7043",
+   "2a53bcb7a8ffe2001d20611bd1abd528be2c59ef0d1d0784884679799ac239b0",
+   "8552184509d981053352ed91285c60d98d39149db64734b271646b76bf09064a",
+   "266ad369c2affae79449034802ba811b70b6efee4fe8c429a883433f7ab7effb",
+   "8daa9839afb7dd2917a25fb47e4d120b1e529eb5b48d5c34d2d345afc71fcbdf",
+   "0000669614c7136187bff9e54cbe5e1d69c10a07f605e0e238968f9ba6aaaee7",
+   "17ce4de1dcb139da015dc3e7070b6b47c7b9243d10876a89b3bdf129598d4314",
+   "11c2b4f6dc1d2be48fc00e3862ca34de065e14138411db63c1290332581ec7fc",
+   "1d462236aecc308a9d124b668e213d611a75002ca3bcd3ae9d57e1bc44d7adf7",
+   "cfc327635421fc4f84f500f4396def8cf7a349c9963dbeae6dffcbed272ddd0d",
+   "eb208dc67f02a45cea01becb3d5a91fd37739afb21ea66795e8a83a89ad9ac6d",
+   "f11fe071af84b39a0be368bc0b714321f7836dc6cb82e0f6ceead385157bba4d",
+   "9a01d4cd94140540b6697e71bdac3e80b9def790ea078c539c008ea792c6c61c",
+   "882c19ea2beea2b2fdb0acf43c82ee8d8005d1cc8f11a1cb3bc17bef7b3c44fd",
+   "8c120b83290249221260d3a7a2ac3b3e2fc33a502d5124e99ebb4d053f43d19b",
+   "c03017e73de8b71e2c4072a1a71dd53c795e9f93a9f827af771c521532ec6259",
+   "3e88d5a25e8338673e9b4319b17f4c960576b1ff0ad610cd1ddfd7b891e823fe",
+   "95b7dafd8eb2628a31f680025fa5531d705c30c9ee06b5603459b5a207080bc4",
+   "6250988bfc144a7504b70b0c0430153a8ddc3005429dc82d20328c8901c4d0f8",
+   "97ed67e9c336143081851636bb1491b36912f9617c83f5d39690fc977fe6d997",
+   "db082da552e3f2b5cb01032c34273ffffd04ed5b5f9c55495865f6227cb43370",
+   "aa7e01ca164d6b6865c697abe558a947cb33bf0afc35aca85a814cc6e8a49966",
+   "d45d01705b5fb96babb1c48f0a5785a8edf3112023af5fffa2120873d2838f50",
+   "30ae88a5047b7fc9cb3c031e86e524b3e9eb0bbe5a38742a0df7aa8ad6633472",
+   "8b52128941b46493bead3c96bd5fc247f3c962ba3cbfcb09fb876005bd2cc418",
+   "440bb4ece7fa3ff109eb8ccb9209449b92589878d4ccf9bab9d35cbef25c6897",
+   "0b605adae86effe8b448e17889cd17ae15560807f882adc2378dc24c025e3e49",
+   "4deb878df4e4f4ead3348f33bd522d43ccf73eaecb35bef4bba9c65dd62bee27",
+   "ebabda4918588d62ea006d84e1c3262b2a38e3489345725b8277c8c6ab16afa6",
+   "9c6d0651f0743675def0c949acfa4cec6d3b4a7d34fbf719f1621ca4e7f52898",
+   "15e6961f9482f5c1ec50318a0c1c0c732cc431db9d0b3128cee2b01c0f250f39",
+   "abc664187558c1eab5e23de8af154091dc1158eaa5c263085df0ea42976dddf5",
+   "682b93e4d649593d8cfe1d7db7808bc421d10d84e41c8089ce956acbae43bc6f",
+   "d259c8efa405b2121d7115bf77b0d351d0e18ee7d4cde09a904fe28a0d56d029",
+   "425c40179e380b14c4e7bcfe2b8349d0b4e91163f486f4f277f5bca4a26d54ea",
+   "1d3c3b259f6e8b99694afd0f87246f18e87be383c711a54503ba0d2a269e5c1a",
+   "3aecb0231a97640a39f623354c9ea256d0b1ace303634c4fe9a51e99ec03aa09",
+   "694f763b74418b2051ba9434b63ad43a13fa03915b4041559df8a8abb1df194a",
+   "d92606e2703fb3848e26641dab8ff82672d0e548aee39d1b3cbf2952485a9fda",
+   "b85afae4ffd940e96b7d04116168c7dc4f89b6925ff8a16954b0d044ef6fb258",
+   "b368f674cce2dbc73c34ac67bec813cf15b56673ec9da7716c585a00d956fd2b",
+   "d7406da4c1c240392a557453032982ffc22d886a08b68632ef0d90a5cc9b638b",
+   "7e701b5b1a2fc0296f2903fdd4d3238d36b2667a4108a4e9ff27d1967bd917cd",
+   "0f6a40f75c055be900bf0b93e9a32f0ed78c342af5f413c77c0a1b1b140dc0ca",
+   "6f59fb5e7d42e25dc69f1af29d1b668e939c92752a598bdaff6881d8b9feda13",
+   "e3a31eb602a822c20ee075b9b4ba013e66db8648a27fbf221bd3bc3cd0b7b84d",
+   "c97149eceb81efd6ddecb0b8298f615c687f72d2e03d50e725e656b24498a4d5",
+   "4e1b83ec36608e3d08e7d198d640106ed4b7aecb252874e86962e872f5778817"
+  ]
+ },
+ "knownIssues": [
+  "Фантом с позвоночником собаки, не пациент; отдел позвоночника неизвестен.",
+  "Ориентация среза к телу и сторона датчика неизвестны (в NIfTI нет матрицы ориентации).",
+  "Ориентиры CT↔US (Landmarks.tag, 21 пар) не перенесены: без матрицы ориентации их нельзя честно привязать к кадрам.",
+  "Кадры маленькие (105×145 пикс. по 0,5 мм)."
+ ],
+ "specimen": {
+  "kind": "phantom",
+  "humanAnatomy": false,
+  "note": "фантом (CaninePhantom) — не анатомия человека"
+ }
+}

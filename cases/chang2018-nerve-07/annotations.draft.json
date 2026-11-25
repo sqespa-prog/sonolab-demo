@@ -1,0 +1,217 @@
+{
+ "schema": "sonolab.annotations/1",
+ "caseId": "chang2018-nerve-07",
+ "dataVersion": "1.0.0",
+ "version": 1,
+ "updatedAt": "2026-11-25T00:00:00Z",
+ "structures": [
+  {
+   "id": "ducn",
+   "name": "Тыльная кожная ветвь локтевого нерва",
+   "class": "nerve",
+   "color": "#ffd60a"
+  },
+  {
+   "id": "ulnar-nerve",
+   "name": "Локтевой нерв",
+   "class": "nerve",
+   "color": "#ffb000"
+  },
+  {
+   "id": "fcu",
+   "name": "Локтевой сгибатель запястья",
+   "class": "muscle",
+   "color": "#d6409f"
+  },
+  {
+   "id": "edm",
+   "name": "Разгибатель мизинца",
+   "class": "muscle",
+   "color": "#ab4aba"
+  }
+ ],
+ "frames": {
+  "18": [
+   {
+    "id": "d18-ducn",
+    "structureId": "ducn",
+    "kind": "point",
+    "x": 368.0,
+    "y": 214.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: наконечник авторов (остриём вверх)."
+   },
+   {
+    "id": "d18-ulnar-nerve",
+    "structureId": "ulnar-nerve",
+    "kind": "point",
+    "x": 238.0,
+    "y": 268.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: белая стрелка с подписью «Ulnar Nerve»."
+   }
+  ],
+  "24": [
+   {
+    "id": "d24-ducn",
+    "structureId": "ducn",
+    "kind": "point",
+    "x": 368.0,
+    "y": 214.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: наконечник авторов (остриём вверх) указывает на нерв (целевой нерв видео S7)."
+   },
+   {
+    "id": "d24-ulnar-nerve",
+    "structureId": "ulnar-nerve",
+    "kind": "point",
+    "x": 238.0,
+    "y": 268.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: белая стрелка с подписью «Ulnar Nerve»."
+   },
+   {
+    "id": "d24-fcu",
+    "structureId": "fcu",
+    "kind": "point",
+    "x": 264.0,
+    "y": 165.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Flexor Carpi Ulnaris»."
+   }
+  ],
+  "30": [
+   {
+    "id": "d30-ducn",
+    "structureId": "ducn",
+    "kind": "point",
+    "x": 360.0,
+    "y": 220.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: наконечник авторов (остриём вверх); вставка без подписей."
+   }
+  ],
+  "66": [
+   {
+    "id": "d66-ducn",
+    "structureId": "ducn",
+    "kind": "point",
+    "x": 310.0,
+    "y": 180.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: наконечник авторов (остриём вверх); вставка без подписей."
+   }
+  ],
+  "88": [
+   {
+    "id": "d88-ducn",
+    "structureId": "ducn",
+    "kind": "point",
+    "x": 250.0,
+    "y": 126.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: наконечник авторов (остриём вверх)."
+   },
+   {
+    "id": "d88-edm",
+    "structureId": "edm",
+    "kind": "point",
+    "x": 548.0,
+    "y": 102.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: подпись «EDM» (легенда: extensor digiti minimi); точка у подписи."
+   }
+  ],
+  "90": [
+   {
+    "id": "d90-ducn",
+    "structureId": "ducn",
+    "kind": "point",
+    "x": 250.0,
+    "y": 124.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: наконечник авторов (остриём вверх)."
+   }
+  ],
+  "96": [
+   {
+    "id": "d96-ducn",
+    "structureId": "ducn",
+    "kind": "point",
+    "x": 250.0,
+    "y": 124.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: наконечник авторов (остриём вверх)."
+   },
+   {
+    "id": "d96-edm",
+    "structureId": "edm",
+    "kind": "point",
+    "x": 545.0,
+    "y": 102.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: подпись «EDM»; точка у подписи."
+   }
+  ]
+ }
+}

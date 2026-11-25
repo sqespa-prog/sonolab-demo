@@ -1,0 +1,389 @@
+{
+ "schema": "sonolab.case/1",
+ "caseId": "atlas-ulnar-06",
+ "dataVersion": "1.0.0",
+ "title": "Блокада локтевого нерва на предплечье — клип атласа «Ulnar Nerve Block 3» (The POCUS Atlas, Nerve Block Atlas)",
+ "region": {
+  "id": "forearm",
+  "name": "Предплечье"
+ },
+ "patientSide": "unknown",
+ "imageType": "recorded-sweep",
+ "imageTypeNote": "Настоящее УЗИ: учебный клип атласа блокад (The POCUS Atlas совместно с Denver Health Ultrasound). Пометки, подписи и значок атласа, если они есть, ВШИТЫ в изображение и не отключаются (см. burnedInAnnotations). Положение датчика не отслеживалось; кадры — равномерная подвыборка 31 из 31 кадров клипа. Не симуляция.",
+ "source": {
+  "dataset": "The POCUS Atlas - Nerve Block Atlas (in partnership with Denver Health Ultrasound)",
+  "subset": "Ulnar nerve: 088_forearm-blocks_1604350715644_image-asset.gif",
+  "revision": "скачано 2026-11-25, atlas_items.json SHA-256 316ef6bbe3e88cdc68a02118d909dfd2fcb4eb2ccee75bd83954e4deaf4ea093",
+  "url": "https://www.thepocusatlas.com/forearm-blocks",
+  "pageUrl": "https://www.thepocusatlas.com/forearm-blocks",
+  "atlasUrl": "https://www.thepocusatlas.com/nerve-block-atlas",
+  "mediaUrl": "https://images.squarespace-cdn.com/content/v1/58118909e3df282037abfad7/1604350715644-SFYGMP8W6SOPA8CAAQTS/image-asset.gif",
+  "license": "CC BY-NC 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "licenseAsStated": "\"Our content is licensed under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)\" - https://www.thepocusatlas.com/legal",
+  "attribution": "The POCUS Atlas, Nerve Block Atlas, in partnership with Denver Health Ultrasound. Editors: Dr. Joseph Brown, Dr. Jamie Pospishil; lead editor Dr. Michael Heffler; per-clip authors as given in atlas_items.json (caption / author_attribution_as_given).",
+  "clipAttribution": {
+   "title": "Ulnar Nerve Block 3",
+   "caption": "In-plane ulnar nerve block with needle entering from screen left (ulnar aspect). Demonstration of successful block with anesthetic located deep to ulnar nerve (*). The ulnar artery can be seen pulsating to screen right of (radial to) the nerve.\nDenver Health Ultrasound Fellowship Archive",
+   "authorsAsGiven": [
+    "Denver Health Ultrasound Fellowship Archive"
+   ],
+   "note": "дословно из atlas_items.json (страница атласа); пусто — на странице не указано"
+  },
+  "siteLevelAttribution": "Editors: Dr. Joseph Brown (University of Colorado), Dr. Jamie Pospishil (Denver Health); lead editor and content developer: Dr. Michael Heffler (Denver Health), with Dr. Jaclyn Walker, Matthew Riscinti (Denver Health), Michael Macias (UHS SoCal MEC); other contributors: Drs. Christopher Hanuscin (Kings County), Sam Paskin-Dwyer (as stated on the atlas main page). Per-clip authors, where given, are in author_attribution_as_given / caption.",
+  "task": "УЗИ-навигация для блокады: Ulnar nerve",
+  "files": {
+   "media/088_forearm-blocks_1604350715644_image-asset.gif": {
+    "bytes": 1577063,
+    "sha256": "382a0fa877d767c00a0da67925d4a47bc42f71a470c36807ac163c8b80bf20aa",
+    "verifiedAgainst": "SOURCE.json"
+   }
+  },
+  "usageRestriction": "только некоммерческое обучение с указанием авторов (CC BY-NC 4.0)"
+ },
+ "probe": {
+  "model": "не указан",
+  "kind": "неизвестно",
+  "imageFormat": "изображение экрана аппарата",
+  "centerFrequencyMHz": 0,
+  "imagingDepthCm": 0,
+  "note": "Аппарат, датчик, частота и глубина в источнике не указаны (0 = неизвестно)."
+ },
+ "frames": {
+  "count": 31,
+  "fps": 0,
+  "width": 304,
+  "height": 300,
+  "pattern": "frames/{id:04d}.jpg",
+  "conversion": "GIF 304×300 → 304×300, 31 из 31 кадров, JPEG q=88"
+ },
+ "imageGeometry": {
+  "orientation": "как в изображении источника",
+  "pixelSpacingMm": null,
+  "pixelSpacingNote": "Масштаб в источнике не указан; линейка на экране аппарата (если видна) — единственная мера.",
+  "depthSettingCm": 0,
+  "probeMarkerSide": "unknown",
+  "flipApplied": false,
+  "lateralOrientation": "Метка датчика и сторона пациента не указаны."
+ },
+ "acquisition": {
+  "scanner": null,
+  "probe": null,
+  "probeType": "неизвестно",
+  "centerFrequencyMHz": null,
+  "depthCm": null,
+  "sourceUnits": {
+   "spatial": "unknown",
+   "intensity": "8-бит GIF (экран аппарата, перекодирован атласом)"
+  },
+  "fieldStatus": {
+   "scanner": "unknown",
+   "probe": "unknown",
+   "probeType": "heuristic",
+   "centerFrequencyMHz": "unknown",
+   "depthCm": "unknown",
+   "sourceUnits": "heuristic"
+  },
+  "note": "Аппарат, датчик, частота и глубина на странице атласа не указаны."
+ },
+ "transforms": [
+  {
+   "op": "read",
+   "format": "gif",
+   "file": "media/088_forearm-blocks_1604350715644_image-asset.gif",
+   "width": 304,
+   "height": 300,
+   "frames": 31,
+   "durationS": 3.1
+  },
+  {
+   "op": "decode",
+   "library": "Pillow ImageSequence",
+   "frameIndices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+   ],
+   "note": "равномерная подвыборка по номеру кадра; GIF — с учётом наложения кадров (Pillow); видео — квадратный пиксель (setsar=1)"
+  },
+  {
+   "op": "resample",
+   "method": "none",
+   "scale": 1.0,
+   "from": [
+    304,
+    300
+   ],
+   "to": [
+    304,
+    300
+   ]
+  },
+  {
+   "op": "encode",
+   "format": "jpeg",
+   "quality": 88,
+   "library": "Pillow",
+   "mode": "RGB",
+   "optimize": true
+  }
+ ],
+ "coordinateConvention": {
+  "sourceFrame": {
+   "kind": "video-frame",
+   "axes": {
+    "x": "вправо",
+    "y": "вниз",
+    "t": "номер кадра клипа"
+   },
+   "units": "px",
+   "pixelSpacingMm": null,
+   "worldMeaning": "unknown",
+   "note": "Экран аппарата; масштаб и метка датчика не указаны."
+  },
+  "frame": {
+   "origin": "левый верхний угол пикселя (0,0)",
+   "x": "вправо",
+   "y": "вниз (глубина)",
+   "units": "px",
+   "pixelSpacingMm": null
+  },
+  "frameToSource": {
+   "x": "(x + 0.5)/1.000000 − 0.5",
+   "y": "(y + 0.5)/1.000000 − 0.5",
+   "t": "frameIndices[frameId]",
+   "status": "provided",
+   "note": "точная цепочка импорта (transforms)"
+  }
+ },
+ "validity": {
+  "status": "unknown",
+  "noData": null,
+  "definition": "Маска области изображения не дана и не строилась; служебные поля экрана и анэхогенные ткани по значению не различаются."
+ },
+ "trajectory": {
+  "kind": "relative-sweep-index",
+  "kindNote": "Навигация по номеру кадра клипа, а не по положению датчика. Трекинга нет; проход на фигуре условный.",
+  "s": [
+   0.0,
+   0.0333,
+   0.0667,
+   0.1,
+   0.1333,
+   0.1667,
+   0.2,
+   0.2333,
+   0.2667,
+   0.3,
+   0.3333,
+   0.3667,
+   0.4,
+   0.4333,
+   0.4667,
+   0.5,
+   0.5333,
+   0.5667,
+   0.6,
+   0.6333,
+   0.6667,
+   0.7,
+   0.7333,
+   0.7667,
+   0.8,
+   0.8333,
+   0.8667,
+   0.9,
+   0.9333,
+   0.9667,
+   1.0
+  ],
+  "lutSize": 31,
+  "lut": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30
+  ],
+  "directionOnBody": {
+   "value": "unknown",
+   "status": "unknown",
+   "evidence": "Движение датчика не отслеживалось."
+  },
+  "bodyPlacement": {
+   "startFractionOfForearm": 0,
+   "endFractionOfForearm": 0,
+   "surface": "локтевая сторона предплечья, левая сторона (условно; сторона в источнике неизвестна)",
+   "status": "условное размещение",
+   "path": {
+    "from": [
+     0.0704,
+     0.1194,
+     0.2727
+    ],
+    "to": [
+     0.031,
+     0.1194,
+     0.2797
+    ],
+    "rayDir": [
+     0.0,
+     -1.0,
+     0.6
+    ]
+   }
+  }
+ },
+ "supportedMotions": {
+  "slideAlongSweep": true,
+  "lateralShift": false,
+  "rotation": false,
+  "tilt": false,
+  "compression": false,
+  "note": "Только выбор кадра клипа."
+ },
+ "calibration": {
+  "imageToSensor": "absent",
+  "note": "Калибровки и трекинга нет."
+ },
+ "controlPoints": [
+  {
+   "id": "КТ1",
+   "t": 0,
+   "frameId": 0,
+   "frameSha256": "299f40e1d12c2ab08c026ec60f244fe0166dace27a2d105da2ca9b5c363fd0cf",
+   "image": "cases/atlas-ulnar-06/frames/0000.jpg"
+  },
+  {
+   "id": "КТ2",
+   "t": 0.25,
+   "frameId": 8,
+   "frameSha256": "737acaef89fb4e9d0b2d5b58430e81e13629575847c4a2cabb625d919107fc9e",
+   "image": "cases/atlas-ulnar-06/frames/0008.jpg"
+  },
+  {
+   "id": "КТ3",
+   "t": 0.5,
+   "frameId": 15,
+   "frameSha256": "a34737c53f86a46a490e0679396451a4ebec51b8f8590364f259fc11a0f374b5",
+   "image": "cases/atlas-ulnar-06/frames/0015.jpg"
+  },
+  {
+   "id": "КТ4",
+   "t": 0.75,
+   "frameId": 23,
+   "frameSha256": "80706b328f2cc3c93f74e4fd104163495bde15e848d8886c08d6bf0fef093c78",
+   "image": "cases/atlas-ulnar-06/frames/0023.jpg"
+  },
+  {
+   "id": "КТ5",
+   "t": 1,
+   "frameId": 30,
+   "frameSha256": "41cb84c00a15c2cd0d28d771f3fe8bd9dd849ee447d143638faa7c962e2f2c24",
+   "image": "cases/atlas-ulnar-06/frames/0030.jpg"
+  }
+ ],
+ "verification": {
+  "frameSha256": [
+   "299f40e1d12c2ab08c026ec60f244fe0166dace27a2d105da2ca9b5c363fd0cf",
+   "328f207649c4804e1914dbfdc56d2b7697f4a39556a2115cb50ce0776cbee048",
+   "5864687e33d312165bf2871acf617fd67f412c8b782e24ea7bec4a5f1827ec7b",
+   "3cc10856689b816e406717e4bb5a2b04a75936db0a8e06453563aaa96c1712a5",
+   "c374dc7cd8089c13445ad9f484a6d234cb77ce826b279c6e046098a079930ed0",
+   "6bbfa47ebf98ae128115a2ac6bc4bcdd425f4c9290977d783006bff0780d562a",
+   "fee7d59b2838bda2131f959445ad26ae0433f7f90d58d629da3f87f365ffe73a",
+   "f9468f986844604050b0993a82588f6d8846bfd1430edafadbacbf73116daba2",
+   "737acaef89fb4e9d0b2d5b58430e81e13629575847c4a2cabb625d919107fc9e",
+   "a9c3f9a888407542f27c28b029bcccb107e840d3fb5360d85a77bd24c5e9de57",
+   "51895e359d4754289c404604504ae33d9d0b2b8de906b012c024871d40272327",
+   "58cfa08e751d2b261a653dac3cc9c831e5c8482a03b1389e5e4974efd826d0be",
+   "bc3973c8379c5f24eb5d82f70fe14d01e1e643f65c77b7e891063c18bc09d692",
+   "e09d9e069360c424d53629528163ae33f2f4b551b368c9d556e08fb966eb5f56",
+   "6618b6a0d99fdd953766836acfc31a9d22fcb0bc93c274839c069325c8aa346d",
+   "a34737c53f86a46a490e0679396451a4ebec51b8f8590364f259fc11a0f374b5",
+   "fddf6817a4f39181c58efa15fa9d5abc1319858c5e582d5788206c18d1198617",
+   "f1a6f20cac73f53873c03d43fbd8550df792be833e4bf5af008b7ae58cf0582e",
+   "3fd6777c6c30ab7b6345d4a822dab12f477e1e2cf8a4b3de7a69e1ee4da7ccab",
+   "f101a345e373ef631bca09f9bdf2223331b0c4fdf889957f1862e9368aababa1",
+   "1b5b1abecd8085dfe4612104fcf9f9fb8a5ba673cabba606a8c8a4021b1f8115",
+   "585dd1dedd341132e2eef14d6990cb44653faa743a864571469040779d0d1a17",
+   "8e810bddc5d998f18815a985db667b6aebbf8ba02c1f416cbfc23d8656944035",
+   "80706b328f2cc3c93f74e4fd104163495bde15e848d8886c08d6bf0fef093c78",
+   "8fb17ec82862eb92e6783b16add3e810041dc7bd94f6b8bcd2c3cde63365d587",
+   "296e155feb952895d510691b22a33449fa5598e0395ef0368d2615a06d729299",
+   "edceea7c762af5fb2fce44555129f3300e5592398ebd800c7803dc41793892b6",
+   "9a7683db26b4e81adc99b3af9debed13b60c19fabca6ce03ca5eaf0a9198d292",
+   "b0eb1f4ae62c0379361c8d5b38747ec0212775b263d75ac632fe0dbb93a4f2ec",
+   "bea3fef94831bfdde6367c98ee3a7637f73812d326112f45c9d915c85b10c0eb",
+   "41cb84c00a15c2cd0d28d771f3fe8bd9dd849ee447d143638faa7c962e2f2c24"
+  ]
+ },
+ "knownIssues": [
+  "Пометки, подписи и значок атласа вшиты в кадры (если есть); это пометки авторов, а не эталонная разметка SonoLab.",
+  "Положение и движение датчика не отслеживались: проход по фигуре — условное размещение.",
+  "Сторона пациента, метка датчика, масштаб, аппарат и глубина не указаны.",
+  "Клип перекодирован с потерями (GIF/MP4 → JPEG); подвыборка кадров.",
+  "Лицензия CC BY-NC 4.0: только некоммерческое использование с указанием авторов."
+ ],
+ "burnedInAnnotations": {
+  "atlasLogo": "да (значок атласа в углу кадра, если виден на клипе)",
+  "colorMarks": "да — найдены цветные пометки (звёздочки, линии, подписи) или цветной допплер (автоматическая проверка)",
+  "textLabels": "неизвестно: белые надписи и стрелки автоматически не определяются; подписи авторов могут быть вшиты",
+  "status": "heuristic"
+ },
+ "sourceDuplicates": {}
+}

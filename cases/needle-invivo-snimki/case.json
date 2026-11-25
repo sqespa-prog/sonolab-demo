@@ -1,0 +1,341 @@
+{
+ "schema": "sonolab.case/1",
+ "caseId": "needle-invivo-snimki",
+ "dataVersion": "1.0.0",
+ "title": "Игла в тканях человека in vivo — 15 снимков (FM-US-Video, Hasan, Cai, Pramanik 2026)",
+ "region": {
+  "id": "needle",
+  "name": "Область не указана"
+ },
+ "patientSide": "unknown",
+ "imageType": "recorded-sweep",
+ "imageTypeNote": "Настоящее УЗИ человека in vivo с иглой в кадре: 15 отдельных снимков набора FM-US-Video (in_vivo_human_data), а не проход датчиком. Область тела, аппарат и масштаб в источнике не указаны — неизвестно. Не симуляция.",
+ "source": {
+  "dataset": "FM-US-Video",
+  "revision": "US_needle_data.zip MD5 67586cd110a541aaec8f7691f8aace66",
+  "url": "https://zenodo.org/records/21896696",
+  "doi": "10.5281/zenodo.21896696",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseAsStated": "cc-by-4.0 (Creative Commons Attribution 4.0 International, per Zenodo record metadata)",
+  "attribution": "Hasan, Jahid; Cai, Ying; Pramanik, Manojit (2026-08-12). FM-US-Video. Zenodo. https://doi.org/10.5281/zenodo.21896696. Related article: 'Foundation Model for Text-Prompted Needle Tracking in Interventional Ultrasound Video'.",
+  "descriptionAsStated": "Ultrasound-guided needle imaging dataset and model weights used in the article: \"Foundation Model for Text-Prompted Needle Tracking in Interventional Ultrasound Video\"",
+  "archive": {
+   "US_needle_data.zip": {
+    "bytes": 411938633,
+    "sha256": "cdd399e8f4df46dd04579c363fc6df132fa641ddccb2c8aada44a821f84c7a8a",
+    "verifiedAgainst": "SOURCE.json"
+   }
+  },
+  "subset": "in_vivo_human_data/in_vivo_human.zip",
+  "task": "Снимки иглы in vivo (проверка отслеживания иглы)",
+  "files": {
+   "US_needle_data.zip/in_vivo_human_data/in_vivo_human.zip/in_vivo_human/1.jpg": {
+    "bytes": 26165,
+    "sha256": "e97b1982253b474d4f02427a96db28ce97a68732779631bb54ae28803086f0e2"
+   },
+   "US_needle_data.zip/in_vivo_human_data/in_vivo_human.zip/in_vivo_human/2.jpg": {
+    "bytes": 26381,
+    "sha256": "ee8e6d854f7f7225da096c5c306e7ed4e27453715fd7c2f027088c284f65e95c"
+   },
+   "US_needle_data.zip/in_vivo_human_data/in_vivo_human.zip/in_vivo_human/3.jpg": {
+    "bytes": 26940,
+    "sha256": "c181eb514db43597b59345376a4331bb2943b807f8c66a6e8335b4fbf987cb74"
+   },
+   "US_needle_data.zip/in_vivo_human_data/in_vivo_human.zip/in_vivo_human/4.jpg": {
+    "bytes": 26377,
+    "sha256": "2626dcc9a67fa84556ea690f2ed48424b9d113e0c7c19810769a233b2582b0cf"
+   },
+   "US_needle_data.zip/in_vivo_human_data/in_vivo_human.zip/in_vivo_human/5.jpg": {
+    "bytes": 28139,
+    "sha256": "2f3bf7407d52030e18d539581de91a7336f57368c391a742e962c747c026da19"
+   },
+   "US_needle_data.zip/in_vivo_human_data/in_vivo_human.zip/in_vivo_human/6.jpg": {
+    "bytes": 30374,
+    "sha256": "a8ed0d305bf3322dc63aeed126dad037963b8723fbd9a74aa1ce53dd0d56f0f9"
+   },
+   "US_needle_data.zip/in_vivo_human_data/in_vivo_human.zip/in_vivo_human/7.jpg": {
+    "bytes": 27801,
+    "sha256": "c7503b03479be633fbbc9eaaac55de580e0ffd77c8bc82b8f1ad507b27b60ac3"
+   },
+   "US_needle_data.zip/in_vivo_human_data/in_vivo_human.zip/in_vivo_human/8.jpg": {
+    "bytes": 25562,
+    "sha256": "d64b460a4d10bc24c5bb636aa114bd1c60cc9c5e124214c07b48498c90b28766"
+   },
+   "US_needle_data.zip/in_vivo_human_data/in_vivo_human.zip/in_vivo_human/9.jpg": {
+    "bytes": 26419,
+    "sha256": "328251a3e987e7c848b12f7b5bd2a68ee045b17d622946fde1f39351e65245b5"
+   },
+   "US_needle_data.zip/in_vivo_human_data/in_vivo_human.zip/in_vivo_human/10.jpg": {
+    "bytes": 27744,
+    "sha256": "e92a2e09517634f6a30a843fa1de5a48a4e15657ca909a1ea5f4d6241ce3d484"
+   },
+   "US_needle_data.zip/in_vivo_human_data/in_vivo_human.zip/in_vivo_human/11.jpg": {
+    "bytes": 26430,
+    "sha256": "d40423cc6cf6763c71267e00527d3526660c0bd5b87bb653a6a3573baf914b85"
+   },
+   "US_needle_data.zip/in_vivo_human_data/in_vivo_human.zip/in_vivo_human/12.jpg": {
+    "bytes": 24471,
+    "sha256": "22de472874faf335a099fddfd8e8c99f25eae8d9fd7dab949fc7d6bbd20c53b3"
+   },
+   "US_needle_data.zip/in_vivo_human_data/in_vivo_human.zip/in_vivo_human/13.jpg": {
+    "bytes": 27166,
+    "sha256": "5317be7ce0af395d9088bf02cc0f8bc41e8e3933bc7356dd0ecfc8c1aba9eecb"
+   },
+   "US_needle_data.zip/in_vivo_human_data/in_vivo_human.zip/in_vivo_human/14.jpg": {
+    "bytes": 20065,
+    "sha256": "771473fa757372627f4b0e43fbd710d81a4b63951af4838aecdcda6dcc077236"
+   },
+   "US_needle_data.zip/in_vivo_human_data/in_vivo_human.zip/in_vivo_human/15.jpg": {
+    "bytes": 20974,
+    "sha256": "7d0137db591f818d6b0dfb4a04fb908bc4138ea8ebda223fc6f6d4d54f6f723e"
+   }
+  }
+ },
+ "probe": {
+  "model": "не указан",
+  "kind": "неизвестно",
+  "imageFormat": "снимки B-режима 512×512",
+  "centerFrequencyMHz": 0,
+  "imagingDepthCm": 0,
+  "note": "Аппарат, датчик, частота и глубина в источнике не указаны (0 = неизвестно)."
+ },
+ "frames": {
+  "count": 15,
+  "fps": 0,
+  "width": 512,
+  "height": 512,
+  "pattern": "frames/{id:04d}.jpg",
+  "conversion": "JPG 512×512 → JPEG q=88 без изменения размера; порядок — по номеру в имени файла"
+ },
+ "imageGeometry": {
+  "orientation": "как в изображении источника",
+  "pixelSpacingMm": null,
+  "pixelSpacingNote": "Масштаб в источнике не указан; линейка на экране аппарата (если видна) — единственная мера.",
+  "depthSettingCm": 0,
+  "probeMarkerSide": "unknown",
+  "flipApplied": false,
+  "lateralOrientation": "Метка датчика и сторона пациента не указаны."
+ },
+ "acquisition": {
+  "scanner": null,
+  "probe": null,
+  "probeType": "неизвестно",
+  "centerFrequencyMHz": null,
+  "depthCm": null,
+  "sourceUnits": {
+   "spatial": "unknown",
+   "intensity": "8-бит JPG"
+  },
+  "fieldStatus": {
+   "scanner": "unknown",
+   "probe": "unknown",
+   "probeType": "heuristic",
+   "centerFrequencyMHz": "unknown",
+   "depthCm": "unknown",
+   "sourceUnits": "heuristic"
+  },
+  "note": "Аппарат, датчик, частота, глубина и область тела не указаны."
+ },
+ "transforms": [
+  {
+   "op": "read",
+   "format": "jpg",
+   "file": "in_vivo_human_data/in_vivo_human.zip/in_vivo_human/N.jpg"
+  },
+  {
+   "op": "decode",
+   "library": "Pillow",
+   "mode": "RGB"
+  },
+  {
+   "op": "resample",
+   "method": "none",
+   "scale": 1
+  },
+  {
+   "op": "encode",
+   "format": "jpeg",
+   "quality": 88,
+   "library": "Pillow",
+   "mode": "RGB",
+   "optimize": true
+  }
+ ],
+ "coordinateConvention": {
+  "sourceFrame": {
+   "kind": "image",
+   "axes": {
+    "x": "вправо",
+    "y": "вниз",
+    "t": "номер снимка"
+   },
+   "units": "px",
+   "pixelSpacingMm": null,
+   "worldMeaning": "unknown"
+  },
+  "frame": {
+   "origin": "левый верхний угол пикселя (0,0)",
+   "x": "вправо",
+   "y": "вниз (глубина)",
+   "units": "px",
+   "pixelSpacingMm": null
+  },
+  "frameToSource": {
+   "x": "x",
+   "y": "y",
+   "file": "in_vivo_human/{номер из списка sourceOrder}.jpg",
+   "status": "provided"
+  }
+ },
+ "validity": {
+  "status": "unknown",
+  "noData": null,
+  "definition": "Маска области изображения не дана и не строилась."
+ },
+ "trajectory": {
+  "kind": "relative-sweep-index",
+  "kindNote": "Набор снимков: ползунок листает снимки. Область тела неизвестна; проход на предплечье фигуры — только ручка навигации.",
+  "s": [
+   0.0,
+   0.0714,
+   0.1429,
+   0.2143,
+   0.2857,
+   0.3571,
+   0.4286,
+   0.5,
+   0.5714,
+   0.6429,
+   0.7143,
+   0.7857,
+   0.8571,
+   0.9286,
+   1.0
+  ],
+  "lutSize": 15,
+  "lut": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "directionOnBody": {
+   "value": "unknown",
+   "status": "unknown",
+   "evidence": "Движение датчика не отслеживалось."
+  },
+  "bodyPlacement": {
+   "startFractionOfForearm": 0.2,
+   "endFractionOfForearm": 0.8,
+   "surface": "область тела неизвестна; проход на предплечье фигуры — только ручка навигации по снимкам",
+   "status": "условное размещение"
+  }
+ },
+ "supportedMotions": {
+  "slideAlongSweep": true,
+  "lateralShift": false,
+  "rotation": false,
+  "tilt": false,
+  "compression": false,
+  "note": "Только выбор снимка."
+ },
+ "calibration": {
+  "imageToSensor": "absent",
+  "note": "Калибровки и трекинга нет."
+ },
+ "controlPoints": [
+  {
+   "id": "КТ1",
+   "t": 0,
+   "frameId": 0,
+   "frameSha256": "6a655dc4b3755ccd299c1e2a6d54c214fb3f939c93459d5167e4e98cd653ae4d",
+   "image": "cases/needle-invivo-snimki/frames/0000.jpg"
+  },
+  {
+   "id": "КТ2",
+   "t": 0.25,
+   "frameId": 4,
+   "frameSha256": "0e74a8e54881dd7b86aaa8c55a6dcd0100d384c9abc568eeddadaaba4119edcb",
+   "image": "cases/needle-invivo-snimki/frames/0004.jpg"
+  },
+  {
+   "id": "КТ3",
+   "t": 0.5,
+   "frameId": 7,
+   "frameSha256": "257a6d2309cbfce5e2d434ca93550d01989845323579294025cb6b8c20a97aaf",
+   "image": "cases/needle-invivo-snimki/frames/0007.jpg"
+  },
+  {
+   "id": "КТ4",
+   "t": 0.75,
+   "frameId": 11,
+   "frameSha256": "1ac36590628969df16651671ca9a20f51fefba12a2a47fb8d8dfd30d5e3d85ae",
+   "image": "cases/needle-invivo-snimki/frames/0011.jpg"
+  },
+  {
+   "id": "КТ5",
+   "t": 1,
+   "frameId": 14,
+   "frameSha256": "230a3e4b88c745dd57da976e761d185743e6986c8462092316ebae1d083d7e43",
+   "image": "cases/needle-invivo-snimki/frames/0014.jpg"
+  }
+ ],
+ "verification": {
+  "frameSha256": [
+   "6a655dc4b3755ccd299c1e2a6d54c214fb3f939c93459d5167e4e98cd653ae4d",
+   "f97ca3cbcbd15014a6833661b7920df2b891ade1e5314fe3bf5d959632964d04",
+   "9c552f992d8e4e2a3c65265035eb1cdfcce66858018b83b4f9fb6cbc5b14658f",
+   "c35b8e8f3a7b6d04383a5f95b7b363a38796f7fd3484e7e7929dc2a82f8f60e0",
+   "0e74a8e54881dd7b86aaa8c55a6dcd0100d384c9abc568eeddadaaba4119edcb",
+   "b0acaada22ea9fb718b24b007ca56c37761b332d1a22ef28be3b01743ce2dbce",
+   "2cd124fac6c281a9932ebae2a071c8b23ccea287baa1ae157a6aa1e5a626b738",
+   "257a6d2309cbfce5e2d434ca93550d01989845323579294025cb6b8c20a97aaf",
+   "ed501d7f6add5996a6a37e685c26de6f99dc031cac58e0ea0457357e31e28b45",
+   "cbd77fda43a0254cd89ceff27ddd453e96e87e3c044ee17b29b2f4facf2b2fb4",
+   "e658f3d7f9d331f497798fdcd432ed7c5e7460334471f5633d934568449bef5e",
+   "1ac36590628969df16651671ca9a20f51fefba12a2a47fb8d8dfd30d5e3d85ae",
+   "5c443328705ad11cd9349e4e78a3fa2b1ad89a424f31cca984b049cd0c09d0f3",
+   "1a967e7f5f865a976d21384f94205ff2ac671d0c750bb2593ed3daa394130a26",
+   "230a3e4b88c745dd57da976e761d185743e6986c8462092316ebae1d083d7e43"
+  ]
+ },
+ "knownIssues": [
+  "Отдельные снимки, не проход датчиком.",
+  "Область тела, аппарат и масштаб не указаны; положение на фигуре не имеет смысла.",
+  "Повторное JPEG-сжатие с потерями."
+ ],
+ "sourceOrder": [
+  "in_vivo_human/1.jpg",
+  "in_vivo_human/2.jpg",
+  "in_vivo_human/3.jpg",
+  "in_vivo_human/4.jpg",
+  "in_vivo_human/5.jpg",
+  "in_vivo_human/6.jpg",
+  "in_vivo_human/7.jpg",
+  "in_vivo_human/8.jpg",
+  "in_vivo_human/9.jpg",
+  "in_vivo_human/10.jpg",
+  "in_vivo_human/11.jpg",
+  "in_vivo_human/12.jpg",
+  "in_vivo_human/13.jpg",
+  "in_vivo_human/14.jpg",
+  "in_vivo_human/15.jpg"
+ ],
+ "specimen": {
+  "kind": "in vivo",
+  "humanAnatomy": true,
+  "note": "человек in vivo; область не указана"
+ }
+}

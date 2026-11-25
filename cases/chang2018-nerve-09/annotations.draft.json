@@ -1,0 +1,231 @@
+{
+ "schema": "sonolab.annotations/1",
+ "caseId": "chang2018-nerve-09",
+ "dataVersion": "1.0.0",
+ "version": 1,
+ "updatedAt": "2026-11-25T00:00:00Z",
+ "structures": [
+  {
+   "id": "afcn",
+   "name": "Передние кожные ветви бедренного нерва",
+   "class": "nerve",
+   "color": "#ffd60a"
+  },
+  {
+   "id": "sartorius",
+   "name": "Портняжная мышца",
+   "class": "muscle",
+   "color": "#d6409f"
+  },
+  {
+   "id": "femoral-nerve",
+   "name": "Бедренный нерв",
+   "class": "nerve",
+   "color": "#ffb000"
+  },
+  {
+   "id": "femoral-artery",
+   "name": "Бедренная артерия",
+   "class": "artery",
+   "color": "#e5484d"
+  }
+ ],
+ "frames": {
+  "18": [
+   {
+    "id": "d18-afcn",
+    "structureId": "afcn",
+    "kind": "point",
+    "x": 362.0,
+    "y": 152.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d18-sartorius",
+    "structureId": "sartorius",
+    "kind": "point",
+    "x": 193.0,
+    "y": 174.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Sartorius»."
+   },
+   {
+    "id": "d18-femoral-nerve",
+    "structureId": "femoral-nerve",
+    "kind": "point",
+    "x": 440.0,
+    "y": 293.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: белая стрелка от подписи «Femoral Nerve»; точка у острия."
+   },
+   {
+    "id": "d18-femoral-artery",
+    "structureId": "femoral-artery",
+    "kind": "point",
+    "x": 531.0,
+    "y": 300.0,
+    "tolerancePx": 20,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: подпись «Femoral Artery»; просвет не очерчен."
+   }
+  ],
+  "24": [
+   {
+    "id": "d24-afcn",
+    "structureId": "afcn",
+    "kind": "point",
+    "x": 328.0,
+    "y": 162.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка, подписи нет (целевой нерв видео S9)."
+   }
+  ],
+  "48": [
+   {
+    "id": "d48-afcn",
+    "structureId": "afcn",
+    "kind": "point",
+    "x": 368.0,
+    "y": 178.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "70": [
+   {
+    "id": "d70-afcn",
+    "structureId": "afcn",
+    "kind": "point",
+    "x": 393.0,
+    "y": 166.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "90": [
+   {
+    "id": "d90-afcn",
+    "structureId": "afcn",
+    "kind": "point",
+    "x": 403.0,
+    "y": 128.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d90-sartorius",
+    "structureId": "sartorius",
+    "kind": "point",
+    "x": 282.0,
+    "y": 280.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Sartorius»."
+   }
+  ],
+  "96": [
+   {
+    "id": "d96-afcn",
+    "structureId": "afcn",
+    "kind": "point",
+    "x": 403.0,
+    "y": 130.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d96-sartorius",
+    "structureId": "sartorius",
+    "kind": "point",
+    "x": 282.0,
+    "y": 282.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Sartorius»."
+   }
+  ],
+  "99": [
+   {
+    "id": "d99-afcn",
+    "structureId": "afcn",
+    "kind": "point",
+    "x": 403.0,
+    "y": 130.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d99-sartorius",
+    "structureId": "sartorius",
+    "kind": "point",
+    "x": 282.0,
+    "y": 282.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Sartorius»."
+   }
+  ]
+ }
+}

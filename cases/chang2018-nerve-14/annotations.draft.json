@@ -1,0 +1,257 @@
+{
+ "schema": "sonolab.annotations/1",
+ "caseId": "chang2018-nerve-14",
+ "dataVersion": "1.0.0",
+ "version": 1,
+ "updatedAt": "2026-11-25T00:00:00Z",
+ "structures": [
+  {
+   "id": "sural-nerve",
+   "name": "Икроножный нерв",
+   "class": "nerve",
+   "color": "#ffd60a"
+  },
+  {
+   "id": "soleus",
+   "name": "Камбаловидная мышца",
+   "class": "muscle",
+   "color": "#d6409f"
+  },
+  {
+   "id": "peroneus-longus",
+   "name": "Длинная малоберцовая мышца",
+   "class": "muscle",
+   "color": "#ab4aba"
+  },
+  {
+   "id": "peroneus-brevis",
+   "name": "Короткая малоберцовая мышца",
+   "class": "muscle",
+   "color": "#8e4ec6"
+  },
+  {
+   "id": "small-saphenous-vein",
+   "name": "Малая подкожная вена",
+   "class": "vein",
+   "color": "#3e63dd"
+  },
+  {
+   "id": "fibula",
+   "name": "Малоберцовая кость",
+   "class": "bone",
+   "color": "#e8e8e8"
+  }
+ ],
+ "frames": {
+  "16": [
+   {
+    "id": "d16-sural-nerve",
+    "structureId": "sural-nerve",
+    "kind": "point",
+    "x": 319.0,
+    "y": 76.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (целевой нерв видео S14)."
+   },
+   {
+    "id": "d16-soleus",
+    "structureId": "soleus",
+    "kind": "point",
+    "x": 311.0,
+    "y": 224.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Soleus»."
+   }
+  ],
+  "22": [
+   {
+    "id": "d22-sural-nerve",
+    "structureId": "sural-nerve",
+    "kind": "point",
+    "x": 320.0,
+    "y": 78.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d22-soleus",
+    "structureId": "soleus",
+    "kind": "point",
+    "x": 311.0,
+    "y": 224.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Soleus»."
+   }
+  ],
+  "28": [
+   {
+    "id": "d28-sural-nerve",
+    "structureId": "sural-nerve",
+    "kind": "point",
+    "x": 320.0,
+    "y": 78.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d28-soleus",
+    "structureId": "soleus",
+    "kind": "point",
+    "x": 311.0,
+    "y": 224.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Soleus»."
+   }
+  ],
+  "39": [
+   {
+    "id": "d39-sural-nerve",
+    "structureId": "sural-nerve",
+    "kind": "point",
+    "x": 316.0,
+    "y": 104.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "53": [
+   {
+    "id": "d53-sural-nerve",
+    "structureId": "sural-nerve",
+    "kind": "point",
+    "x": 344.0,
+    "y": 106.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "80": [
+   {
+    "id": "d80-sural-nerve",
+    "structureId": "sural-nerve",
+    "kind": "point",
+    "x": 364.0,
+    "y": 102.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка, подписи нет."
+   }
+  ],
+  "96": [
+   {
+    "id": "d96-sural-nerve",
+    "structureId": "sural-nerve",
+    "kind": "point",
+    "x": 516.0,
+    "y": 76.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d96-peroneus-longus",
+    "structureId": "peroneus-longus",
+    "kind": "point",
+    "x": 146.0,
+    "y": 60.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «PL» (легенда: peroneus longus)."
+   },
+   {
+    "id": "d96-peroneus-brevis",
+    "structureId": "peroneus-brevis",
+    "kind": "point",
+    "x": 333.0,
+    "y": 118.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «PB» (легенда: peroneus brevis)."
+   },
+   {
+    "id": "d96-small-saphenous-vein",
+    "structureId": "small-saphenous-vein",
+    "kind": "point",
+    "x": 548.0,
+    "y": 108.0,
+    "tolerancePx": 20,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: подпись «SSA» (легенда авторов: small saphenous vein); точка у подписи, просвет не очерчен."
+   },
+   {
+    "id": "d96-fibula",
+    "structureId": "fibula",
+    "kind": "point",
+    "x": 175.0,
+    "y": 140.0,
+    "tolerancePx": 24,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: подпись «Fibula»; точка на яркой наклонной линии кортикального слоя над подписью."
+   }
+  ]
+ }
+}

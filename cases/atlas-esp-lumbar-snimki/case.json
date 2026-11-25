@@ -1,0 +1,282 @@
+{
+ "schema": "sonolab.case/1",
+ "caseId": "atlas-esp-lumbar-snimki",
+ "dataVersion": "1.0.0",
+ "title": "Блокада в плоскости мышцы, выпрямляющей позвоночник (поясничный уровень) — снимки УЗИ атласа (The POCUS Atlas, Nerve Block Atlas)",
+ "region": {
+  "id": "back",
+  "name": "Спина"
+ },
+ "patientSide": "unknown",
+ "imageType": "recorded-sweep",
+ "imageTypeNote": "Настоящее УЗИ: набор отдельных снимков атласа блокад, а не проход датчиком. Подписи структур, стрелки и значки ориентации атласа ВШИТЫ в изображения (по кадрам — atlasFrames). Снимки разного размера вписаны в общий холст с чёрными полями. Не симуляция.",
+ "source": {
+  "dataset": "The POCUS Atlas - Nerve Block Atlas (in partnership with Denver Health Ultrasound)",
+  "subset": "Lumbar ESP: 2 снимков",
+  "revision": "скачано 2026-11-25, atlas_items.json SHA-256 316ef6bbe3e88cdc68a02118d909dfd2fcb4eb2ccee75bd83954e4deaf4ea093",
+  "url": "https://www.thepocusatlas.com/lumbar-esp",
+  "atlasUrl": "https://www.thepocusatlas.com/nerve-block-atlas",
+  "license": "CC BY-NC 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "licenseAsStated": "\"Our content is licensed under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)\" - https://www.thepocusatlas.com/legal",
+  "attribution": "The POCUS Atlas, Nerve Block Atlas, in partnership with Denver Health Ultrasound. Editors: Dr. Joseph Brown, Dr. Jamie Pospishil; lead editor Dr. Michael Heffler; per-clip authors as given in atlas_items.json (caption / author_attribution_as_given).",
+  "siteLevelAttribution": "Editors: Dr. Joseph Brown (University of Colorado), Dr. Jamie Pospishil (Denver Health); lead editor and content developer: Dr. Michael Heffler (Denver Health), with Dr. Jaclyn Walker, Matthew Riscinti (Denver Health), Michael Macias (UHS SoCal MEC); other contributors: Drs. Christopher Hanuscin (Kings County), Sam Paskin-Dwyer (as stated on the atlas main page). Per-clip authors, where given, are in author_attribution_as_given / caption.",
+  "task": "УЗИ-анатомия для блокады: Lumbar ESP",
+  "files": {
+   "media/025_nerve-block-atlas_1778688190494_Lumbar-ESP-US-1.png": {
+    "bytes": 731135,
+    "sha256": "3a4dc9ec293383a450a35bfd06ce1bc05905a470af14eef2bde8d931a350a0b6",
+    "verifiedAgainst": "SOURCE.json"
+   },
+   "media/194_lumbar-esp_1778688134516_Lumbar-ESP-US-2.png": {
+    "bytes": 803163,
+    "sha256": "f3aea0f8797371b7af6717a7b119e70f50edc2e220357c1c51c91b1430a09c89",
+    "verifiedAgainst": "SOURCE.json"
+   }
+  },
+  "usageRestriction": "только некоммерческое обучение с указанием авторов (CC BY-NC 4.0)"
+ },
+ "probe": {
+  "model": "не указан",
+  "kind": "неизвестно",
+  "imageFormat": "снимки экрана аппарата с подписями атласа",
+  "centerFrequencyMHz": 0,
+  "imagingDepthCm": 0,
+  "note": "Аппарат, датчик, частота и глубина в источнике не указаны (0 = неизвестно)."
+ },
+ "frames": {
+  "count": 2,
+  "fps": 0,
+  "width": 640,
+  "height": 480,
+  "pattern": "frames/{id:04d}.jpg",
+  "conversion": "PNG/JPG → холст 640×480 (уменьшение Lanczos при необходимости, по центру, чёрные поля), JPEG q=88"
+ },
+ "imageGeometry": {
+  "orientation": "как в изображении источника",
+  "pixelSpacingMm": null,
+  "pixelSpacingNote": "Масштаб не указан; у снимков разный масштаб уменьшения (atlasFrames[].letterbox.scale).",
+  "depthSettingCm": 0,
+  "probeMarkerSide": "unknown",
+  "flipApplied": false,
+  "lateralOrientation": "Метка датчика и сторона пациента не указаны."
+ },
+ "acquisition": {
+  "scanner": null,
+  "probe": null,
+  "probeType": "неизвестно",
+  "centerFrequencyMHz": null,
+  "depthCm": null,
+  "sourceUnits": {
+   "spatial": "unknown",
+   "intensity": "8-бит PNG/JPG (снимки экрана, подписи атласа)"
+  },
+  "fieldStatus": {
+   "scanner": "unknown",
+   "probe": "unknown",
+   "probeType": "heuristic",
+   "centerFrequencyMHz": "unknown",
+   "depthCm": "unknown",
+   "sourceUnits": "heuristic"
+  },
+  "note": "Аппарат, датчик, частота и глубина не указаны."
+ },
+ "transforms": [
+  {
+   "op": "read",
+   "format": "png/jpg",
+   "file": "2 файлов media/ (atlasFrames[].file)"
+  },
+  {
+   "op": "decode",
+   "library": "Pillow",
+   "mode": "RGB"
+  },
+  {
+   "op": "resample",
+   "method": "lanczos",
+   "scale": 0.57971,
+   "perFrame": true,
+   "note": "масштаб каждого снимка свой (atlasFrames[].letterbox), холст 640×480, вставка по центру"
+  },
+  {
+   "op": "encode",
+   "format": "jpeg",
+   "quality": 88,
+   "library": "Pillow",
+   "mode": "RGB",
+   "optimize": true
+  }
+ ],
+ "coordinateConvention": {
+  "sourceFrame": {
+   "kind": "image",
+   "axes": {
+    "x": "вправо",
+    "y": "вниз",
+    "t": "номер снимка"
+   },
+   "units": "px",
+   "pixelSpacingMm": null,
+   "worldMeaning": "unknown"
+  },
+  "frame": {
+   "origin": "левый верхний угол пикселя (0,0)",
+   "x": "вправо",
+   "y": "вниз (глубина)",
+   "units": "px",
+   "pixelSpacingMm": null
+  },
+  "frameToSource": {
+   "x": "(x − x0 + 0.5)/scale − 0.5",
+   "y": "(y − y0 + 0.5)/scale − 0.5",
+   "status": "provided",
+   "note": "x0, y0, scale — atlasFrames[frameId].letterbox; поля холста — без данных"
+  }
+ },
+ "validity": {
+  "status": "heuristic",
+  "noData": "поля холста вне atlasFrames[].letterbox (x0…x0+w, y0…y0+h)",
+  "definition": "Вне вписанного снимка данных нет; внутри снимка маска области изображения не строилась."
+ },
+ "trajectory": {
+  "kind": "relative-sweep-index",
+  "kindNote": "Набор снимков: ползунок листает снимки. Трекинга нет; проход на фигуре условный.",
+  "s": [
+   0.0,
+   1.0
+  ],
+  "lutSize": 2,
+  "lut": [
+   0,
+   1
+  ],
+  "directionOnBody": {
+   "value": "unknown",
+   "status": "unknown",
+   "evidence": "Движение датчика не отслеживалось."
+  },
+  "bodyPlacement": {
+   "startFractionOfForearm": 0,
+   "endFractionOfForearm": 0,
+   "surface": "паравертебрально, поясничный отдел, левая сторона (условно; сторона в источнике неизвестна)",
+   "status": "условное размещение",
+   "path": {
+    "from": [
+     0.08,
+     0.05,
+     0.03
+    ],
+    "to": [
+     0.12,
+     0.05,
+     0.03
+    ],
+    "rayDir": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   }
+  }
+ },
+ "supportedMotions": {
+  "slideAlongSweep": true,
+  "lateralShift": false,
+  "rotation": false,
+  "tilt": false,
+  "compression": false,
+  "note": "Только выбор снимка."
+ },
+ "calibration": {
+  "imageToSensor": "absent",
+  "note": "Калибровки и трекинга нет."
+ },
+ "controlPoints": [
+  {
+   "id": "КТ1",
+   "t": 0,
+   "frameId": 0,
+   "frameSha256": "8ba2e999bdf413143c3a766b796615da0e6ca6d302d8594f91b4ad56e0e3910e",
+   "image": "cases/atlas-esp-lumbar-snimki/frames/0000.jpg"
+  },
+  {
+   "id": "КТ2",
+   "t": 0.25,
+   "frameId": 0,
+   "frameSha256": "8ba2e999bdf413143c3a766b796615da0e6ca6d302d8594f91b4ad56e0e3910e",
+   "image": "cases/atlas-esp-lumbar-snimki/frames/0000.jpg"
+  },
+  {
+   "id": "КТ3",
+   "t": 0.5,
+   "frameId": 1,
+   "frameSha256": "f3f8bfeb6ff4e89f8a045cdc520012f775d967bfe2652d9f8a8f1ee68009b51c",
+   "image": "cases/atlas-esp-lumbar-snimki/frames/0001.jpg"
+  },
+  {
+   "id": "КТ4",
+   "t": 0.75,
+   "frameId": 1,
+   "frameSha256": "f3f8bfeb6ff4e89f8a045cdc520012f775d967bfe2652d9f8a8f1ee68009b51c",
+   "image": "cases/atlas-esp-lumbar-snimki/frames/0001.jpg"
+  },
+  {
+   "id": "КТ5",
+   "t": 1,
+   "frameId": 1,
+   "frameSha256": "f3f8bfeb6ff4e89f8a045cdc520012f775d967bfe2652d9f8a8f1ee68009b51c",
+   "image": "cases/atlas-esp-lumbar-snimki/frames/0001.jpg"
+  }
+ ],
+ "verification": {
+  "frameSha256": [
+   "8ba2e999bdf413143c3a766b796615da0e6ca6d302d8594f91b4ad56e0e3910e",
+   "f3f8bfeb6ff4e89f8a045cdc520012f775d967bfe2652d9f8a8f1ee68009b51c"
+  ]
+ },
+ "knownIssues": [
+  "Подписи структур, стрелки и значки ориентации атласа вшиты в снимки; эталонной разметки SonoLab нет.",
+  "Это отдельные снимки, а не проход датчиком; соседние кадры не связаны движением.",
+  "Масштаб, аппарат, глубина и сторона пациента не указаны.",
+  "Лицензия CC BY-NC 4.0: только некоммерческое использование с указанием авторов."
+ ],
+ "atlasFrames": [
+  {
+   "frameId": 0,
+   "file": "media/025_nerve-block-atlas_1778688190494_Lumbar-ESP-US-1.png",
+   "title": "",
+   "alt": "Lumbar-ESP-US-1.png",
+   "caption": "",
+   "authorsAsGiven": [],
+   "burnedInLabels": "неизвестно (при просмотре миниатюры подписей не замечено)",
+   "letterbox": {
+    "scale": 0.604915,
+    "x0": 0,
+    "y0": 26,
+    "w": 640,
+    "h": 427,
+    "srcW": 1058,
+    "srcH": 706
+   }
+  },
+  {
+   "frameId": 1,
+   "file": "media/194_lumbar-esp_1778688134516_Lumbar-ESP-US-2.png",
+   "title": "",
+   "alt": "Lumbar-ESP-US-2.png",
+   "caption": "",
+   "authorsAsGiven": [],
+   "burnedInLabels": "да — подписи структур/стрелки атласа (проверено просмотром)",
+   "letterbox": {
+    "scale": 0.57971,
+    "x0": 1,
+    "y0": 0,
+    "w": 637,
+    "h": 480,
+    "srcW": 1098,
+    "srcH": 828
+   }
+  }
+ ]
+}

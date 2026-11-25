@@ -1,0 +1,426 @@
+{
+ "schema": "sonolab.case/1",
+ "caseId": "atlas-sciatic-popliteal-02",
+ "dataVersion": "1.0.0",
+ "title": "Блокада седалищного нерва в подколенной ямке — клип атласа «Left Popliteal Sciatic Nerve Block» (The POCUS Atlas, Nerve Block Atlas)",
+ "region": {
+  "id": "knee",
+  "name": "Колено"
+ },
+ "patientSide": "unknown",
+ "imageType": "recorded-sweep",
+ "imageTypeNote": "Настоящее УЗИ: учебный клип атласа блокад (The POCUS Atlas совместно с Denver Health Ultrasound). Пометки, подписи и значок атласа, если они есть, ВШИТЫ в изображение и не отключаются (см. burnedInAnnotations). Положение датчика не отслеживалось; кадры — равномерная подвыборка 40 из 40 кадров клипа. Не симуляция.",
+ "source": {
+  "dataset": "The POCUS Atlas - Nerve Block Atlas (in partnership with Denver Health Ultrasound)",
+  "subset": "Popliteal sciatic: 127_lower-extremity-blocks_1727480896401_image-asset.gif",
+  "revision": "скачано 2026-11-25, atlas_items.json SHA-256 316ef6bbe3e88cdc68a02118d909dfd2fcb4eb2ccee75bd83954e4deaf4ea093",
+  "url": "https://www.thepocusatlas.com/lower-extremity-blocks",
+  "pageUrl": "https://www.thepocusatlas.com/lower-extremity-blocks",
+  "atlasUrl": "https://www.thepocusatlas.com/nerve-block-atlas",
+  "mediaUrl": "https://images.squarespace-cdn.com/content/v1/58118909e3df282037abfad7/1727480896401-BLPL7KGQ8QYL3IE3P067/image-asset.gif",
+  "license": "CC BY-NC 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "licenseAsStated": "\"Our content is licensed under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)\" - https://www.thepocusatlas.com/legal",
+  "attribution": "The POCUS Atlas, Nerve Block Atlas, in partnership with Denver Health Ultrasound. Editors: Dr. Joseph Brown, Dr. Jamie Pospishil; lead editor Dr. Michael Heffler; per-clip authors as given in atlas_items.json (caption / author_attribution_as_given).",
+  "clipAttribution": {
+   "title": "Left Popliteal Sciatic Nerve Block",
+   "caption": "20 year old female with a history of IV drug use presents with a sizable calf abscess. She is admitted to the hospital for sepsis criteria and abscess drainage. \nShe prefers no analgesia, therefore a popliteal sciatic nerve block is performed (demonstrated by injection of anesthetic adjacent to sciatic nerve) with resolution of her pain and successful incision and drainage.\nContributors: John Bowling, DO (@BModeBowling); Bob Stenberg, MD (@POCUSaurusRex)\nCleveland Clinic Akron General",
+   "authorsAsGiven": [
+    "20 year old female with a history of IV drug use presents with a sizable calf abscess. She is admitted to the hospital for sepsis criteria and abscess drainage.",
+    "Contributors: John Bowling, DO (@BModeBowling); Bob Stenberg, MD (@POCUSaurusRex)"
+   ],
+   "note": "дословно из atlas_items.json (страница атласа); пусто — на странице не указано"
+  },
+  "siteLevelAttribution": "Editors: Dr. Joseph Brown (University of Colorado), Dr. Jamie Pospishil (Denver Health); lead editor and content developer: Dr. Michael Heffler (Denver Health), with Dr. Jaclyn Walker, Matthew Riscinti (Denver Health), Michael Macias (UHS SoCal MEC); other contributors: Drs. Christopher Hanuscin (Kings County), Sam Paskin-Dwyer (as stated on the atlas main page). Per-clip authors, where given, are in author_attribution_as_given / caption.",
+  "task": "УЗИ-навигация для блокады: Popliteal sciatic",
+  "files": {
+   "media/127_lower-extremity-blocks_1727480896401_image-asset.gif": {
+    "bytes": 1698139,
+    "sha256": "3ce0a5b73d6bc0fdc0337faaf49408937b43b03edcace5731ca57d8762b5bd46",
+    "verifiedAgainst": "SOURCE.json"
+   }
+  },
+  "usageRestriction": "только некоммерческое обучение с указанием авторов (CC BY-NC 4.0)"
+ },
+ "probe": {
+  "model": "не указан",
+  "kind": "неизвестно",
+  "imageFormat": "изображение экрана аппарата",
+  "centerFrequencyMHz": 0,
+  "imagingDepthCm": 0,
+  "note": "Аппарат, датчик, частота и глубина в источнике не указаны (0 = неизвестно)."
+ },
+ "frames": {
+  "count": 40,
+  "fps": 0,
+  "width": 519,
+  "height": 369,
+  "pattern": "frames/{id:04d}.jpg",
+  "conversion": "GIF 519×369 → 519×369, 40 из 40 кадров, JPEG q=88"
+ },
+ "imageGeometry": {
+  "orientation": "как в изображении источника",
+  "pixelSpacingMm": null,
+  "pixelSpacingNote": "Масштаб в источнике не указан; линейка на экране аппарата (если видна) — единственная мера.",
+  "depthSettingCm": 0,
+  "probeMarkerSide": "unknown",
+  "flipApplied": false,
+  "lateralOrientation": "Метка датчика и сторона пациента не указаны."
+ },
+ "acquisition": {
+  "scanner": null,
+  "probe": null,
+  "probeType": "неизвестно",
+  "centerFrequencyMHz": null,
+  "depthCm": null,
+  "sourceUnits": {
+   "spatial": "unknown",
+   "intensity": "8-бит GIF (экран аппарата, перекодирован атласом)"
+  },
+  "fieldStatus": {
+   "scanner": "unknown",
+   "probe": "unknown",
+   "probeType": "heuristic",
+   "centerFrequencyMHz": "unknown",
+   "depthCm": "unknown",
+   "sourceUnits": "heuristic"
+  },
+  "note": "Аппарат, датчик, частота и глубина на странице атласа не указаны."
+ },
+ "transforms": [
+  {
+   "op": "read",
+   "format": "gif",
+   "file": "media/127_lower-extremity-blocks_1727480896401_image-asset.gif",
+   "width": 519,
+   "height": 369,
+   "frames": 40,
+   "durationS": 4.0
+  },
+  {
+   "op": "decode",
+   "library": "Pillow ImageSequence",
+   "frameIndices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+   ],
+   "note": "равномерная подвыборка по номеру кадра; GIF — с учётом наложения кадров (Pillow); видео — квадратный пиксель (setsar=1)"
+  },
+  {
+   "op": "resample",
+   "method": "none",
+   "scale": 1.0,
+   "from": [
+    519,
+    369
+   ],
+   "to": [
+    519,
+    369
+   ]
+  },
+  {
+   "op": "encode",
+   "format": "jpeg",
+   "quality": 88,
+   "library": "Pillow",
+   "mode": "RGB",
+   "optimize": true
+  }
+ ],
+ "coordinateConvention": {
+  "sourceFrame": {
+   "kind": "video-frame",
+   "axes": {
+    "x": "вправо",
+    "y": "вниз",
+    "t": "номер кадра клипа"
+   },
+   "units": "px",
+   "pixelSpacingMm": null,
+   "worldMeaning": "unknown",
+   "note": "Экран аппарата; масштаб и метка датчика не указаны."
+  },
+  "frame": {
+   "origin": "левый верхний угол пикселя (0,0)",
+   "x": "вправо",
+   "y": "вниз (глубина)",
+   "units": "px",
+   "pixelSpacingMm": null
+  },
+  "frameToSource": {
+   "x": "(x + 0.5)/1.000000 − 0.5",
+   "y": "(y + 0.5)/1.000000 − 0.5",
+   "t": "frameIndices[frameId]",
+   "status": "provided",
+   "note": "точная цепочка импорта (transforms)"
+  }
+ },
+ "validity": {
+  "status": "unknown",
+  "noData": null,
+  "definition": "Маска области изображения не дана и не строилась; служебные поля экрана и анэхогенные ткани по значению не различаются."
+ },
+ "trajectory": {
+  "kind": "relative-sweep-index",
+  "kindNote": "Навигация по номеру кадра клипа, а не по положению датчика. Трекинга нет; проход на фигуре условный.",
+  "s": [
+   0.0,
+   0.0256,
+   0.0513,
+   0.0769,
+   0.1026,
+   0.1282,
+   0.1538,
+   0.1795,
+   0.2051,
+   0.2308,
+   0.2564,
+   0.2821,
+   0.3077,
+   0.3333,
+   0.359,
+   0.3846,
+   0.4103,
+   0.4359,
+   0.4615,
+   0.4872,
+   0.5128,
+   0.5385,
+   0.5641,
+   0.5897,
+   0.6154,
+   0.641,
+   0.6667,
+   0.6923,
+   0.7179,
+   0.7436,
+   0.7692,
+   0.7949,
+   0.8205,
+   0.8462,
+   0.8718,
+   0.8974,
+   0.9231,
+   0.9487,
+   0.9744,
+   1.0
+  ],
+  "lutSize": 40,
+  "lut": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39
+  ],
+  "directionOnBody": {
+   "value": "unknown",
+   "status": "unknown",
+   "evidence": "Движение датчика не отслеживалось."
+  },
+  "bodyPlacement": {
+   "startFractionOfForearm": 0,
+   "endFractionOfForearm": 0,
+   "surface": "подколенная ямка, левая сторона (условно; сторона в источнике неизвестна)",
+   "status": "условное размещение",
+   "path": {
+    "from": [
+     -0.3714,
+     0.1232,
+     0.1435
+    ],
+    "to": [
+     -0.4111,
+     0.1264,
+     0.1471
+    ],
+    "rayDir": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   }
+  }
+ },
+ "supportedMotions": {
+  "slideAlongSweep": true,
+  "lateralShift": false,
+  "rotation": false,
+  "tilt": false,
+  "compression": false,
+  "note": "Только выбор кадра клипа."
+ },
+ "calibration": {
+  "imageToSensor": "absent",
+  "note": "Калибровки и трекинга нет."
+ },
+ "controlPoints": [
+  {
+   "id": "КТ1",
+   "t": 0,
+   "frameId": 0,
+   "frameSha256": "97da234ba56d3809f7a5e0915f88d7fb66f95a70565b6401350e2491f742b470",
+   "image": "cases/atlas-sciatic-popliteal-02/frames/0000.jpg"
+  },
+  {
+   "id": "КТ2",
+   "t": 0.25,
+   "frameId": 10,
+   "frameSha256": "044788be6c189c5cc2db21c997466b4593d3982fca184f3040d07c77753acdf8",
+   "image": "cases/atlas-sciatic-popliteal-02/frames/0010.jpg"
+  },
+  {
+   "id": "КТ3",
+   "t": 0.5,
+   "frameId": 20,
+   "frameSha256": "8fd5103c8d7fa8987a497184e1a47c0a75ed51935709d526aee2812f58ff1fa7",
+   "image": "cases/atlas-sciatic-popliteal-02/frames/0020.jpg"
+  },
+  {
+   "id": "КТ4",
+   "t": 0.75,
+   "frameId": 29,
+   "frameSha256": "9beaf0921549a5fea0faf8aa0d173f454c1124e06103edf6ad7a6e8e75407554",
+   "image": "cases/atlas-sciatic-popliteal-02/frames/0029.jpg"
+  },
+  {
+   "id": "КТ5",
+   "t": 1,
+   "frameId": 39,
+   "frameSha256": "a66f265b9867f73fcac747b7e66d3bfa7807893bb5faa111ee12a546e6e943ce",
+   "image": "cases/atlas-sciatic-popliteal-02/frames/0039.jpg"
+  }
+ ],
+ "verification": {
+  "frameSha256": [
+   "97da234ba56d3809f7a5e0915f88d7fb66f95a70565b6401350e2491f742b470",
+   "701a864c6029d4c9cd3fe248713cbe8979fd2c37834901969ba8a5893393ca7b",
+   "438fc46df1944447c86b161433fbe6931580aa15e863652e44d9c53b994eeeed",
+   "bb74f1431af7c73648f39267d73b5eaa912287750a48f74c9f80130ece66ee55",
+   "f18c550a017ce728f6643d1134b28ca6d9d09be029ec8290d13874c421c80828",
+   "d910c9150ffd7cb85f9731db319784e84ff60268fc4151d35c319825f576be92",
+   "04100c83a557e2d84fe94a079023a9ced139c00e604ee7a49cd0b2c26847d2ff",
+   "252290677065ca70eb0677be2f37e284d039ed33770ec979ae1072d26ed3c39b",
+   "3b1f9bac7d365fad8b25f63260a81b107be504aa89b56f7f19214f3ee31177f1",
+   "d2558c43caf894f4192e62a06aa85337c8a6941e87ce6e9c2954f6e9ca387dbf",
+   "044788be6c189c5cc2db21c997466b4593d3982fca184f3040d07c77753acdf8",
+   "7e52d1774cff20c6709e36750afad5230943a75a2ab1a47c5f387b8007605900",
+   "4844211238dbd65ee2356bf0271865154bd855ed0a5b3c369e77851cb928a769",
+   "7f98289769af533fa1dcefa4949c10d658b74a42b20053308019ea328bc77f63",
+   "0e9238272af1c0f8f6c8d1f2a78325eaf4264e17aadc2504b9f8de6adbb76f17",
+   "0cca0396267af0ef51ab7ff289a04efd3fce272757e8701a3eee8de122dd434d",
+   "cc56fc8d48df4636680545f95e47150d5624537d2e50db8f53efb4f1dacbd528",
+   "96419a4f5d1005d2284cf64cec6cf7a653642a4ef84dbd13e0dde38b1a41b4f8",
+   "b42d0af67f905c8a40cde8d69bf2e959acc51ac543fd18c7c562d18e0f8d7656",
+   "d5b1eeb1999e0c29ec5672fc2fd99d8423bf5fc26c165e6d18c4bba25e902ab9",
+   "8fd5103c8d7fa8987a497184e1a47c0a75ed51935709d526aee2812f58ff1fa7",
+   "0d7eb3dfbb5bfa8e65bea66652615c5ab541d618039aa6499f139e678052f26c",
+   "a8395a9cb5a28120dc9833a11ed37d1354c108ad08f5f259ad06ac1552bb1933",
+   "0519ecb60fb578d2a5f2b953bdc5a363ebadca4961963adbe898883e61ee90e5",
+   "775603ebcc7ce8ac81f6d0046506e571e6189fc790f06192935f554a7dd7d3cf",
+   "9073d6a659da09c76892d9a2e5bbdbd6863f9b457bd9c6a183f60737edf40294",
+   "4ba8c883863ec2e4fb10138724b99933cdce0512e18a945596402311f3a7ca02",
+   "48316dd8b4d3b2fb0ad367ba8d27d40f99ef04b3a0d3c8954204903b8f09bcd5",
+   "acf5f6b84d1c2a7905d85749bc2aebb6ba43c8b85ec1ffc9aaa4bda4e027c07c",
+   "9beaf0921549a5fea0faf8aa0d173f454c1124e06103edf6ad7a6e8e75407554",
+   "7ee786bcc96deed3d172ab9d5fe5fca970af29d433304adda6163dbb80721368",
+   "d931bbd269a7c8044bb643c962d3dc2c97717cffe2eed37288d1377af643b0a0",
+   "7d0fb8952d857e60b904a501d916827ba159c430aafb28ca4477e1ae92a66839",
+   "60ba7a5267eebb06d7f1e02f107893aafa8db23b335a97c0cf6a656b13342795",
+   "c788dc15cc05162a2a1c4e265b51cd093ec6d14f548809e1c4355c80a0ef2402",
+   "df8965b3363a56dcb44ec2a17d60cfe8628c924b346c1886a1c7ca1f52b3839a",
+   "4b2bfbb1cc945e9cff3a3a38fa6b13e8d90631f636e715841815eda47d2a6930",
+   "02d824800465bd3fe8c8c020a264ed052101a15c1242aff2a72e8f796eb60513",
+   "a4add193e2cec269568596b8ff6659319fadef20f29f4f6055c2c55eb682f2d5",
+   "a66f265b9867f73fcac747b7e66d3bfa7807893bb5faa111ee12a546e6e943ce"
+  ]
+ },
+ "knownIssues": [
+  "Пометки, подписи и значок атласа вшиты в кадры (если есть); это пометки авторов, а не эталонная разметка SonoLab.",
+  "Положение и движение датчика не отслеживались: проход по фигуре — условное размещение.",
+  "Сторона пациента, метка датчика, масштаб, аппарат и глубина не указаны.",
+  "Клип перекодирован с потерями (GIF/MP4 → JPEG); подвыборка кадров.",
+  "Лицензия CC BY-NC 4.0: только некоммерческое использование с указанием авторов."
+ ],
+ "burnedInAnnotations": {
+  "atlasLogo": "да (значок атласа в углу кадра, если виден на клипе)",
+  "colorMarks": "да — найдены цветные пометки (звёздочки, линии, подписи) или цветной допплер (автоматическая проверка)",
+  "textLabels": "неизвестно: белые надписи и стрелки автоматически не определяются; подписи авторов могут быть вшиты",
+  "status": "heuristic"
+ },
+ "sourceDuplicates": {}
+}

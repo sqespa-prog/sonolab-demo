@@ -1,0 +1,233 @@
+{
+ "schema": "sonolab.annotations/1",
+ "caseId": "chang2018-nerve-06",
+ "dataVersion": "1.0.0",
+ "version": 1,
+ "updatedAt": "2026-11-25T00:00:00Z",
+ "structures": [
+  {
+   "id": "radial-nerve-superficial",
+   "name": "Поверхностная ветвь лучевого нерва",
+   "class": "nerve",
+   "color": "#ffd60a"
+  },
+  {
+   "id": "ecrl",
+   "name": "Длинный лучевой разгибатель запястья",
+   "class": "muscle",
+   "color": "#d6409f"
+  },
+  {
+   "id": "ecrb",
+   "name": "Короткий лучевой разгибатель запястья",
+   "class": "muscle",
+   "color": "#ab4aba"
+  },
+  {
+   "id": "brachioradialis",
+   "name": "Плечелучевая мышца",
+   "class": "muscle",
+   "color": "#8e4ec6"
+  },
+  {
+   "id": "radius",
+   "name": "Лучевая кость",
+   "class": "bone",
+   "color": "#e8e8e8"
+  }
+ ],
+ "frames": {
+  "18": [
+   {
+    "id": "d18-radial-nerve-superficial",
+    "structureId": "radial-nerve-superficial",
+    "kind": "point",
+    "x": 290.0,
+    "y": 170.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d18-ecrl",
+    "structureId": "ecrl",
+    "kind": "point",
+    "x": 66.0,
+    "y": 178.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «ECRL»."
+   },
+   {
+    "id": "d18-brachioradialis",
+    "structureId": "brachioradialis",
+    "kind": "point",
+    "x": 486.0,
+    "y": 120.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Brachioradialis»."
+   },
+   {
+    "id": "d18-radius",
+    "structureId": "radius",
+    "kind": "point",
+    "x": 110.0,
+    "y": 218.0,
+    "tolerancePx": 24,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «Radius»; кортикальная дуга."
+   }
+  ],
+  "24": [
+   {
+    "id": "d24-radial-nerve-superficial",
+    "structureId": "radial-nerve-superficial",
+    "kind": "point",
+    "x": 290.0,
+    "y": 170.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (целевой нерв видео S6)."
+   },
+   {
+    "id": "d24-ecrl",
+    "structureId": "ecrl",
+    "kind": "point",
+    "x": 66.0,
+    "y": 178.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «ECRL» (легенда: extensor carpi radialis longus)."
+   },
+   {
+    "id": "d24-brachioradialis",
+    "structureId": "brachioradialis",
+    "kind": "point",
+    "x": 486.0,
+    "y": 120.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Brachioradialis»."
+   },
+   {
+    "id": "d24-radius",
+    "structureId": "radius",
+    "kind": "point",
+    "x": 100.0,
+    "y": 215.0,
+    "tolerancePx": 24,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «Radius»; точка на кортикальной дуге."
+   }
+  ],
+  "27": [
+   {
+    "id": "d27-radial-nerve-superficial",
+    "structureId": "radial-nerve-superficial",
+    "kind": "point",
+    "x": 295.0,
+    "y": 152.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "55": [
+   {
+    "id": "d55-radial-nerve-superficial",
+    "structureId": "radial-nerve-superficial",
+    "kind": "point",
+    "x": 310.0,
+    "y": 96.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "88": [
+   {
+    "id": "d88-radial-nerve-superficial",
+    "structureId": "radial-nerve-superficial",
+    "kind": "point",
+    "x": 457.0,
+    "y": 112.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d88-ecrb",
+    "structureId": "ecrb",
+    "kind": "point",
+    "x": 108.0,
+    "y": 150.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «ECRB» (легенда: extensor carpi radialis brevis)."
+   },
+   {
+    "id": "d88-ecrl",
+    "structureId": "ecrl",
+    "kind": "point",
+    "x": 279.0,
+    "y": 150.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «ECRL»."
+   }
+  ]
+ }
+}

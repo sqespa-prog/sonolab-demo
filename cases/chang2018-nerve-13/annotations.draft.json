@@ -1,0 +1,201 @@
+{
+ "schema": "sonolab.annotations/1",
+ "caseId": "chang2018-nerve-13",
+ "dataVersion": "1.0.0",
+ "version": 1,
+ "updatedAt": "2026-11-25T00:00:00Z",
+ "structures": [
+  {
+   "id": "lscn",
+   "name": "Латеральный кожный нерв икры",
+   "class": "nerve",
+   "color": "#ffd60a"
+  },
+  {
+   "id": "common-peroneal-nerve",
+   "name": "Общий малоберцовый нерв",
+   "class": "nerve",
+   "color": "#ffb000"
+  },
+  {
+   "id": "tibial-nerve",
+   "name": "Большеберцовый нерв",
+   "class": "nerve",
+   "color": "#f5d90a"
+  },
+  {
+   "id": "lateral-gastrocnemius",
+   "name": "Латеральная головка икроножной мышцы",
+   "class": "muscle",
+   "color": "#d6409f"
+  }
+ ],
+ "frames": {
+  "12": [
+   {
+    "id": "d12-lscn",
+    "structureId": "lscn",
+    "kind": "point",
+    "x": 414.0,
+    "y": 118.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d12-common-peroneal-nerve",
+    "structureId": "common-peroneal-nerve",
+    "kind": "point",
+    "x": 265.0,
+    "y": 108.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: белая стрелка с подписью «Common Peroneal Nerve»."
+   },
+   {
+    "id": "d12-tibial-nerve",
+    "structureId": "tibial-nerve",
+    "kind": "point",
+    "x": 557.0,
+    "y": 210.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: контурная стрелка с подписью «Tibial Nerve»."
+   }
+  ],
+  "16": [
+   {
+    "id": "d16-lscn",
+    "structureId": "lscn",
+    "kind": "point",
+    "x": 414.0,
+    "y": 118.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (целевой нерв видео S13)."
+   },
+   {
+    "id": "d16-common-peroneal-nerve",
+    "structureId": "common-peroneal-nerve",
+    "kind": "point",
+    "x": 265.0,
+    "y": 108.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: белая стрелка с подписью «Common Peroneal Nerve» (остриём вверх)."
+   },
+   {
+    "id": "d16-tibial-nerve",
+    "structureId": "tibial-nerve",
+    "kind": "point",
+    "x": 557.0,
+    "y": 210.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: контурная стрелка с подписью «Tibial Nerve» (остриём вверх)."
+   }
+  ],
+  "37": [
+   {
+    "id": "d37-lscn",
+    "structureId": "lscn",
+    "kind": "point",
+    "x": 362.0,
+    "y": 118.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "54": [
+   {
+    "id": "d54-lscn",
+    "structureId": "lscn",
+    "kind": "point",
+    "x": 318.0,
+    "y": 118.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "76": [
+   {
+    "id": "d76-lscn",
+    "structureId": "lscn",
+    "kind": "point",
+    "x": 353.0,
+    "y": 141.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "96": [
+   {
+    "id": "d96-lscn",
+    "structureId": "lscn",
+    "kind": "point",
+    "x": 345.0,
+    "y": 110.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d96-lateral-gastrocnemius",
+    "structureId": "lateral-gastrocnemius",
+    "kind": "point",
+    "x": 345.0,
+    "y": 244.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Lateral Gastrocnemius»."
+   }
+  ]
+ }
+}

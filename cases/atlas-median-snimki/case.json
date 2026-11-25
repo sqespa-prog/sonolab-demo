@@ -1,0 +1,282 @@
+{
+ "schema": "sonolab.case/1",
+ "caseId": "atlas-median-snimki",
+ "dataVersion": "1.0.0",
+ "title": "Блокада срединного нерва на предплечье — снимки УЗИ атласа (The POCUS Atlas, Nerve Block Atlas)",
+ "region": {
+  "id": "forearm",
+  "name": "Предплечье"
+ },
+ "patientSide": "unknown",
+ "imageType": "recorded-sweep",
+ "imageTypeNote": "Настоящее УЗИ: набор отдельных снимков атласа блокад, а не проход датчиком. Подписи структур, стрелки и значки ориентации атласа ВШИТЫ в изображения (по кадрам — atlasFrames). Снимки разного размера вписаны в общий холст с чёрными полями. Не симуляция.",
+ "source": {
+  "dataset": "The POCUS Atlas - Nerve Block Atlas (in partnership with Denver Health Ultrasound)",
+  "subset": "Median nerve: 2 снимков",
+  "revision": "скачано 2026-11-25, atlas_items.json SHA-256 316ef6bbe3e88cdc68a02118d909dfd2fcb4eb2ccee75bd83954e4deaf4ea093",
+  "url": "https://www.thepocusatlas.com/forearm-blocks",
+  "atlasUrl": "https://www.thepocusatlas.com/nerve-block-atlas",
+  "license": "CC BY-NC 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "licenseAsStated": "\"Our content is licensed under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)\" - https://www.thepocusatlas.com/legal",
+  "attribution": "The POCUS Atlas, Nerve Block Atlas, in partnership with Denver Health Ultrasound. Editors: Dr. Joseph Brown, Dr. Jamie Pospishil; lead editor Dr. Michael Heffler; per-clip authors as given in atlas_items.json (caption / author_attribution_as_given).",
+  "siteLevelAttribution": "Editors: Dr. Joseph Brown (University of Colorado), Dr. Jamie Pospishil (Denver Health); lead editor and content developer: Dr. Michael Heffler (Denver Health), with Dr. Jaclyn Walker, Matthew Riscinti (Denver Health), Michael Macias (UHS SoCal MEC); other contributors: Drs. Christopher Hanuscin (Kings County), Sam Paskin-Dwyer (as stated on the atlas main page). Per-clip authors, where given, are in author_attribution_as_given / caption.",
+  "task": "УЗИ-анатомия для блокады: Median nerve",
+  "files": {
+   "media/060_forearm-blocks_1632507466834_Median-09.png": {
+    "bytes": 730218,
+    "sha256": "f9bff5d415ebedf094e758b1aa77ea79f3d99ba016922744df2842a43dac9920",
+    "verifiedAgainst": "SOURCE.json"
+   },
+   "media/061_forearm-blocks_1632507466680_Median-10.png": {
+    "bytes": 636972,
+    "sha256": "8b852fab505d84dc19e37b11642b7fcd96e7694f077bac614874791a05b17295",
+    "verifiedAgainst": "SOURCE.json"
+   }
+  },
+  "usageRestriction": "только некоммерческое обучение с указанием авторов (CC BY-NC 4.0)"
+ },
+ "probe": {
+  "model": "не указан",
+  "kind": "неизвестно",
+  "imageFormat": "снимки экрана аппарата с подписями атласа",
+  "centerFrequencyMHz": 0,
+  "imagingDepthCm": 0,
+  "note": "Аппарат, датчик, частота и глубина в источнике не указаны (0 = неизвестно)."
+ },
+ "frames": {
+  "count": 2,
+  "fps": 0,
+  "width": 640,
+  "height": 480,
+  "pattern": "frames/{id:04d}.jpg",
+  "conversion": "PNG/JPG → холст 640×480 (уменьшение Lanczos при необходимости, по центру, чёрные поля), JPEG q=88"
+ },
+ "imageGeometry": {
+  "orientation": "как в изображении источника",
+  "pixelSpacingMm": null,
+  "pixelSpacingNote": "Масштаб не указан; у снимков разный масштаб уменьшения (atlasFrames[].letterbox.scale).",
+  "depthSettingCm": 0,
+  "probeMarkerSide": "unknown",
+  "flipApplied": false,
+  "lateralOrientation": "Метка датчика и сторона пациента не указаны."
+ },
+ "acquisition": {
+  "scanner": null,
+  "probe": null,
+  "probeType": "неизвестно",
+  "centerFrequencyMHz": null,
+  "depthCm": null,
+  "sourceUnits": {
+   "spatial": "unknown",
+   "intensity": "8-бит PNG/JPG (снимки экрана, подписи атласа)"
+  },
+  "fieldStatus": {
+   "scanner": "unknown",
+   "probe": "unknown",
+   "probeType": "heuristic",
+   "centerFrequencyMHz": "unknown",
+   "depthCm": "unknown",
+   "sourceUnits": "heuristic"
+  },
+  "note": "Аппарат, датчик, частота и глубина не указаны."
+ },
+ "transforms": [
+  {
+   "op": "read",
+   "format": "png/jpg",
+   "file": "2 файлов media/ (atlasFrames[].file)"
+  },
+  {
+   "op": "decode",
+   "library": "Pillow",
+   "mode": "RGB"
+  },
+  {
+   "op": "resample",
+   "method": "lanczos",
+   "scale": 0.256,
+   "perFrame": true,
+   "note": "масштаб каждого снимка свой (atlasFrames[].letterbox), холст 640×480, вставка по центру"
+  },
+  {
+   "op": "encode",
+   "format": "jpeg",
+   "quality": 88,
+   "library": "Pillow",
+   "mode": "RGB",
+   "optimize": true
+  }
+ ],
+ "coordinateConvention": {
+  "sourceFrame": {
+   "kind": "image",
+   "axes": {
+    "x": "вправо",
+    "y": "вниз",
+    "t": "номер снимка"
+   },
+   "units": "px",
+   "pixelSpacingMm": null,
+   "worldMeaning": "unknown"
+  },
+  "frame": {
+   "origin": "левый верхний угол пикселя (0,0)",
+   "x": "вправо",
+   "y": "вниз (глубина)",
+   "units": "px",
+   "pixelSpacingMm": null
+  },
+  "frameToSource": {
+   "x": "(x − x0 + 0.5)/scale − 0.5",
+   "y": "(y − y0 + 0.5)/scale − 0.5",
+   "status": "provided",
+   "note": "x0, y0, scale — atlasFrames[frameId].letterbox; поля холста — без данных"
+  }
+ },
+ "validity": {
+  "status": "heuristic",
+  "noData": "поля холста вне atlasFrames[].letterbox (x0…x0+w, y0…y0+h)",
+  "definition": "Вне вписанного снимка данных нет; внутри снимка маска области изображения не строилась."
+ },
+ "trajectory": {
+  "kind": "relative-sweep-index",
+  "kindNote": "Набор снимков: ползунок листает снимки. Трекинга нет; проход на фигуре условный.",
+  "s": [
+   0.0,
+   1.0
+  ],
+  "lutSize": 2,
+  "lut": [
+   0,
+   1
+  ],
+  "directionOnBody": {
+   "value": "unknown",
+   "status": "unknown",
+   "evidence": "Движение датчика не отслеживалось."
+  },
+  "bodyPlacement": {
+   "startFractionOfForearm": 0,
+   "endFractionOfForearm": 0,
+   "surface": "ладонная поверхность предплечья, левая сторона (условно; сторона в источнике неизвестна)",
+   "status": "условное размещение",
+   "path": {
+    "from": [
+     0.0704,
+     0.1194,
+     0.2727
+    ],
+    "to": [
+     0.031,
+     0.1194,
+     0.2797
+    ],
+    "rayDir": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   }
+  }
+ },
+ "supportedMotions": {
+  "slideAlongSweep": true,
+  "lateralShift": false,
+  "rotation": false,
+  "tilt": false,
+  "compression": false,
+  "note": "Только выбор снимка."
+ },
+ "calibration": {
+  "imageToSensor": "absent",
+  "note": "Калибровки и трекинга нет."
+ },
+ "controlPoints": [
+  {
+   "id": "КТ1",
+   "t": 0,
+   "frameId": 0,
+   "frameSha256": "0297f5c9f9ccd51491fd46fc84577a8426eed3bcea9983a774de2559dfb68ccc",
+   "image": "cases/atlas-median-snimki/frames/0000.jpg"
+  },
+  {
+   "id": "КТ2",
+   "t": 0.25,
+   "frameId": 0,
+   "frameSha256": "0297f5c9f9ccd51491fd46fc84577a8426eed3bcea9983a774de2559dfb68ccc",
+   "image": "cases/atlas-median-snimki/frames/0000.jpg"
+  },
+  {
+   "id": "КТ3",
+   "t": 0.5,
+   "frameId": 1,
+   "frameSha256": "f749732f338b78b063edca7cb18ce09b7525ca93a2ffcdf2ca2326e985b99b90",
+   "image": "cases/atlas-median-snimki/frames/0001.jpg"
+  },
+  {
+   "id": "КТ4",
+   "t": 0.75,
+   "frameId": 1,
+   "frameSha256": "f749732f338b78b063edca7cb18ce09b7525ca93a2ffcdf2ca2326e985b99b90",
+   "image": "cases/atlas-median-snimki/frames/0001.jpg"
+  },
+  {
+   "id": "КТ5",
+   "t": 1,
+   "frameId": 1,
+   "frameSha256": "f749732f338b78b063edca7cb18ce09b7525ca93a2ffcdf2ca2326e985b99b90",
+   "image": "cases/atlas-median-snimki/frames/0001.jpg"
+  }
+ ],
+ "verification": {
+  "frameSha256": [
+   "0297f5c9f9ccd51491fd46fc84577a8426eed3bcea9983a774de2559dfb68ccc",
+   "f749732f338b78b063edca7cb18ce09b7525ca93a2ffcdf2ca2326e985b99b90"
+  ]
+ },
+ "knownIssues": [
+  "Подписи структур, стрелки и значки ориентации атласа вшиты в снимки; эталонной разметки SonoLab нет.",
+  "Это отдельные снимки, а не проход датчиком; соседние кадры не связаны движением.",
+  "Масштаб, аппарат, глубина и сторона пациента не указаны.",
+  "Лицензия CC BY-NC 4.0: только некоммерческое использование с указанием авторов."
+ ],
+ "atlasFrames": [
+  {
+   "frameId": 0,
+   "file": "media/060_forearm-blocks_1632507466834_Median-09.png",
+   "title": "",
+   "alt": "Median-09.png",
+   "caption": "",
+   "authorsAsGiven": [],
+   "burnedInLabels": "да — подписи структур/стрелки атласа (проверено просмотром)",
+   "letterbox": {
+    "scale": 0.256,
+    "x0": 0,
+    "y0": 61,
+    "w": 640,
+    "h": 357,
+    "srcW": 2500,
+    "srcH": 1393
+   }
+  },
+  {
+   "frameId": 1,
+   "file": "media/061_forearm-blocks_1632507466680_Median-10.png",
+   "title": "",
+   "alt": "Median-10.png",
+   "caption": "",
+   "authorsAsGiven": [],
+   "burnedInLabels": "да — значки ориентации (Medial/Lateral и т. п.), без названий структур (проверено просмотром)",
+   "letterbox": {
+    "scale": 0.256,
+    "x0": 0,
+    "y0": 62,
+    "w": 640,
+    "h": 356,
+    "srcW": 2500,
+    "srcH": 1392
+   }
+  }
+ ]
+}

@@ -1,0 +1,375 @@
+{
+ "schema": "sonolab.annotations/1",
+ "caseId": "chang2018-nerve-05",
+ "dataVersion": "1.0.0",
+ "version": 1,
+ "updatedAt": "2026-11-25T00:00:00Z",
+ "structures": [
+  {
+   "id": "pabcn",
+   "name": "Задний кожный нерв предплечья",
+   "class": "nerve",
+   "color": "#ffd60a"
+  },
+  {
+   "id": "pabcn-b",
+   "name": "Задний кожный нерв предплечья — второй наконечник авторов",
+   "class": "nerve",
+   "color": "#ffb000"
+  },
+  {
+   "id": "brachialis",
+   "name": "Плечевая мышца",
+   "class": "muscle",
+   "color": "#d6409f"
+  },
+  {
+   "id": "triceps",
+   "name": "Трёхглавая мышца плеча",
+   "class": "muscle",
+   "color": "#ab4aba"
+  },
+  {
+   "id": "humerus",
+   "name": "Плечевая кость",
+   "class": "bone",
+   "color": "#e8e8e8"
+  }
+ ],
+ "frames": {
+  "18": [
+   {
+    "id": "d18-pabcn",
+    "structureId": "pabcn",
+    "kind": "point",
+    "x": 252.0,
+    "y": 195.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d18-brachialis",
+    "structureId": "brachialis",
+    "kind": "point",
+    "x": 110.0,
+    "y": 205.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Brachialis»."
+   },
+   {
+    "id": "d18-triceps",
+    "structureId": "triceps",
+    "kind": "point",
+    "x": 506.0,
+    "y": 250.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Triceps»."
+   },
+   {
+    "id": "d18-humerus",
+    "structureId": "humerus",
+    "kind": "point",
+    "x": 160.0,
+    "y": 255.0,
+    "tolerancePx": 24,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «Humerus»; яркая линия кортикального слоя."
+   }
+  ],
+  "24": [
+   {
+    "id": "d24-pabcn",
+    "structureId": "pabcn",
+    "kind": "point",
+    "x": 252.0,
+    "y": 195.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (целевой нерв видео S5)."
+   },
+   {
+    "id": "d24-brachialis",
+    "structureId": "brachialis",
+    "kind": "point",
+    "x": 110.0,
+    "y": 205.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Brachialis»."
+   },
+   {
+    "id": "d24-triceps",
+    "structureId": "triceps",
+    "kind": "point",
+    "x": 506.0,
+    "y": 250.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Triceps»."
+   },
+   {
+    "id": "d24-humerus",
+    "structureId": "humerus",
+    "kind": "point",
+    "x": 160.0,
+    "y": 255.0,
+    "tolerancePx": 24,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «Humerus»; точка на яркой линии кортикального слоя над акустической тенью."
+   }
+  ],
+  "27": [
+   {
+    "id": "d27-pabcn",
+    "structureId": "pabcn",
+    "kind": "point",
+    "x": 325.0,
+    "y": 184.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "88": [
+   {
+    "id": "d88-pabcn",
+    "structureId": "pabcn",
+    "kind": "point",
+    "x": 213.0,
+    "y": 96.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (левый наконечник)."
+   },
+   {
+    "id": "d88-pabcn-b",
+    "structureId": "pabcn-b",
+    "kind": "point",
+    "x": 433.0,
+    "y": 127.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (правый наконечник; ветвь того же нерва — уточнить)."
+   },
+   {
+    "id": "d88-brachialis",
+    "structureId": "brachialis",
+    "kind": "point",
+    "x": 78.0,
+    "y": 150.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Brachialis»."
+   },
+   {
+    "id": "d88-triceps",
+    "structureId": "triceps",
+    "kind": "point",
+    "x": 506.0,
+    "y": 255.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Triceps»."
+   },
+   {
+    "id": "d88-humerus",
+    "structureId": "humerus",
+    "kind": "point",
+    "x": 165.0,
+    "y": 190.0,
+    "tolerancePx": 24,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «Humerus»; точка на вершине кортикальной дуги."
+   }
+  ],
+  "92": [
+   {
+    "id": "d92-pabcn",
+    "structureId": "pabcn",
+    "kind": "point",
+    "x": 213.0,
+    "y": 98.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (левый наконечник)."
+   },
+   {
+    "id": "d92-pabcn-b",
+    "structureId": "pabcn-b",
+    "kind": "point",
+    "x": 435.0,
+    "y": 128.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (правый наконечник)."
+   },
+   {
+    "id": "d92-triceps",
+    "structureId": "triceps",
+    "kind": "point",
+    "x": 506.0,
+    "y": 255.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Triceps»."
+   },
+   {
+    "id": "d92-humerus",
+    "structureId": "humerus",
+    "kind": "point",
+    "x": 130.0,
+    "y": 190.0,
+    "tolerancePx": 24,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «Humerus»; вершина кортикальной дуги."
+   }
+  ],
+  "96": [
+   {
+    "id": "d96-pabcn",
+    "structureId": "pabcn",
+    "kind": "point",
+    "x": 213.0,
+    "y": 96.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (левый наконечник)."
+   },
+   {
+    "id": "d96-pabcn-b",
+    "structureId": "pabcn-b",
+    "kind": "point",
+    "x": 433.0,
+    "y": 127.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (правый наконечник)."
+   },
+   {
+    "id": "d96-brachialis",
+    "structureId": "brachialis",
+    "kind": "point",
+    "x": 78.0,
+    "y": 150.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Brachialis»."
+   },
+   {
+    "id": "d96-triceps",
+    "structureId": "triceps",
+    "kind": "point",
+    "x": 506.0,
+    "y": 255.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Triceps»."
+   },
+   {
+    "id": "d96-humerus",
+    "structureId": "humerus",
+    "kind": "point",
+    "x": 165.0,
+    "y": 190.0,
+    "tolerancePx": 24,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «Humerus»; вершина кортикальной дуги."
+   }
+  ]
+ }
+}

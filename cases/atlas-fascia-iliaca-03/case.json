@@ -1,0 +1,430 @@
+{
+ "schema": "sonolab.case/1",
+ "caseId": "atlas-fascia-iliaca-03",
+ "dataVersion": "1.0.0",
+ "title": "Блокада под фасцией подвздошной мышцы / бедренного нерва — клип атласа «Femoral Nerve Block» (The POCUS Atlas, Nerve Block Atlas)",
+ "region": {
+  "id": "hip",
+  "name": "Паховая область"
+ },
+ "patientSide": "unknown",
+ "imageType": "recorded-sweep",
+ "imageTypeNote": "Настоящее УЗИ: учебный клип атласа блокад (The POCUS Atlas совместно с Denver Health Ultrasound). Пометки, подписи и значок атласа, если они есть, ВШИТЫ в изображение и не отключаются (см. burnedInAnnotations). Положение датчика не отслеживалось; кадры — равномерная подвыборка 41 из 41 кадров клипа. Не симуляция.",
+ "source": {
+  "dataset": "The POCUS Atlas - Nerve Block Atlas (in partnership with Denver Health Ultrasound)",
+  "subset": "Fascia iliaca / femoral: 114_lower-extremity-blocks_1604347060957_image-asset.gif",
+  "revision": "скачано 2026-11-25, atlas_items.json SHA-256 316ef6bbe3e88cdc68a02118d909dfd2fcb4eb2ccee75bd83954e4deaf4ea093",
+  "url": "https://www.thepocusatlas.com/lower-extremity-blocks",
+  "pageUrl": "https://www.thepocusatlas.com/lower-extremity-blocks",
+  "atlasUrl": "https://www.thepocusatlas.com/nerve-block-atlas",
+  "mediaUrl": "https://images.squarespace-cdn.com/content/v1/58118909e3df282037abfad7/1604347060957-GOI6BX4WTJ69QY5L19GG/image-asset.gif",
+  "license": "CC BY-NC 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "licenseAsStated": "\"Our content is licensed under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)\" - https://www.thepocusatlas.com/legal",
+  "attribution": "The POCUS Atlas, Nerve Block Atlas, in partnership with Denver Health Ultrasound. Editors: Dr. Joseph Brown, Dr. Jamie Pospishil; lead editor Dr. Michael Heffler; per-clip authors as given in atlas_items.json (caption / author_attribution_as_given).",
+  "clipAttribution": {
+   "title": "Femoral Nerve Block",
+   "caption": "Demonstration of an in-plane femoral nerve block, with needle seen entering from lateral to medial, depositing anesthetic in the space just lateral to the femoral nerve (*). \nThis block was performed in a 50s year-old male patient with an intertrochanteric femur fracture, with successful analgesia until surgery was performed the next day. \nDrs. Kathleen Joseph, PGY-2 and Reid Haflich, PGY-4\nDenver Health Residency in Emergency Medicine",
+   "authorsAsGiven": [
+    "Drs. Kathleen Joseph, PGY-2 and Reid Haflich, PGY-4",
+    "Denver Health Residency in Emergency Medicine"
+   ],
+   "note": "дословно из atlas_items.json (страница атласа); пусто — на странице не указано"
+  },
+  "siteLevelAttribution": "Editors: Dr. Joseph Brown (University of Colorado), Dr. Jamie Pospishil (Denver Health); lead editor and content developer: Dr. Michael Heffler (Denver Health), with Dr. Jaclyn Walker, Matthew Riscinti (Denver Health), Michael Macias (UHS SoCal MEC); other contributors: Drs. Christopher Hanuscin (Kings County), Sam Paskin-Dwyer (as stated on the atlas main page). Per-clip authors, where given, are in author_attribution_as_given / caption.",
+  "task": "УЗИ-навигация для блокады: Fascia iliaca / femoral",
+  "files": {
+   "media/114_lower-extremity-blocks_1604347060957_image-asset.gif": {
+    "bytes": 1037369,
+    "sha256": "14c87ab3608fc04ccbd5c1b9c6a36908d9a40e2db92585a4ea5a135d6dbc0623",
+    "verifiedAgainst": "SOURCE.json"
+   }
+  },
+  "usageRestriction": "только некоммерческое обучение с указанием авторов (CC BY-NC 4.0)"
+ },
+ "probe": {
+  "model": "не указан",
+  "kind": "неизвестно",
+  "imageFormat": "изображение экрана аппарата",
+  "centerFrequencyMHz": 0,
+  "imagingDepthCm": 0,
+  "note": "Аппарат, датчик, частота и глубина в источнике не указаны (0 = неизвестно)."
+ },
+ "frames": {
+  "count": 41,
+  "fps": 0,
+  "width": 506,
+  "height": 311,
+  "pattern": "frames/{id:04d}.jpg",
+  "conversion": "GIF 506×311 → 506×311, 41 из 41 кадров, JPEG q=88"
+ },
+ "imageGeometry": {
+  "orientation": "как в изображении источника",
+  "pixelSpacingMm": null,
+  "pixelSpacingNote": "Масштаб в источнике не указан; линейка на экране аппарата (если видна) — единственная мера.",
+  "depthSettingCm": 0,
+  "probeMarkerSide": "unknown",
+  "flipApplied": false,
+  "lateralOrientation": "Метка датчика и сторона пациента не указаны."
+ },
+ "acquisition": {
+  "scanner": null,
+  "probe": null,
+  "probeType": "неизвестно",
+  "centerFrequencyMHz": null,
+  "depthCm": null,
+  "sourceUnits": {
+   "spatial": "unknown",
+   "intensity": "8-бит GIF (экран аппарата, перекодирован атласом)"
+  },
+  "fieldStatus": {
+   "scanner": "unknown",
+   "probe": "unknown",
+   "probeType": "heuristic",
+   "centerFrequencyMHz": "unknown",
+   "depthCm": "unknown",
+   "sourceUnits": "heuristic"
+  },
+  "note": "Аппарат, датчик, частота и глубина на странице атласа не указаны."
+ },
+ "transforms": [
+  {
+   "op": "read",
+   "format": "gif",
+   "file": "media/114_lower-extremity-blocks_1604347060957_image-asset.gif",
+   "width": 506,
+   "height": 311,
+   "frames": 41,
+   "durationS": 4.1
+  },
+  {
+   "op": "decode",
+   "library": "Pillow ImageSequence",
+   "frameIndices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+   ],
+   "note": "равномерная подвыборка по номеру кадра; GIF — с учётом наложения кадров (Pillow); видео — квадратный пиксель (setsar=1)"
+  },
+  {
+   "op": "resample",
+   "method": "none",
+   "scale": 1.0,
+   "from": [
+    506,
+    311
+   ],
+   "to": [
+    506,
+    311
+   ]
+  },
+  {
+   "op": "encode",
+   "format": "jpeg",
+   "quality": 88,
+   "library": "Pillow",
+   "mode": "RGB",
+   "optimize": true
+  }
+ ],
+ "coordinateConvention": {
+  "sourceFrame": {
+   "kind": "video-frame",
+   "axes": {
+    "x": "вправо",
+    "y": "вниз",
+    "t": "номер кадра клипа"
+   },
+   "units": "px",
+   "pixelSpacingMm": null,
+   "worldMeaning": "unknown",
+   "note": "Экран аппарата; масштаб и метка датчика не указаны."
+  },
+  "frame": {
+   "origin": "левый верхний угол пикселя (0,0)",
+   "x": "вправо",
+   "y": "вниз (глубина)",
+   "units": "px",
+   "pixelSpacingMm": null
+  },
+  "frameToSource": {
+   "x": "(x + 0.5)/1.000000 − 0.5",
+   "y": "(y + 0.5)/1.000000 − 0.5",
+   "t": "frameIndices[frameId]",
+   "status": "provided",
+   "note": "точная цепочка импорта (transforms)"
+  }
+ },
+ "validity": {
+  "status": "unknown",
+  "noData": null,
+  "definition": "Маска области изображения не дана и не строилась; служебные поля экрана и анэхогенные ткани по значению не различаются."
+ },
+ "trajectory": {
+  "kind": "relative-sweep-index",
+  "kindNote": "Навигация по номеру кадра клипа, а не по положению датчика. Трекинга нет; проход на фигуре условный.",
+  "s": [
+   0.0,
+   0.025,
+   0.05,
+   0.075,
+   0.1,
+   0.125,
+   0.15,
+   0.175,
+   0.2,
+   0.225,
+   0.25,
+   0.275,
+   0.3,
+   0.325,
+   0.35,
+   0.375,
+   0.4,
+   0.425,
+   0.45,
+   0.475,
+   0.5,
+   0.525,
+   0.55,
+   0.575,
+   0.6,
+   0.625,
+   0.65,
+   0.675,
+   0.7,
+   0.725,
+   0.75,
+   0.775,
+   0.8,
+   0.825,
+   0.85,
+   0.875,
+   0.9,
+   0.925,
+   0.95,
+   0.975,
+   1.0
+  ],
+  "lutSize": 41,
+  "lut": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "directionOnBody": {
+   "value": "unknown",
+   "status": "unknown",
+   "evidence": "Движение датчика не отслеживалось."
+  },
+  "bodyPlacement": {
+   "startFractionOfForearm": 0,
+   "endFractionOfForearm": 0,
+   "surface": "паховая складка, левая сторона (условно; сторона в источнике неизвестна)",
+   "status": "условное размещение",
+   "path": {
+    "from": [
+     0.01,
+     0.13,
+     0.075
+    ],
+    "to": [
+     0.01,
+     0.13,
+     0.105
+    ],
+    "rayDir": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   }
+  }
+ },
+ "supportedMotions": {
+  "slideAlongSweep": true,
+  "lateralShift": false,
+  "rotation": false,
+  "tilt": false,
+  "compression": false,
+  "note": "Только выбор кадра клипа."
+ },
+ "calibration": {
+  "imageToSensor": "absent",
+  "note": "Калибровки и трекинга нет."
+ },
+ "controlPoints": [
+  {
+   "id": "КТ1",
+   "t": 0,
+   "frameId": 0,
+   "frameSha256": "2eeef5d448d901f2ae32873d1274388f0bf21fc6c8ee98ec4629858ab8d9719d",
+   "image": "cases/atlas-fascia-iliaca-03/frames/0000.jpg"
+  },
+  {
+   "id": "КТ2",
+   "t": 0.25,
+   "frameId": 10,
+   "frameSha256": "9ec23055062eee0fa417823bcdeef3a8c7dde837b4cbbff292c56d2697cbfe60",
+   "image": "cases/atlas-fascia-iliaca-03/frames/0010.jpg"
+  },
+  {
+   "id": "КТ3",
+   "t": 0.5,
+   "frameId": 20,
+   "frameSha256": "2cc77f89a0778b1e96958b4da8545a81c758c594f192ed38f1beaf2fdd4a6adc",
+   "image": "cases/atlas-fascia-iliaca-03/frames/0020.jpg"
+  },
+  {
+   "id": "КТ4",
+   "t": 0.75,
+   "frameId": 30,
+   "frameSha256": "75251a4ae067e3fbd01f02d856904cd4cad39963029aa18cf1073c1670993ce9",
+   "image": "cases/atlas-fascia-iliaca-03/frames/0030.jpg"
+  },
+  {
+   "id": "КТ5",
+   "t": 1,
+   "frameId": 40,
+   "frameSha256": "cdf8189e351efa87a253199192f0ce3d6f8a6e8ff20a0822b6e910f697345b67",
+   "image": "cases/atlas-fascia-iliaca-03/frames/0040.jpg"
+  }
+ ],
+ "verification": {
+  "frameSha256": [
+   "2eeef5d448d901f2ae32873d1274388f0bf21fc6c8ee98ec4629858ab8d9719d",
+   "1222cf698ec6a2ec999e59fff61fd5aa0b258423fb1c8b089e203883617bff5a",
+   "67c48917e81c67004c07cf2957b587b20baf2f7f755db3e5435120ddd98c48a1",
+   "69747f0568ac3a1fb31419a4d43b554fef83acd755567d4f5fa1a0ac0a9a4b4e",
+   "c1b012f2ff26cc2d82d7e749324dd36e5cd9034a1d0f7846faca2cfa4fefef28",
+   "bebd9452e2698167feca9bb9e1260f7c97e83cc955fce0220740a8eda7a1ffc1",
+   "ba3def78d1014d0fc8a9a1baccd819d9826db86e06043aa67b9218c26d9bb3dd",
+   "924725efc72e398d89c826cb1155eea9ccc3abaeeeff0bae693f933aa42812ed",
+   "efd4f9334bd09cdf3c9e32937b021a0fb35e5f1ccc1bb77dd805897611ef217a",
+   "d8c506bccb496a3bdd66a347b548c9397b9bccf381a796d0dd287947e6a24958",
+   "9ec23055062eee0fa417823bcdeef3a8c7dde837b4cbbff292c56d2697cbfe60",
+   "9992cdd537b11e9659237219256b403b7e310543356b6be6975dc72fc047bb12",
+   "576666d3dfa274a91dac488b5f5a172f0d21a998fe4c1b12f02a3a41eab68f5b",
+   "50959f980ecc3f4cdc0d64f14138e640f2c1085a29d40f33b81694e5a4f8aca4",
+   "0cadd942f147fabc6a5d3a9cf517c19a9c9d6b2f92c312046a1168f6cd2548c8",
+   "225c482e79980c74eb0fec64f63c1be2935c01dff41f6882a64d71a052ef8290",
+   "408ab8f8d075b599606d54f8c12e6c349f8e5bbe5f334488a2ccdc9e0fcdcf32",
+   "82584d07362e535a871878dfd19ec37ffcf80e7f29cc8db3f906d4aa95c6e8ed",
+   "504f07466e080932694754ebc55dd4a6c091fc662a20685601a8b1f8950f2908",
+   "3c7704f511796abb82a617abf19645bcb881d7aded6fc7494ca6e6919a51b4a1",
+   "2cc77f89a0778b1e96958b4da8545a81c758c594f192ed38f1beaf2fdd4a6adc",
+   "8fce54589654f280193e585b6feb49a6feb7473559e8f66aba8ca06de7608301",
+   "219ba6b27419bfda8aff4460f104a8b1e31867c64098afe1bd91179cef87a81f",
+   "51e682a879c890f9b271ce3fb517506a1925b7093703304ce2fa71c6bddc3f86",
+   "dbe0b910587d61f67a0c6a079b446b4a6d130d83ebf915e97e8f33cbd64c010b",
+   "7908960520f9949351c127433ec7f2d6b44537adcd9d9f37f683e1f4c8dee648",
+   "5685c262389135300fa7ba7eab44553730c5a522139b1b64cbeb50463e52189b",
+   "dbaa81a6dfa1d9d735ae02c024a3bfcd957d6e323182acca2ce027ec8a6d1431",
+   "0215a7d2e04c6047243c4ce0503997adbf85aae913a310f88b9c6fd71aa206ee",
+   "3932e4711bef85cc34ef32e4cc56bbe60e4ee02723146ad1422f12f9ae234fdc",
+   "75251a4ae067e3fbd01f02d856904cd4cad39963029aa18cf1073c1670993ce9",
+   "f3848b8775d92d0d8be8d59f942d722bd19ab4f14c026fd4044772a0485539b0",
+   "3906c14ce7eae63f113fca02f2c93a356099aaf2b448e68c7559ee93252b97ed",
+   "065dc589aae5265e1bd8c061e54caae33e041e13b43ac1bb6bf8aca240865edc",
+   "d8e4bcb690f39062bf5bf8d41b8389293184d78b93557ad28e63087cf626608d",
+   "7d351e7547446dc9f08d3943d15b47375e8938454531cb8eb24ba5c5e00e8da9",
+   "2d60dcc5623de26991281d8f30d0a43db1c18d4ed2936755bfcbcc1fadfb65d9",
+   "5da08d2bfc5c57bbefc33aa76e4eaded9ff69681da8b80c0e0d4b3ac2a278195",
+   "bedfa61921f9725cdcdf0be505c0bdc4253abff2fb08b07cb3bd4fbe2fd171d8",
+   "8419551c3746f1ff1dd90214832f753d1e644528004752678d4d3b2cc02be591",
+   "cdf8189e351efa87a253199192f0ce3d6f8a6e8ff20a0822b6e910f697345b67"
+  ]
+ },
+ "knownIssues": [
+  "Пометки, подписи и значок атласа вшиты в кадры (если есть); это пометки авторов, а не эталонная разметка SonoLab.",
+  "Положение и движение датчика не отслеживались: проход по фигуре — условное размещение.",
+  "Сторона пациента, метка датчика, масштаб, аппарат и глубина не указаны.",
+  "Клип перекодирован с потерями (GIF/MP4 → JPEG); подвыборка кадров.",
+  "Лицензия CC BY-NC 4.0: только некоммерческое использование с указанием авторов."
+ ],
+ "burnedInAnnotations": {
+  "atlasLogo": "да (значок атласа в углу кадра, если виден на клипе)",
+  "colorMarks": "да — найдены цветные пометки (звёздочки, линии, подписи) или цветной допплер (автоматическая проверка)",
+  "textLabels": "неизвестно: белые надписи и стрелки автоматически не определяются; подписи авторов могут быть вшиты",
+  "status": "heuristic"
+ },
+ "sourceDuplicates": {}
+}

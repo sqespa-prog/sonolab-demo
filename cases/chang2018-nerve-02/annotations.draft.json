@@ -1,0 +1,227 @@
+{
+ "schema": "sonolab.annotations/1",
+ "caseId": "chang2018-nerve-02",
+ "dataVersion": "1.0.0",
+ "version": 1,
+ "updatedAt": "2026-11-25T00:00:00Z",
+ "structures": [
+  {
+   "id": "icbn",
+   "name": "Межрёберно-плечевой нерв",
+   "class": "nerve",
+   "color": "#ffd60a"
+  },
+  {
+   "id": "teres-major",
+   "name": "Большая круглая мышца",
+   "class": "muscle",
+   "color": "#d6409f"
+  },
+  {
+   "id": "triceps",
+   "name": "Трёхглавая мышца плеча",
+   "class": "muscle",
+   "color": "#ab4aba"
+  },
+  {
+   "id": "latissimus",
+   "name": "Широчайшая мышца спины",
+   "class": "muscle",
+   "color": "#8e4ec6"
+  }
+ ],
+ "frames": {
+  "24": [
+   {
+    "id": "d24-icbn",
+    "structureId": "icbn",
+    "kind": "point",
+    "x": 328.0,
+    "y": 138.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (целевой нерв видео S2)."
+   },
+   {
+    "id": "d24-teres-major",
+    "structureId": "teres-major",
+    "kind": "point",
+    "x": 338.0,
+    "y": 258.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Teres Major»."
+   },
+   {
+    "id": "d24-triceps",
+    "structureId": "triceps",
+    "kind": "point",
+    "x": 338.0,
+    "y": 372.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Triceps»."
+   }
+  ],
+  "32": [
+   {
+    "id": "d32-icbn",
+    "structureId": "icbn",
+    "kind": "point",
+    "x": 328.0,
+    "y": 138.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d32-teres-major",
+    "structureId": "teres-major",
+    "kind": "point",
+    "x": 338.0,
+    "y": 258.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Teres Major»."
+   },
+   {
+    "id": "d32-triceps",
+    "structureId": "triceps",
+    "kind": "point",
+    "x": 338.0,
+    "y": 372.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Triceps»."
+   }
+  ],
+  "40": [
+   {
+    "id": "d40-icbn",
+    "structureId": "icbn",
+    "kind": "point",
+    "x": 325.0,
+    "y": 156.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка, подписи нет."
+   }
+  ],
+  "88": [
+   {
+    "id": "d88-icbn",
+    "structureId": "icbn",
+    "kind": "point",
+    "x": 253.0,
+    "y": 108.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d88-latissimus",
+    "structureId": "latissimus",
+    "kind": "point",
+    "x": 305.0,
+    "y": 180.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Latissimus Dorsi»."
+   },
+   {
+    "id": "d88-teres-major",
+    "structureId": "teres-major",
+    "kind": "point",
+    "x": 305.0,
+    "y": 310.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Teres Major»."
+   }
+  ],
+  "96": [
+   {
+    "id": "d96-icbn",
+    "structureId": "icbn",
+    "kind": "point",
+    "x": 254.0,
+    "y": 110.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d96-latissimus",
+    "structureId": "latissimus",
+    "kind": "point",
+    "x": 305.0,
+    "y": 182.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Latissimus Dorsi»."
+   },
+   {
+    "id": "d96-teres-major",
+    "structureId": "teres-major",
+    "kind": "point",
+    "x": 305.0,
+    "y": 312.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Teres Major»."
+   }
+  ]
+ }
+}

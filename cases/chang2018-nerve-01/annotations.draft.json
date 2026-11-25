@@ -1,0 +1,227 @@
+{
+ "schema": "sonolab.annotations/1",
+ "caseId": "chang2018-nerve-01",
+ "dataVersion": "1.0.0",
+ "version": 1,
+ "updatedAt": "2026-11-25T00:00:00Z",
+ "structures": [
+  {
+   "id": "mbcn",
+   "name": "Медиальный кожный нерв плеча",
+   "class": "nerve",
+   "color": "#ffd60a"
+  },
+  {
+   "id": "mabcn",
+   "name": "Медиальный кожный нерв предплечья",
+   "class": "nerve",
+   "color": "#ffb000"
+  },
+  {
+   "id": "ulnar-nerve",
+   "name": "Локтевой нерв",
+   "class": "nerve",
+   "color": "#f5d90a"
+  },
+  {
+   "id": "triceps",
+   "name": "Трёхглавая мышца плеча",
+   "class": "muscle",
+   "color": "#d6409f"
+  }
+ ],
+ "frames": {
+  "16": [
+   {
+    "id": "d16-mbcn",
+    "structureId": "mbcn",
+    "kind": "point",
+    "x": 352.0,
+    "y": 150.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (наконечник — целевой нерв видео S1)."
+   },
+   {
+    "id": "d16-mabcn",
+    "structureId": "mabcn",
+    "kind": "point",
+    "x": 162.0,
+    "y": 152.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: стрелка с подписью «Medial Antebrachial Cutaneous Nerve»."
+   },
+   {
+    "id": "d16-triceps",
+    "structureId": "triceps",
+    "kind": "point",
+    "x": 375.0,
+    "y": 262.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Triceps»; точка — в мышце под подписью."
+   }
+  ],
+  "24": [
+   {
+    "id": "d24-mbcn",
+    "structureId": "mbcn",
+    "kind": "point",
+    "x": 353.0,
+    "y": 150.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d24-mabcn",
+    "structureId": "mabcn",
+    "kind": "point",
+    "x": 162.0,
+    "y": 152.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: стрелка с подписью «Medial Antebrachial Cutaneous Nerve»."
+   },
+   {
+    "id": "d24-triceps",
+    "structureId": "triceps",
+    "kind": "point",
+    "x": 375.0,
+    "y": 262.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Triceps»."
+   }
+  ],
+  "32": [
+   {
+    "id": "d32-mbcn",
+    "structureId": "mbcn",
+    "kind": "point",
+    "x": 348.0,
+    "y": 148.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка, подписи нет."
+   }
+  ],
+  "88": [
+   {
+    "id": "d88-mbcn",
+    "structureId": "mbcn",
+    "kind": "point",
+    "x": 365.0,
+    "y": 128.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d88-ulnar-nerve",
+    "structureId": "ulnar-nerve",
+    "kind": "point",
+    "x": 88.0,
+    "y": 174.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: чёрная стрелка с подписью «Ulnar Nerve»."
+   },
+   {
+    "id": "d88-triceps",
+    "structureId": "triceps",
+    "kind": "point",
+    "x": 375.0,
+    "y": 262.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Triceps»."
+   }
+  ],
+  "96": [
+   {
+    "id": "d96-mbcn",
+    "structureId": "mbcn",
+    "kind": "point",
+    "x": 365.0,
+    "y": 126.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d96-ulnar-nerve",
+    "structureId": "ulnar-nerve",
+    "kind": "point",
+    "x": 88.0,
+    "y": 176.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: чёрная стрелка с подписью «Ulnar Nerve»."
+   },
+   {
+    "id": "d96-triceps",
+    "structureId": "triceps",
+    "kind": "point",
+    "x": 375.0,
+    "y": 262.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Triceps»."
+   }
+  ]
+ }
+}

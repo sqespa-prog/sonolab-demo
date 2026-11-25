@@ -1,0 +1,263 @@
+{
+ "schema": "sonolab.annotations/1",
+ "caseId": "chang2018-nerve-12",
+ "dataVersion": "1.0.0",
+ "version": 1,
+ "updatedAt": "2026-11-25T00:00:00Z",
+ "structures": [
+  {
+   "id": "mscn",
+   "name": "Медиальный кожный нерв икры",
+   "class": "nerve",
+   "color": "#ffd60a"
+  },
+  {
+   "id": "tibial-nerve",
+   "name": "Большеберцовый нерв",
+   "class": "nerve",
+   "color": "#ffb000"
+  },
+  {
+   "id": "lateral-gastrocnemius",
+   "name": "Латеральная головка икроножной мышцы",
+   "class": "muscle",
+   "color": "#d6409f"
+  },
+  {
+   "id": "medial-gastrocnemius",
+   "name": "Медиальная головка икроножной мышцы",
+   "class": "muscle",
+   "color": "#ab4aba"
+  },
+  {
+   "id": "soleus",
+   "name": "Камбаловидная мышца",
+   "class": "muscle",
+   "color": "#8e4ec6"
+  }
+ ],
+ "frames": {
+  "12": [
+   {
+    "id": "d12-mscn",
+    "structureId": "mscn",
+    "kind": "point",
+    "x": 400.0,
+    "y": 92.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d12-tibial-nerve",
+    "structureId": "tibial-nerve",
+    "kind": "point",
+    "x": 373.0,
+    "y": 158.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: контурная стрелка с подписью «Tibial Nerve»."
+   },
+   {
+    "id": "d12-lateral-gastrocnemius",
+    "structureId": "lateral-gastrocnemius",
+    "kind": "point",
+    "x": 125.0,
+    "y": 176.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Lateral Gastrocnemius»."
+   },
+   {
+    "id": "d12-medial-gastrocnemius",
+    "structureId": "medial-gastrocnemius",
+    "kind": "point",
+    "x": 565.0,
+    "y": 262.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Medial Gastrocnemius»."
+   }
+  ],
+  "16": [
+   {
+    "id": "d16-mscn",
+    "structureId": "mscn",
+    "kind": "point",
+    "x": 400.0,
+    "y": 92.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (целевой нерв видео S12)."
+   },
+   {
+    "id": "d16-tibial-nerve",
+    "structureId": "tibial-nerve",
+    "kind": "point",
+    "x": 373.0,
+    "y": 158.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: контурная стрелка с подписью «Tibial Nerve» (остриём вверх)."
+   },
+   {
+    "id": "d16-lateral-gastrocnemius",
+    "structureId": "lateral-gastrocnemius",
+    "kind": "point",
+    "x": 125.0,
+    "y": 176.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Lateral Gastrocnemius»."
+   },
+   {
+    "id": "d16-medial-gastrocnemius",
+    "structureId": "medial-gastrocnemius",
+    "kind": "point",
+    "x": 565.0,
+    "y": 262.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Medial Gastrocnemius»."
+   }
+  ],
+  "22": [
+   {
+    "id": "d22-mscn",
+    "structureId": "mscn",
+    "kind": "point",
+    "x": 377.0,
+    "y": 118.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "37": [
+   {
+    "id": "d37-mscn",
+    "structureId": "mscn",
+    "kind": "point",
+    "x": 382.0,
+    "y": 128.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "54": [
+   {
+    "id": "d54-mscn",
+    "structureId": "mscn",
+    "kind": "point",
+    "x": 351.0,
+    "y": 138.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "96": [
+   {
+    "id": "d96-mscn",
+    "structureId": "mscn",
+    "kind": "point",
+    "x": 384.0,
+    "y": 138.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d96-lateral-gastrocnemius",
+    "structureId": "lateral-gastrocnemius",
+    "kind": "point",
+    "x": 155.0,
+    "y": 202.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Lateral Gastrocnemius»."
+   },
+   {
+    "id": "d96-medial-gastrocnemius",
+    "structureId": "medial-gastrocnemius",
+    "kind": "point",
+    "x": 556.0,
+    "y": 190.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Medial Gastrocnemius»."
+   },
+   {
+    "id": "d96-soleus",
+    "structureId": "soleus",
+    "kind": "point",
+    "x": 390.0,
+    "y": 342.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Soleus»."
+   }
+  ]
+ }
+}

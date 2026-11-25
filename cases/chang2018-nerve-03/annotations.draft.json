@@ -1,0 +1,287 @@
+{
+ "schema": "sonolab.annotations/1",
+ "caseId": "chang2018-nerve-03",
+ "dataVersion": "1.0.0",
+ "version": 1,
+ "updatedAt": "2026-11-25T00:00:00Z",
+ "structures": [
+  {
+   "id": "mabcn",
+   "name": "Медиальный кожный нерв предплечья",
+   "class": "nerve",
+   "color": "#ffd60a"
+  },
+  {
+   "id": "median-nerve",
+   "name": "Срединный нерв",
+   "class": "nerve",
+   "color": "#ffb000"
+  },
+  {
+   "id": "brachial-artery",
+   "name": "Плечевая артерия",
+   "class": "artery",
+   "color": "#e5484d"
+  },
+  {
+   "id": "basilic-vein",
+   "name": "Медиальная подкожная вена руки",
+   "class": "vein",
+   "color": "#3e63dd"
+  },
+  {
+   "id": "triceps",
+   "name": "Трёхглавая мышца плеча",
+   "class": "muscle",
+   "color": "#d6409f"
+  },
+  {
+   "id": "ulnar-nerve",
+   "name": "Локтевой нерв",
+   "class": "nerve",
+   "color": "#f5d90a"
+  },
+  {
+   "id": "medial-epicondyle",
+   "name": "Медиальный надмыщелок плечевой кости",
+   "class": "bone",
+   "color": "#e8e8e8"
+  }
+ ],
+ "frames": {
+  "8": [
+   {
+    "id": "d8-mabcn",
+    "structureId": "mabcn",
+    "kind": "point",
+    "x": 332.0,
+    "y": 125.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (целевой нерв видео S3)."
+   },
+   {
+    "id": "d8-median-nerve",
+    "structureId": "median-nerve",
+    "kind": "point",
+    "x": 459.0,
+    "y": 186.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: белая стрелка с подписью «Median Nerve»."
+   },
+   {
+    "id": "d8-brachial-artery",
+    "structureId": "brachial-artery",
+    "kind": "point",
+    "x": 300.0,
+    "y": 212.0,
+    "tolerancePx": 20,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: подпись «BA» (легенда: brachial artery); точка у подписи, просвет сосуда на кадре чётко не виден."
+   },
+   {
+    "id": "d8-triceps",
+    "structureId": "triceps",
+    "kind": "point",
+    "x": 461.0,
+    "y": 305.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Triceps»."
+   }
+  ],
+  "10": [
+   {
+    "id": "d10-mabcn",
+    "structureId": "mabcn",
+    "kind": "point",
+    "x": 332.0,
+    "y": 125.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d10-median-nerve",
+    "structureId": "median-nerve",
+    "kind": "point",
+    "x": 459.0,
+    "y": 186.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: белая стрелка с подписью «Median Nerve»."
+   },
+   {
+    "id": "d10-triceps",
+    "structureId": "triceps",
+    "kind": "point",
+    "x": 461.0,
+    "y": 305.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Triceps»."
+   }
+  ],
+  "30": [
+   {
+    "id": "d30-mabcn",
+    "structureId": "mabcn",
+    "kind": "point",
+    "x": 259.0,
+    "y": 143.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d30-basilic-vein",
+    "structureId": "basilic-vein",
+    "kind": "point",
+    "x": 160.0,
+    "y": 180.0,
+    "tolerancePx": 20,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «BV» у анэхогенного овала (легенда: basilic vein)."
+   },
+   {
+    "id": "d30-triceps",
+    "structureId": "triceps",
+    "kind": "point",
+    "x": 548.0,
+    "y": 330.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Triceps»."
+   }
+  ],
+  "32": [
+   {
+    "id": "d32-mabcn",
+    "structureId": "mabcn",
+    "kind": "point",
+    "x": 259.0,
+    "y": 143.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d32-basilic-vein",
+    "structureId": "basilic-vein",
+    "kind": "point",
+    "x": 160.0,
+    "y": 180.0,
+    "tolerancePx": 20,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «BV» у левого анэхогенного овала (легенда авторов: basilic vein)."
+   },
+   {
+    "id": "d32-triceps",
+    "structureId": "triceps",
+    "kind": "point",
+    "x": 548.0,
+    "y": 330.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Triceps»."
+   }
+  ],
+  "34": [
+   {
+    "id": "d34-mabcn",
+    "structureId": "mabcn",
+    "kind": "point",
+    "x": 182.0,
+    "y": 62.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: контурная стрелка у подписи «Medial Antebrachial Cutaneous Nerve», верхняя половина кадра («Elbow Flexion»)."
+   },
+   {
+    "id": "d34-medial-epicondyle",
+    "structureId": "medial-epicondyle",
+    "kind": "point",
+    "x": 350.0,
+    "y": 100.0,
+    "tolerancePx": 24,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «Medial Epicondyle»; точка на вершине костной дуги (верхняя половина кадра)."
+   },
+   {
+    "id": "d34-ulnar-nerve",
+    "structureId": "ulnar-nerve",
+    "kind": "point",
+    "x": 493.0,
+    "y": 150.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: подпись «UN» (локтевой нерв); точка у подписи, контур нерва не очерчен."
+   }
+  ]
+ }
+}

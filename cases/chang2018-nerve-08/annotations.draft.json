@@ -1,0 +1,213 @@
+{
+ "schema": "sonolab.annotations/1",
+ "caseId": "chang2018-nerve-08",
+ "dataVersion": "1.0.0",
+ "version": 1,
+ "updatedAt": "2026-11-25T00:00:00Z",
+ "structures": [
+  {
+   "id": "pcbmn",
+   "name": "Ладонная кожная ветвь срединного нерва",
+   "class": "nerve",
+   "color": "#ffd60a"
+  },
+  {
+   "id": "median-nerve",
+   "name": "Срединный нерв",
+   "class": "nerve",
+   "color": "#ffb000"
+  },
+  {
+   "id": "pronator-quadratus",
+   "name": "Квадратный пронатор",
+   "class": "muscle",
+   "color": "#d6409f"
+  },
+  {
+   "id": "fcr",
+   "name": "Лучевой сгибатель запястья",
+   "class": "muscle",
+   "color": "#ab4aba"
+  }
+ ],
+ "frames": {
+  "18": [
+   {
+    "id": "d18-pcbmn",
+    "structureId": "pcbmn",
+    "kind": "point",
+    "x": 327.0,
+    "y": 96.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d18-median-nerve",
+    "structureId": "median-nerve",
+    "kind": "point",
+    "x": 388.0,
+    "y": 118.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: стрелка с подписью «Median Nerve»."
+   },
+   {
+    "id": "d18-pronator-quadratus",
+    "structureId": "pronator-quadratus",
+    "kind": "point",
+    "x": 442.0,
+    "y": 265.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Pronator Quadratus»."
+   }
+  ],
+  "24": [
+   {
+    "id": "d24-pcbmn",
+    "structureId": "pcbmn",
+    "kind": "point",
+    "x": 327.0,
+    "y": 96.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (целевой нерв видео S8)."
+   },
+   {
+    "id": "d24-median-nerve",
+    "structureId": "median-nerve",
+    "kind": "point",
+    "x": 388.0,
+    "y": 118.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: стрелка с подписью «Median Nerve»; точка слева от острия."
+   },
+   {
+    "id": "d24-pronator-quadratus",
+    "structureId": "pronator-quadratus",
+    "kind": "point",
+    "x": 442.0,
+    "y": 265.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Pronator Quadratus»."
+   }
+  ],
+  "37": [
+   {
+    "id": "d37-pcbmn",
+    "structureId": "pcbmn",
+    "kind": "point",
+    "x": 358.0,
+    "y": 122.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "88": [
+   {
+    "id": "d88-pcbmn",
+    "structureId": "pcbmn",
+    "kind": "point",
+    "x": 202.0,
+    "y": 78.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d88-median-nerve",
+    "structureId": "median-nerve",
+    "kind": "point",
+    "x": 378.0,
+    "y": 98.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: стрелка с подписью «Median Nerve»."
+   },
+   {
+    "id": "d88-fcr",
+    "structureId": "fcr",
+    "kind": "point",
+    "x": 90.0,
+    "y": 102.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: подпись «Flexor Carpi Radialis»; точка под подписью, границы сухожилия не видны."
+   }
+  ],
+  "92": [
+   {
+    "id": "d92-pcbmn",
+    "structureId": "pcbmn",
+    "kind": "point",
+    "x": 202.0,
+    "y": 78.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d92-median-nerve",
+    "structureId": "median-nerve",
+    "kind": "point",
+    "x": 378.0,
+    "y": 98.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: высокая. Основание: стрелка с подписью «Median Nerve»."
+   }
+  ]
+ }
+}

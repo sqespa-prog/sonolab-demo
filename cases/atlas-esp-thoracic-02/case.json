@@ -1,0 +1,430 @@
+{
+ "schema": "sonolab.case/1",
+ "caseId": "atlas-esp-thoracic-02",
+ "dataVersion": "1.0.0",
+ "title": "Блокада в плоскости мышцы, выпрямляющей позвоночник (грудной уровень) — клип атласа «Thoracic Vertebral Anatomy» (The POCUS Atlas, Nerve Block Atlas)",
+ "region": {
+  "id": "back",
+  "name": "Спина"
+ },
+ "patientSide": "unknown",
+ "imageType": "recorded-sweep",
+ "imageTypeNote": "Настоящее УЗИ: учебный клип атласа блокад (The POCUS Atlas совместно с Denver Health Ultrasound). Пометки, подписи и значок атласа, если они есть, ВШИТЫ в изображение и не отключаются (см. burnedInAnnotations). Положение датчика не отслеживалось; кадры — равномерная подвыборка 41 из 41 кадров клипа. Не симуляция.",
+ "source": {
+  "dataset": "The POCUS Atlas - Nerve Block Atlas (in partnership with Denver Health Ultrasound)",
+  "subset": "Erector spinae (thoracic): 156_thoracoabdominal-blocks_1605817087318_image-asset.gif",
+  "revision": "скачано 2026-11-25, atlas_items.json SHA-256 316ef6bbe3e88cdc68a02118d909dfd2fcb4eb2ccee75bd83954e4deaf4ea093",
+  "url": "https://www.thepocusatlas.com/thoracoabdominal-blocks",
+  "pageUrl": "https://www.thepocusatlas.com/thoracoabdominal-blocks",
+  "atlasUrl": "https://www.thepocusatlas.com/nerve-block-atlas",
+  "mediaUrl": "https://images.squarespace-cdn.com/content/v1/58118909e3df282037abfad7/1605817087318-YG9HOPG09QEACK1M5P9V/image-asset.gif",
+  "license": "CC BY-NC 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "licenseAsStated": "\"Our content is licensed under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)\" - https://www.thepocusatlas.com/legal",
+  "attribution": "The POCUS Atlas, Nerve Block Atlas, in partnership with Denver Health Ultrasound. Editors: Dr. Joseph Brown, Dr. Jamie Pospishil; lead editor Dr. Michael Heffler; per-clip authors as given in atlas_items.json (caption / author_attribution_as_given).",
+  "clipAttribution": {
+   "title": "Thoracic Vertebral Anatomy",
+   "caption": "Anatomy of a thoracic vertebra as seen in transverse view, using the linear transducer. The spinous process (SP) is seen most superficially and in the midline, with the lamina (L) seen connecting the spinous process to the transverse process (TP) laterally. Sliding pleura can also be seen lateral and deep to the transverse process. \nDrs. Sam Paskin-Flerlage, PGY4 and Michael Heffler, PGY3\nDenver Health Residency in Emergency Medicine",
+   "authorsAsGiven": [
+    "Drs. Sam Paskin-Flerlage, PGY4 and Michael Heffler, PGY3",
+    "Denver Health Residency in Emergency Medicine"
+   ],
+   "note": "дословно из atlas_items.json (страница атласа); пусто — на странице не указано"
+  },
+  "siteLevelAttribution": "Editors: Dr. Joseph Brown (University of Colorado), Dr. Jamie Pospishil (Denver Health); lead editor and content developer: Dr. Michael Heffler (Denver Health), with Dr. Jaclyn Walker, Matthew Riscinti (Denver Health), Michael Macias (UHS SoCal MEC); other contributors: Drs. Christopher Hanuscin (Kings County), Sam Paskin-Dwyer (as stated on the atlas main page). Per-clip authors, where given, are in author_attribution_as_given / caption.",
+  "task": "УЗИ-навигация для блокады: Erector spinae (thoracic)",
+  "files": {
+   "media/156_thoracoabdominal-blocks_1605817087318_image-asset.gif": {
+    "bytes": 856219,
+    "sha256": "6cfcccf7baecf15dce236359c2c7f93f80119d950643f70b87c72ea3a2824438",
+    "verifiedAgainst": "SOURCE.json"
+   }
+  },
+  "usageRestriction": "только некоммерческое обучение с указанием авторов (CC BY-NC 4.0)"
+ },
+ "probe": {
+  "model": "не указан",
+  "kind": "неизвестно",
+  "imageFormat": "изображение экрана аппарата",
+  "centerFrequencyMHz": 0,
+  "imagingDepthCm": 0,
+  "note": "Аппарат, датчик, частота и глубина в источнике не указаны (0 = неизвестно)."
+ },
+ "frames": {
+  "count": 41,
+  "fps": 0,
+  "width": 576,
+  "height": 303,
+  "pattern": "frames/{id:04d}.jpg",
+  "conversion": "GIF 576×303 → 576×303, 41 из 41 кадров, JPEG q=88"
+ },
+ "imageGeometry": {
+  "orientation": "как в изображении источника",
+  "pixelSpacingMm": null,
+  "pixelSpacingNote": "Масштаб в источнике не указан; линейка на экране аппарата (если видна) — единственная мера.",
+  "depthSettingCm": 0,
+  "probeMarkerSide": "unknown",
+  "flipApplied": false,
+  "lateralOrientation": "Метка датчика и сторона пациента не указаны."
+ },
+ "acquisition": {
+  "scanner": null,
+  "probe": null,
+  "probeType": "неизвестно",
+  "centerFrequencyMHz": null,
+  "depthCm": null,
+  "sourceUnits": {
+   "spatial": "unknown",
+   "intensity": "8-бит GIF (экран аппарата, перекодирован атласом)"
+  },
+  "fieldStatus": {
+   "scanner": "unknown",
+   "probe": "unknown",
+   "probeType": "heuristic",
+   "centerFrequencyMHz": "unknown",
+   "depthCm": "unknown",
+   "sourceUnits": "heuristic"
+  },
+  "note": "Аппарат, датчик, частота и глубина на странице атласа не указаны."
+ },
+ "transforms": [
+  {
+   "op": "read",
+   "format": "gif",
+   "file": "media/156_thoracoabdominal-blocks_1605817087318_image-asset.gif",
+   "width": 576,
+   "height": 303,
+   "frames": 41,
+   "durationS": 4.1
+  },
+  {
+   "op": "decode",
+   "library": "Pillow ImageSequence",
+   "frameIndices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+   ],
+   "note": "равномерная подвыборка по номеру кадра; GIF — с учётом наложения кадров (Pillow); видео — квадратный пиксель (setsar=1)"
+  },
+  {
+   "op": "resample",
+   "method": "none",
+   "scale": 1.0,
+   "from": [
+    576,
+    303
+   ],
+   "to": [
+    576,
+    303
+   ]
+  },
+  {
+   "op": "encode",
+   "format": "jpeg",
+   "quality": 88,
+   "library": "Pillow",
+   "mode": "RGB",
+   "optimize": true
+  }
+ ],
+ "coordinateConvention": {
+  "sourceFrame": {
+   "kind": "video-frame",
+   "axes": {
+    "x": "вправо",
+    "y": "вниз",
+    "t": "номер кадра клипа"
+   },
+   "units": "px",
+   "pixelSpacingMm": null,
+   "worldMeaning": "unknown",
+   "note": "Экран аппарата; масштаб и метка датчика не указаны."
+  },
+  "frame": {
+   "origin": "левый верхний угол пикселя (0,0)",
+   "x": "вправо",
+   "y": "вниз (глубина)",
+   "units": "px",
+   "pixelSpacingMm": null
+  },
+  "frameToSource": {
+   "x": "(x + 0.5)/1.000000 − 0.5",
+   "y": "(y + 0.5)/1.000000 − 0.5",
+   "t": "frameIndices[frameId]",
+   "status": "provided",
+   "note": "точная цепочка импорта (transforms)"
+  }
+ },
+ "validity": {
+  "status": "unknown",
+  "noData": null,
+  "definition": "Маска области изображения не дана и не строилась; служебные поля экрана и анэхогенные ткани по значению не различаются."
+ },
+ "trajectory": {
+  "kind": "relative-sweep-index",
+  "kindNote": "Навигация по номеру кадра клипа, а не по положению датчика. Трекинга нет; проход на фигуре условный.",
+  "s": [
+   0.0,
+   0.025,
+   0.05,
+   0.075,
+   0.1,
+   0.125,
+   0.15,
+   0.175,
+   0.2,
+   0.225,
+   0.25,
+   0.275,
+   0.3,
+   0.325,
+   0.35,
+   0.375,
+   0.4,
+   0.425,
+   0.45,
+   0.475,
+   0.5,
+   0.525,
+   0.55,
+   0.575,
+   0.6,
+   0.625,
+   0.65,
+   0.675,
+   0.7,
+   0.725,
+   0.75,
+   0.775,
+   0.8,
+   0.825,
+   0.85,
+   0.875,
+   0.9,
+   0.925,
+   0.95,
+   0.975,
+   1.0
+  ],
+  "lutSize": 41,
+  "lut": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "directionOnBody": {
+   "value": "unknown",
+   "status": "unknown",
+   "evidence": "Движение датчика не отслеживалось."
+  },
+  "bodyPlacement": {
+   "startFractionOfForearm": 0,
+   "endFractionOfForearm": 0,
+   "surface": "паравертебрально, грудной отдел, левая сторона (условно; сторона в источнике неизвестна)",
+   "status": "условное размещение",
+   "path": {
+    "from": [
+     0.28,
+     0.05,
+     0.03
+    ],
+    "to": [
+     0.32,
+     0.05,
+     0.03
+    ],
+    "rayDir": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   }
+  }
+ },
+ "supportedMotions": {
+  "slideAlongSweep": true,
+  "lateralShift": false,
+  "rotation": false,
+  "tilt": false,
+  "compression": false,
+  "note": "Только выбор кадра клипа."
+ },
+ "calibration": {
+  "imageToSensor": "absent",
+  "note": "Калибровки и трекинга нет."
+ },
+ "controlPoints": [
+  {
+   "id": "КТ1",
+   "t": 0,
+   "frameId": 0,
+   "frameSha256": "fdfa3ca9cc447d44caffd780da46aabd63feda45da56ca97be90aa0d24a9aa46",
+   "image": "cases/atlas-esp-thoracic-02/frames/0000.jpg"
+  },
+  {
+   "id": "КТ2",
+   "t": 0.25,
+   "frameId": 10,
+   "frameSha256": "d9c7d960a8e967dce59b6cd7fc3b6cfca83358c5d20e9d1e9f7a13a4c4702657",
+   "image": "cases/atlas-esp-thoracic-02/frames/0010.jpg"
+  },
+  {
+   "id": "КТ3",
+   "t": 0.5,
+   "frameId": 20,
+   "frameSha256": "512124bb54397b1437ef1e7c50bd5850f52470fa465165e9e6891e21a009c25a",
+   "image": "cases/atlas-esp-thoracic-02/frames/0020.jpg"
+  },
+  {
+   "id": "КТ4",
+   "t": 0.75,
+   "frameId": 30,
+   "frameSha256": "29c77b47384b91758f9c745d5f8658cf777716b080259d8bfdf52c848ff4688d",
+   "image": "cases/atlas-esp-thoracic-02/frames/0030.jpg"
+  },
+  {
+   "id": "КТ5",
+   "t": 1,
+   "frameId": 40,
+   "frameSha256": "38d4b71c2470d487794be022643a38b196db022e1008440d4d107e395762cadc",
+   "image": "cases/atlas-esp-thoracic-02/frames/0040.jpg"
+  }
+ ],
+ "verification": {
+  "frameSha256": [
+   "fdfa3ca9cc447d44caffd780da46aabd63feda45da56ca97be90aa0d24a9aa46",
+   "7c5b398894e4f79e331f3eb145b2488a82b99a021e7d35dc240cb5434c80ccad",
+   "52a01307f5c26125c2ccba73ff1bd8df8fe3d1ca8103564f9f38fc3f4b64f8cf",
+   "88130c27690e0dfca3fd285203ef83d37d553e24cf69f3bf68fc2f1a695e80e6",
+   "9160cfcc1f4782f61322b18b55750882a8a74394afc9f19ad84ced2e950e1c82",
+   "050df929aed33ecc7687a3f97a4d05080da6c6733105187a43ff77477b4e6818",
+   "6c085a327d9060d4e0122f7099a9c53e54298d9cb1bdbb4e2e51e79183f0b6c1",
+   "83db2bbc05502f0a1060bf524ee86592081c990e82fc02ecf5f268dda16db59f",
+   "abeb82d9b6df491fc6e73d41f344317b739b6c2809a0c9587a924580bd4ce11b",
+   "8018180af4ec65ec87b405e9239bf9389472e53eb8ee971b2b966777fa8db155",
+   "d9c7d960a8e967dce59b6cd7fc3b6cfca83358c5d20e9d1e9f7a13a4c4702657",
+   "6b6e3bd4dc23aef73d27ddb6ba66f860244cd3a285f615ec9c68bcb71faa77c5",
+   "5260e093d490c65c2c43a78b114fcb2ec6f7b5ea3853a1ff8098864c3716ee6f",
+   "365b81427c6da8c7b62d25866dc9f37224ac700b6b55519d79cb4ea5ba1e9cd1",
+   "8a4f6fae53c3f82dbd35d419d2dccf10ed0ca839c71fdd8f40bf6469441ade3a",
+   "1467756b72b6e310ce3d0fb2be005e15487d0466f40e9212af6a9fb236e06a9d",
+   "4f13b1156e01d95a935c71bb0d3a0e0b2afd5d6f45de4ae9e734f92aa041fd83",
+   "c4fc488f2d41a9f46953ae82e17801ba99b2184ba574fde8fde2204f231d63a1",
+   "85dedecee3443c434e614095eae8e1347664f037d1aa9b912743fd0c6058a9e7",
+   "c43e04cfb98acb860d11b134a127ed5388fac9f9329ef364f8fd743e9877f455",
+   "512124bb54397b1437ef1e7c50bd5850f52470fa465165e9e6891e21a009c25a",
+   "4cde0cd7da54b60ef72278629ea3317336332fcb9f9063c92a03c5105d8f8ee1",
+   "4ace2b710fb8c6d7877cc53facfd0b2a343c93da5e862ef3655f41bda4c78c51",
+   "1aaa68ea90b48a109fb7c6aab9c8e5b66314eaa56ed98f56efd3f5f8d82adaaa",
+   "b50bafbb0eb2fe6eacc7ae1dae94e987f275d23c3f527228a0abb83e1cf759f7",
+   "9df2cefe0ef6b0eb95ffb137f390de757f518a84a6c775c4b8bf27ce1f4d4d4f",
+   "d26ce8c369b30df11741c34f9066a4f5114ca84563ff3536d671a9bd6280f1d7",
+   "9d3bd3ce2d94468a58e34221482b6782f963fcc88831f5ebfefac49bc9fc02fc",
+   "570f09684565c7fe7bcf2e8ab1846277f686ee6c8d8e959f46076ca8c14ad2f5",
+   "35d3aa5b4b39121c455d1ab25c7d511f11c000b85c53f67a0ef68095fe07e254",
+   "29c77b47384b91758f9c745d5f8658cf777716b080259d8bfdf52c848ff4688d",
+   "1e9d2b1bbe4345bf7c27ab33840713fd52fa91c831d7df2767d5c238c1c08efe",
+   "a119d07af60dba60b16127e073513e260070947230edfa598963af9047f4cae4",
+   "caa20fe2c9265dcf1b80842a3f41722e8853a9ae51a925d9c15d6a33dffc617e",
+   "60966fc0d23c87c2571b16847043b4d8d70492eed8c1e1ec48cd4cde81fa45bf",
+   "1710d236c682f303e4c83d21cae81c5321b1333355d526baa6c728a5c5156067",
+   "a1032b87d415d48653fbd77ee1c7027d3f15b844fe1467fbfad18ee2fc25f3a7",
+   "debb6ed24ec03ba52e121a6d02aa2faf4eccf4a278c6f3a4af183257b4db81df",
+   "eb1298cdb82087c03949ef83bea9a267e6c41c0411f87526482c49c8fdc88036",
+   "543f6b25f59126693413b05e5426a6e5c9366964e17b102012d2abc0babbc39d",
+   "38d4b71c2470d487794be022643a38b196db022e1008440d4d107e395762cadc"
+  ]
+ },
+ "knownIssues": [
+  "Пометки, подписи и значок атласа вшиты в кадры (если есть); это пометки авторов, а не эталонная разметка SonoLab.",
+  "Положение и движение датчика не отслеживались: проход по фигуре — условное размещение.",
+  "Сторона пациента, метка датчика, масштаб, аппарат и глубина не указаны.",
+  "Клип перекодирован с потерями (GIF/MP4 → JPEG); подвыборка кадров.",
+  "Лицензия CC BY-NC 4.0: только некоммерческое использование с указанием авторов."
+ ],
+ "burnedInAnnotations": {
+  "atlasLogo": "да (значок атласа в углу кадра, если виден на клипе)",
+  "colorMarks": "да — найдены цветные пометки (звёздочки, линии, подписи) или цветной допплер (автоматическая проверка)",
+  "textLabels": "неизвестно: белые надписи и стрелки автоматически не определяются; подписи авторов могут быть вшиты",
+  "status": "heuristic"
+ },
+ "sourceDuplicates": {}
+}

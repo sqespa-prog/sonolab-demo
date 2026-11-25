@@ -1,0 +1,195 @@
+{
+ "schema": "sonolab.annotations/1",
+ "caseId": "chang2018-nerve-10",
+ "dataVersion": "1.0.0",
+ "version": 1,
+ "updatedAt": "2026-11-25T00:00:00Z",
+ "structures": [
+  {
+   "id": "pfcn",
+   "name": "Задний кожный нерв бедра",
+   "class": "nerve",
+   "color": "#ffd60a"
+  },
+  {
+   "id": "gluteus-maximus",
+   "name": "Большая ягодичная мышца",
+   "class": "muscle",
+   "color": "#d6409f"
+  },
+  {
+   "id": "semitendinosus",
+   "name": "Полусухожильная мышца",
+   "class": "muscle",
+   "color": "#ab4aba"
+  }
+ ],
+ "frames": {
+  "12": [
+   {
+    "id": "d12-pfcn",
+    "structureId": "pfcn",
+    "kind": "point",
+    "x": 372.0,
+    "y": 186.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d12-gluteus-maximus",
+    "structureId": "gluteus-maximus",
+    "kind": "point",
+    "x": 92.0,
+    "y": 282.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Gluteus Maximus»."
+   },
+   {
+    "id": "d12-semitendinosus",
+    "structureId": "semitendinosus",
+    "kind": "point",
+    "x": 469.0,
+    "y": 282.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Semitendinous»."
+   }
+  ],
+  "16": [
+   {
+    "id": "d16-pfcn",
+    "structureId": "pfcn",
+    "kind": "point",
+    "x": 372.0,
+    "y": 186.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (целевой нерв видео S10)."
+   },
+   {
+    "id": "d16-gluteus-maximus",
+    "structureId": "gluteus-maximus",
+    "kind": "point",
+    "x": 92.0,
+    "y": 282.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Gluteus Maximus»."
+   },
+   {
+    "id": "d16-semitendinosus",
+    "structureId": "semitendinosus",
+    "kind": "point",
+    "x": 469.0,
+    "y": 282.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Semitendinous» (полусухожильная)."
+   }
+  ],
+  "24": [
+   {
+    "id": "d24-pfcn",
+    "structureId": "pfcn",
+    "kind": "point",
+    "x": 357.0,
+    "y": 186.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка, подписи нет."
+   }
+  ],
+  "47": [
+   {
+    "id": "d47-pfcn",
+    "structureId": "pfcn",
+    "kind": "point",
+    "x": 340.0,
+    "y": 212.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "72": [
+   {
+    "id": "d72-pfcn",
+    "structureId": "pfcn",
+    "kind": "point",
+    "x": 298.0,
+    "y": 296.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "96": [
+   {
+    "id": "d96-pfcn",
+    "structureId": "pfcn",
+    "kind": "point",
+    "x": 347.0,
+    "y": 388.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d96-gluteus-maximus",
+    "structureId": "gluteus-maximus",
+    "kind": "point",
+    "x": 158.0,
+    "y": 270.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Gluteus Maximus»."
+   }
+  ]
+ }
+}

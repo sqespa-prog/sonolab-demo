@@ -1,0 +1,159 @@
+{
+ "schema": "sonolab.annotations/1",
+ "caseId": "chang2018-nerve-15",
+ "dataVersion": "1.0.0",
+ "version": 1,
+ "updatedAt": "2026-11-25T00:00:00Z",
+ "structures": [
+  {
+   "id": "saphenous-ipb",
+   "name": "Подкожный нерв — поднадколенниковая ветвь",
+   "class": "nerve",
+   "color": "#ffd60a"
+  },
+  {
+   "id": "saphenous-sartorial",
+   "name": "Подкожный нерв — портняжная ветвь",
+   "class": "nerve",
+   "color": "#ffb000"
+  },
+  {
+   "id": "great-saphenous-vein",
+   "name": "Большая подкожная вена",
+   "class": "vein",
+   "color": "#3e63dd"
+  },
+  {
+   "id": "medial-gastrocnemius",
+   "name": "Медиальная головка икроножной мышцы",
+   "class": "muscle",
+   "color": "#d6409f"
+  }
+ ],
+ "frames": {
+  "27": [
+   {
+    "id": "d27-saphenous-ipb",
+    "structureId": "saphenous-ipb",
+    "kind": "point",
+    "x": 362.0,
+    "y": 140.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику (часть видео о поднадколенниковой ветви)."
+   }
+  ],
+  "32": [
+   {
+    "id": "d32-saphenous-ipb",
+    "structureId": "saphenous-ipb",
+    "kind": "point",
+    "x": 310.0,
+    "y": 142.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; кадр из части видео о поднадколенниковой ветви (по порядку кадров после фото препарата с подписью «infrapatellar branch»)."
+   }
+  ],
+  "63": [
+   {
+    "id": "d63-saphenous-sartorial",
+    "structureId": "saphenous-sartorial",
+    "kind": "point",
+    "x": 332.0,
+    "y": 176.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику (часть видео о портняжной ветви)."
+   }
+  ],
+  "64": [
+   {
+    "id": "d64-saphenous-sartorial",
+    "structureId": "saphenous-sartorial",
+    "kind": "point",
+    "x": 332.0,
+    "y": 178.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; часть видео после фото препарата с подписью «sartorial branch»."
+   }
+  ],
+  "71": [
+   {
+    "id": "d71-saphenous-sartorial",
+    "structureId": "saphenous-sartorial",
+    "kind": "point",
+    "x": 283.0,
+    "y": 216.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику (часть видео о портняжной ветви)."
+   }
+  ],
+  "96": [
+   {
+    "id": "d96-saphenous-sartorial",
+    "structureId": "saphenous-sartorial",
+    "kind": "point",
+    "x": 213.0,
+    "y": 102.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (портняжная ветвь)."
+   },
+   {
+    "id": "d96-great-saphenous-vein",
+    "structureId": "great-saphenous-vein",
+    "kind": "point",
+    "x": 155.0,
+    "y": 112.0,
+    "tolerancePx": 20,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись «GSV» (легенда: Great Saphenous Vein) у анэхогенного овала."
+   },
+   {
+    "id": "d96-medial-gastrocnemius",
+    "structureId": "medial-gastrocnemius",
+    "kind": "point",
+    "x": 355.0,
+    "y": 276.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Medial Gastrocnemius»."
+   }
+  ]
+ }
+}

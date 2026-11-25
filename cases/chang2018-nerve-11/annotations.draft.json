@@ -1,0 +1,257 @@
+{
+ "schema": "sonolab.annotations/1",
+ "caseId": "chang2018-nerve-11",
+ "dataVersion": "1.0.0",
+ "version": 1,
+ "updatedAt": "2026-11-25T00:00:00Z",
+ "structures": [
+  {
+   "id": "lfcn",
+   "name": "Латеральный кожный нерв бедра",
+   "class": "nerve",
+   "color": "#ffd60a"
+  },
+  {
+   "id": "lfcn-b",
+   "name": "Латеральный кожный нерв бедра — второй наконечник авторов",
+   "class": "nerve",
+   "color": "#ffb000"
+  },
+  {
+   "id": "iliacus",
+   "name": "Подвздошная мышца",
+   "class": "muscle",
+   "color": "#d6409f"
+  },
+  {
+   "id": "tfl",
+   "name": "Напрягатель широкой фасции",
+   "class": "muscle",
+   "color": "#ab4aba"
+  },
+  {
+   "id": "sartorius",
+   "name": "Портняжная мышца",
+   "class": "muscle",
+   "color": "#8e4ec6"
+  },
+  {
+   "id": "rectus-femoris",
+   "name": "Прямая мышца бедра",
+   "class": "muscle",
+   "color": "#6e56cf"
+  }
+ ],
+ "frames": {
+  "12": [
+   {
+    "id": "d12-lfcn",
+    "structureId": "lfcn",
+    "kind": "point",
+    "x": 448.0,
+    "y": 158.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв."
+   },
+   {
+    "id": "d12-iliacus",
+    "structureId": "iliacus",
+    "kind": "point",
+    "x": 519.0,
+    "y": 236.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Iliacus»."
+   }
+  ],
+  "16": [
+   {
+    "id": "d16-lfcn",
+    "structureId": "lfcn",
+    "kind": "point",
+    "x": 448.0,
+    "y": 158.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (целевой нерв видео S11)."
+   },
+   {
+    "id": "d16-iliacus",
+    "structureId": "iliacus",
+    "kind": "point",
+    "x": 519.0,
+    "y": 236.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Iliacus»."
+   }
+  ],
+  "18": [
+   {
+    "id": "d18-lfcn",
+    "structureId": "lfcn",
+    "kind": "point",
+    "x": 370.0,
+    "y": 158.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "50": [
+   {
+    "id": "d50-lfcn",
+    "structureId": "lfcn",
+    "kind": "point",
+    "x": 387.0,
+    "y": 138.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику."
+   }
+  ],
+  "64": [
+   {
+    "id": "d64-lfcn",
+    "structureId": "lfcn",
+    "kind": "point",
+    "x": 321.0,
+    "y": 103.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка, подписи нет."
+   }
+  ],
+  "82": [
+   {
+    "id": "d82-lfcn",
+    "structureId": "lfcn",
+    "kind": "point",
+    "x": 284.0,
+    "y": 138.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику (левый из двух)."
+   },
+   {
+    "id": "d82-lfcn-b",
+    "structureId": "lfcn-b",
+    "kind": "point",
+    "x": 374.0,
+    "y": 124.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: низкая. Основание: острие белого наконечника авторов указывает на нерв; мелкая вставка без подписей — нерв опознан только по наконечнику (правый из двух)."
+   }
+  ],
+  "96": [
+   {
+    "id": "d96-lfcn",
+    "structureId": "lfcn",
+    "kind": "point",
+    "x": 303.0,
+    "y": 108.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (левый наконечник)."
+   },
+   {
+    "id": "d96-lfcn-b",
+    "structureId": "lfcn-b",
+    "kind": "point",
+    "x": 431.0,
+    "y": 100.0,
+    "tolerancePx": 18,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: острие белого наконечника авторов указывает на нерв (правый наконечник; ветвь того же нерва — уточнить)."
+   },
+   {
+    "id": "d96-tfl",
+    "structureId": "tfl",
+    "kind": "point",
+    "x": 133.0,
+    "y": 192.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Tensor Fascia Latae»."
+   },
+   {
+    "id": "d96-sartorius",
+    "structureId": "sartorius",
+    "kind": "point",
+    "x": 572.0,
+    "y": 172.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Sartorius»."
+   },
+   {
+    "id": "d96-rectus-femoris",
+    "structureId": "rectus-femoris",
+    "kind": "point",
+    "x": 351.0,
+    "y": 322.0,
+    "tolerancePx": 40,
+    "author": "Черновик ИИ — требует проверки врачом",
+    "status": "draft",
+    "createdAt": "2026-11-25T00:00:00Z",
+    "updatedAt": "2026-11-25T00:00:00Z",
+    "origin": "ai-draft",
+    "note": "Уверенность: средняя. Основание: подпись авторов «Rectus Femoris»."
+   }
+  ]
+ }
+}
