@@ -1,0 +1,449 @@
+{
+ "schema": "sonolab.case/1",
+ "caseId": "openhrf-quadriceps-invivo07",
+ "dataVersion": "1.0.0",
+ "title": "Бедро, четырёхглавая мышца — B-режим, восстановленный из настоящих RF (Open-H-RF, invivo-07)",
+ "region": {
+  "id": "thigh",
+  "name": "Бедро"
+ },
+ "patientSide": "unknown",
+ "imageType": "recorded-sweep",
+ "imageTypeNote": "Настоящее УЗИ (сырые RF-данные человека, invivo-07, четырёхглавая мышца бедра). B-режим восстановлен другой командой из сырых RF (delay-and-sum), не изображение аппарата: независимая упрощённая реконструкция, не воспроизводит обработку авторов набора. 32 одиночных кадров из 1200 записанных во время прохода с трекингом. Не симуляция.",
+ "source": {
+  "dataset": "Open-H-RF — Tracked Swept Synthetic Aperture Ultrasound Datasets (colorado-boulder)",
+  "subset": "invivo-07",
+  "episode": 7,
+  "revision": "https://huggingface.co/datasets/nvidia/Open-H-RF/resolve/main/colorado-boulder/Sub-dataset-3/sub-invivo_07_tracked-ssa.hdf5 SHA-256 66670bc5c260e74c65a38f6de925da86e57afd9de2cefe27f3999ca752c40a16",
+  "url": "https://huggingface.co/datasets/nvidia/Open-H-RF/blob/main/colorado-boulder/README.md",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+  "attribution": "Anet Sanchez, University of Colorado Boulder, Bottenus Lab; Nick Bottenus, University of Colorado Boulder, Bottenus Lab",
+  "task": "Проход с трекингом по четырёхглавой мышце бедра, сырые RF",
+  "authorRepository": "https://github.com/open-h/Open-H-RF/tree/main/datasets/colorado-boulder",
+  "via": "S:/SonoLab-local/assets/quadriceps-data.js (SHA-256 d2997064d9d6cac0fec9d9848a13e2e351f3be72d5c57a4efeb2fe93f671260e), сверено с package-manifest.json",
+  "files": {
+   "assets/quadriceps-data.js": {
+    "bytes": 2866090,
+    "sha256": "d2997064d9d6cac0fec9d9848a13e2e351f3be72d5c57a4efeb2fe93f671260e",
+    "verifiedAgainst": "S:/SonoLab-local/package-manifest.json",
+    "note": "кадры реконструкции старой сборки (спрайт PNG в base64) и позы; читался импортёром"
+   },
+   "sources/acquired/quadriceps/PROVENANCE.json": {
+    "bytes": 4587,
+    "sha256": "37375b90da455f30fcb1303423aca8b76ce892df6544cf2ed0e172f15dff5992",
+    "verifiedAgainst": "S:/SonoLab-local/package-manifest.json"
+   },
+   "sub-invivo_07_tracked-ssa.hdf5": {
+    "bytes": 236191744,
+    "sha256": "66670bc5c260e74c65a38f6de925da86e57afd9de2cefe27f3999ca752c40a16",
+    "note": "исходный HDF5 с RF; импортёром не читался, сумма — из PROVENANCE.json"
+   }
+  }
+ },
+ "probe": {
+  "model": "Verasonics, датчик P4-2",
+  "kind": "фазированная решётка 64 элемента",
+  "imageFormat": "реконструкция RF (delay-and-sum)",
+  "centerFrequencyMHz": 2.5,
+  "imagingDepthCm": 12.5,
+  "note": "По заголовку HDF5. B-режим восстановлен другой командой из сырых RF (delay-and-sum), не изображение аппарата."
+ },
+ "frames": {
+  "count": 32,
+  "fps": 0,
+  "width": 256,
+  "height": 384,
+  "pattern": "frames/{id:04d}.jpg",
+  "conversion": "плитки спрайта 256×384 → JPEG q=90; кадры RF 0…1199 (шаг ≈39)"
+ },
+ "imageGeometry": {
+  "orientation": "x — вдоль апертуры, y — глубина; без отражений",
+  "pixelSpacingMm": 0.3125,
+  "pixelSpacingNote": "окно [-40.0, 40.0] × [5.0, 125.0] мм на 256×384 px",
+  "depthSettingCm": 12.5,
+  "probeMarkerSide": "unknown",
+  "flipApplied": false,
+  "lateralOrientation": "Метка датчика относительно тела неизвестна."
+ },
+ "acquisition": {
+  "scanner": "Verasonics",
+  "probe": "P4-2",
+  "probeType": "phased (64 элемента)",
+  "centerFrequencyMHz": 2.5,
+  "depthCm": null,
+  "frameDepthCm": 12.0,
+  "acquisitionFps": 400.0,
+  "tracking": "позы датчика на каждый кадр (трекинг источника, не тело пациента)",
+  "sourceUnits": {
+   "spatial": "mm",
+   "intensity": "лог. огибающая, 50 дБ → uint8",
+   "time": "s"
+  },
+  "fieldStatus": {
+   "scanner": "provided",
+   "probe": "provided",
+   "centerFrequencyMHz": "provided",
+   "depthCm": "unknown",
+   "frameDepthCm": "provided",
+   "acquisitionFps": "provided",
+   "sourceUnits": "provided"
+  },
+  "note": "По заголовку HDF5 (Verasonics P4-2, 64-element phased array); frameDepthCm — окно реконструкции z 5.0…125.0 мм."
+ },
+ "transforms": [
+  {
+   "op": "read",
+   "format": "javascript (JSON + спрайт PNG в base64)",
+   "file": "assets/quadriceps-data.js",
+   "note": "кадры уже восстановлены старой сборкой из RF: Analytic RF Hilbert transform, first-arrival transmit delays from active elements plus supplied firing delays, supplied initial time correction, linear receive delay interpolation, uniform delay-and-sum within F-number aperture, magnitude envelope, shared global p99.9 amplitude reference, 50 dB log mapping"
+  },
+  {
+   "op": "decode",
+   "library": "Pillow",
+   "mode": "L",
+   "note": "спрайт 8×4 плиток 256×384; кадр N ← строка N // 8, столбец N % 8"
+  },
+  {
+   "op": "resample",
+   "method": "none",
+   "scale": 1
+  },
+  {
+   "op": "encode",
+   "format": "jpeg",
+   "quality": 90,
+   "library": "Pillow",
+   "mode": "L",
+   "optimize": true
+  }
+ ],
+ "coordinateConvention": {
+  "sourceFrame": {
+   "kind": "rf-reconstruction-preview",
+   "axes": {
+    "x": "вдоль апертуры",
+    "y": "глубина",
+    "t": "кадр RF"
+   },
+   "units": "mm",
+   "worldMeaning": "система трекинга источника, не пациент",
+   "pixelToWorld": "Row-major 4x4: world_mm = imageToWorldMM @ [u_column, v_row, out_of_plane_mm, 1]; source tracked coordinates, not patient RAS/LPS. Pixel origin is the center of pixel (0,0)."
+  },
+  "frame": {
+   "origin": "левый верхний угол пикселя (0,0)",
+   "x": "вправо",
+   "y": "вниз (глубина)",
+   "units": "px",
+   "pixelSpacingMm": 0.3125
+  },
+  "frameToSource": {
+   "x": "-40.0 + 0.3125·x мм",
+   "y": "5.0 + 0.3125·y мм",
+   "t": "кадр RF = sourceFrameIndices[frameId]",
+   "sourceFrameIndices": [
+    0,
+    39,
+    77,
+    116,
+    155,
+    193,
+    232,
+    271,
+    309,
+    348,
+    387,
+    425,
+    464,
+    503,
+    541,
+    580,
+    619,
+    658,
+    696,
+    735,
+    774,
+    812,
+    851,
+    890,
+    928,
+    967,
+    1006,
+    1044,
+    1083,
+    1122,
+    1160,
+    1199
+   ],
+   "timestampSeconds": [
+    0.0,
+    0.0975,
+    0.1925,
+    0.29,
+    0.3875,
+    0.4825,
+    0.58,
+    0.6775,
+    0.7725,
+    0.87,
+    0.9675,
+    1.0625,
+    1.16,
+    1.2575,
+    1.3525,
+    1.45,
+    1.5475,
+    1.645,
+    1.74,
+    1.8375,
+    1.935,
+    2.03,
+    2.1275,
+    2.225,
+    2.32,
+    2.4175,
+    2.515,
+    2.61,
+    2.7075,
+    2.805,
+    2.9,
+    2.9975
+   ],
+   "status": "provided"
+  }
+ },
+ "validity": {
+  "status": "unknown",
+  "noData": null,
+  "definition": "Маски нет; вся сетка реконструкции считается изображением."
+ },
+ "trajectory": {
+  "kind": "relative-sweep-index",
+  "kindNote": "Порядок кадров — время прохода с трекингом (смещение датчика ≈162.3 мм по позам источника); к фигуре не привязан, проход условный.",
+  "s": [
+   0.0,
+   0.0323,
+   0.0645,
+   0.0968,
+   0.129,
+   0.1613,
+   0.1935,
+   0.2258,
+   0.2581,
+   0.2903,
+   0.3226,
+   0.3548,
+   0.3871,
+   0.4194,
+   0.4516,
+   0.4839,
+   0.5161,
+   0.5484,
+   0.5806,
+   0.6129,
+   0.6452,
+   0.6774,
+   0.7097,
+   0.7419,
+   0.7742,
+   0.8065,
+   0.8387,
+   0.871,
+   0.9032,
+   0.9355,
+   0.9677,
+   1.0
+  ],
+  "lutSize": 32,
+  "lut": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31
+  ],
+  "directionOnBody": {
+   "value": "unknown",
+   "status": "unknown",
+   "evidence": "Позы источника — в системе трекинга, не в осях тела."
+  },
+  "bodyPlacement": {
+   "startFractionOfForearm": 0,
+   "endFractionOfForearm": 0,
+   "surface": "передняя поверхность левого бедра (условно; сторона в источнике неизвестна)",
+   "status": "условное размещение",
+   "path": {
+    "from": [
+     -0.1394,
+     0.1044,
+     0.1221
+    ],
+    "to": [
+     -0.3004,
+     0.1175,
+     0.1369
+    ],
+    "rayDir": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   }
+  },
+  "lengthMm": 162.3
+ },
+ "supportedMotions": {
+  "slideAlongSweep": true,
+  "lateralShift": false,
+  "rotation": false,
+  "tilt": false,
+  "compression": false,
+  "note": "Перемещение вдоль записанного прохода."
+ },
+ "calibration": {
+  "imageToSensor": "absent",
+  "note": "Калибровки датчика к фигуре нет."
+ },
+ "controlPoints": [
+  {
+   "id": "КТ1",
+   "t": 0,
+   "frameId": 0,
+   "frameSha256": "0cd306b75669e8573f973a11f69a090b9268d0c44af8153a9db88cee7737340d",
+   "image": "cases/openhrf-quadriceps-invivo07/frames/0000.jpg"
+  },
+  {
+   "id": "КТ2",
+   "t": 0.25,
+   "frameId": 8,
+   "frameSha256": "ddc5099160a03e6abfc2b9b82e68cd175e99fa1f55b8d659c88b68e120ac4968",
+   "image": "cases/openhrf-quadriceps-invivo07/frames/0008.jpg"
+  },
+  {
+   "id": "КТ3",
+   "t": 0.5,
+   "frameId": 16,
+   "frameSha256": "343ed2da0b945259f8eb7b407a53d5bb4d5aa0044cfea1a61bca16451cbd86b8",
+   "image": "cases/openhrf-quadriceps-invivo07/frames/0016.jpg"
+  },
+  {
+   "id": "КТ4",
+   "t": 0.75,
+   "frameId": 23,
+   "frameSha256": "42aa1cdcb844f48c90cf78893042c42ad0350609ebe21d06ed33f66640920a22",
+   "image": "cases/openhrf-quadriceps-invivo07/frames/0023.jpg"
+  },
+  {
+   "id": "КТ5",
+   "t": 1,
+   "frameId": 31,
+   "frameSha256": "7f3cb9c0ff8ebb07b89e3797739a59ca87dfbcaffaebef96e3a342b5e07c2807",
+   "image": "cases/openhrf-quadriceps-invivo07/frames/0031.jpg"
+  }
+ ],
+ "verification": {
+  "frameSha256": [
+   "0cd306b75669e8573f973a11f69a090b9268d0c44af8153a9db88cee7737340d",
+   "1336e97e9a24798a86b8c831ee4b39a8e02d53b771e202703bb6b05eb05f725d",
+   "eb2676fbbe4a038e176d1e590188b8007db7e6c6ea45dc73b9ef3efa03782977",
+   "172068c96da0da94ef5e69727b6c92b1df1e258a5854ae2967d04a093c55738f",
+   "000d542d68d66f9b1c2d6ffb624ed7ea857da0fe072c813a20b2bb4006e869a6",
+   "8e49563a6a2a0ea36f1ec2454c58edd5e0d90385b33da506d40981ff6eed59a2",
+   "50b02f6680bf8e49ff6ffb441bcc401a36c083d92a1a69ce01066a3d6a1fe947",
+   "06e71fbfc9f36cc0a30b5ca3f26e00093fa9ee173a1da759d28ee52a64c335cc",
+   "ddc5099160a03e6abfc2b9b82e68cd175e99fa1f55b8d659c88b68e120ac4968",
+   "ae70bbf21b9cf47aad60e762be42a8e4711f2ccfd579328b099bce27dbf94d7c",
+   "43280da979fb764cffde0aa7777e6d409ed8f4b3a9caae217e87b1714ca20385",
+   "3aef0c261179f289cdddd285da54e67983374df8e2299cc4ba115b4c469e59bf",
+   "bb51a9ebdd045b990fe2e3bf4f570764215355618accf84da7131e6af51b6bb7",
+   "8e2a9f1e3054898fc34941868e2cc8b4167b8d81e772a7d45aaa8e718202061e",
+   "6381c29f4450a0996f4764c7110abcceb34a1d0d847356f2c23a96b95a8347bf",
+   "ae9b566aa2063cf93a895a1cad00b40879f3b3b21eb6f46261b866c4625cb4df",
+   "343ed2da0b945259f8eb7b407a53d5bb4d5aa0044cfea1a61bca16451cbd86b8",
+   "f9c539d9bc1fd05823861c31ee7f67189b3cf8296b5acd915b5d49885570cc9a",
+   "f47ee29ee79575a08fae7b59fb8e33efc2db41cc6e25ca2225af41dd988986de",
+   "108df76e2c3e21e2bb43b3d0d90a0656639424c43d1a6918e949c203df5b64d0",
+   "0d734106548eef597a8c5720c8f8058aee8c927eb005dddccd0adcb3ec2d3f47",
+   "90da6b0d04d3087486fa5096b5c739e62fb97578dfa761df2c42b72be99d4e48",
+   "ad7b17cf78f798efa2d8434b7d019868b7db3cf9222832b60195d1e321fbb37b",
+   "42aa1cdcb844f48c90cf78893042c42ad0350609ebe21d06ed33f66640920a22",
+   "9f5f4a57c4dff95a674587786c6d3e2dfe274535157485ec6b511b3e843acadf",
+   "12913d9de37cfc7ad217904b23ba0ee8a8a5b76e4a3e165fad616c625563439e",
+   "7879bd64188af26d9f0ce1cdf5c01c468ea028c076c602da1bc333e5bd6c37f4",
+   "0469c0b96c3e603d3a73f41d4ddc1996300ca2c58c3d0d4653fcfdaaa6fe8af2",
+   "de5a0a64f6f1bb11f5d98fda6f51bd21761d057e35aa6d4c97bf6156cc67528f",
+   "00a6e8fc5f7e4cf9b11d8b9a0f4e0f25149a762ca10571a5bdd767084c83af4d",
+   "198d34af7dcf82847307ff42ee6056812378b1dc0b91038ad02401fc0d4f340e",
+   "7f3cb9c0ff8ebb07b89e3797739a59ca87dfbcaffaebef96e3a342b5e07c2807"
+  ],
+  "sourceAssetSha256": "d2997064d9d6cac0fec9d9848a13e2e351f3be72d5c57a4efeb2fe93f671260e",
+  "sourceFrameIndices": [
+   0,
+   39,
+   77,
+   116,
+   155,
+   193,
+   232,
+   271,
+   309,
+   348,
+   387,
+   425,
+   464,
+   503,
+   541,
+   580,
+   619,
+   658,
+   696,
+   735,
+   774,
+   812,
+   851,
+   890,
+   928,
+   967,
+   1006,
+   1044,
+   1083,
+   1122,
+   1160,
+   1199
+  ]
+ },
+ "knownIssues": [
+  "B-режим восстановлен другой командой из сырых RF (delay-and-sum), не изображение аппарата.",
+  "Упрощённая реконструкция без когерентного компаундинга; численно с обработкой авторов не сравнивалась.",
+  "Фазированный датчик 2.5 МГц — изображение не похоже на высокочастотный линейный датчик.",
+  "Позы — в системе трекинга источника, без привязки к телу; сторона и метка датчика неизвестны.",
+  "Разметки и подписей нет."
+ ]
+}

@@ -1,0 +1,256 @@
+{
+ "schema": "sonolab.case/1",
+ "caseId": "wellcome-median-nerve-stills",
+ "dataVersion": "1.0.0",
+ "title": "Срединный нерв в предплечье — два настоящих снимка УЗИ (Wellcome Collection), второй — справочный с подписями",
+ "region": {
+  "id": "forearm",
+  "name": "Предплечье"
+ },
+ "patientSide": "unknown",
+ "imageType": "recorded-sweep",
+ "imageTypeNote": "Настоящее УЗИ: два опубликованных снимка Wellcome Collection — срединный нерв в предплечье, продольно. Кадр 0 — исходный снимок; кадр 1 — снимок с подписями авторов («median nerve», «flexor digitorum profundus», проксимально — слева экрана), только как справочное изображение: подписи вшиты и не являются разметкой SonoLab. Не симуляция.",
+ "source": {
+  "dataset": "Wellcome Collection",
+  "subset": "B0004353, B0004354",
+  "episode": 1,
+  "revision": "https://iiif.wellcomecollection.org/image/B0004353/full/full/0/default.jpg ; https://iiif.wellcomecollection.org/image/B0004354/full/full/0/default.jpg",
+  "url": "https://wellcomecollection.org/works/d53fn8y5",
+  "labelledUrl": "https://wellcomecollection.org/works/mjg9qu7y",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Andrew Dilley, Jane Greening & Bruce Lynn. Nerve movement in forearm, ultrasound, shoulder adduction. Source: Wellcome Collection. CC BY 4.0.",
+  "creator": "Andrew Dilley, Jane Greening & Bruce Lynn",
+  "sourceTitle": "Nerve movement in forearm, ultrasound, shoulder adduction",
+  "task": "Снимок УЗИ срединного нерва в предплечье",
+  "via": "S:/SonoLab-local/project/src/real-data.js (JPEG в base64, SHA-256 файла b83413d5be7d089426de5ecdf3aa1d870bf014c9b764823f00998349e150b561), сверено с sources/wellcome-source-manifest.json",
+  "files": {
+   "project/src/real-data.js#reference.originalSrc": {
+    "bytes": 59619,
+    "sha256": "6a4c41ea8b7b5504561e814b7c5bd238a65b974a3dd6ab9b82aa35aad76dd5ff",
+    "file": "wellcome-original-still.jpg",
+    "imageId": "B0004353",
+    "verifiedAgainst": "S:/SonoLab-local/sources/wellcome-source-manifest.json"
+   },
+   "project/src/real-data.js#reference.labelledSrc": {
+    "bytes": 117792,
+    "sha256": "7ebcaa9f0e7b3ae2f19eb7fb7cd2857ab4d0c4198599b37cf294ecc4698d58bd",
+    "file": "wellcome-labelled.jpg",
+    "imageId": "B0004354",
+    "verifiedAgainst": "S:/SonoLab-local/sources/wellcome-source-manifest.json"
+   }
+  }
+ },
+ "probe": {
+  "model": "не указан",
+  "kind": "линейный датчик (по изображению)",
+  "imageFormat": "снимок экрана",
+  "centerFrequencyMHz": 0,
+  "imagingDepthCm": 0,
+  "note": "Не указано (0 = неизвестно)."
+ },
+ "frames": {
+  "count": 2,
+  "fps": 0,
+  "width": 1198,
+  "height": 898,
+  "pattern": "frames/{id:04d}.jpg",
+  "conversion": "два JPEG (483×426, 1198×898) вставлены в (0,0) холста 1198×898; без масштабирования; JPEG q=90"
+ },
+ "imageGeometry": {
+  "orientation": "как у источника; без отражений",
+  "pixelSpacingMm": null,
+  "pixelSpacingNote": "Масштаб не указан.",
+  "depthSettingCm": 0,
+  "probeMarkerSide": "unknown",
+  "flipApplied": false,
+  "lateralOrientation": "Только на снимке с подписями: проксимально — слева экрана (подпись авторов). Метка датчика неизвестна."
+ },
+ "acquisition": {
+  "scanner": null,
+  "probe": null,
+  "probeType": "linear (по изображению)",
+  "centerFrequencyMHz": null,
+  "depthCm": null,
+  "sourceUnits": {
+   "spatial": "unknown",
+   "intensity": "8-бит JPEG RGB"
+  },
+  "fieldStatus": {
+   "scanner": "unknown",
+   "probe": "unknown",
+   "centerFrequencyMHz": "unknown",
+   "depthCm": "unknown",
+   "sourceUnits": "provided"
+  },
+  "note": "Аппарат, частота, глубина и масштаб в каталоге не указаны."
+ },
+ "transforms": [
+  {
+   "op": "read",
+   "format": "jpeg",
+   "file": "project/src/real-data.js#reference.{originalSrc,labelledSrc}",
+   "sizes": [
+    "483×426",
+    "1198×898"
+   ]
+  },
+  {
+   "op": "decode",
+   "library": "Pillow",
+   "mode": "RGB",
+   "note": "кадр 0 ← исходный снимок (483×426), кадр 1 ← снимок с подписями (1198×898); каждый вставлен в (0,0) холста 1198×898, остальное — чёрное дополнение"
+  },
+  {
+   "op": "resample",
+   "method": "none",
+   "scale": 1
+  },
+  {
+   "op": "encode",
+   "format": "jpeg",
+   "quality": 90,
+   "library": "Pillow",
+   "mode": "RGB",
+   "optimize": true
+  }
+ ],
+ "coordinateConvention": {
+  "sourceFrame": {
+   "kind": "image-jpeg",
+   "axes": {
+    "x": "вправо",
+    "y": "вниз"
+   },
+   "units": "px",
+   "pixelSpacingMm": null,
+   "worldMeaning": "unknown",
+   "note": "На снимке с подписями: проксимально — слева экрана, дистально — справа (подписи авторов)."
+  },
+  "frame": {
+   "origin": "левый верхний угол пикселя (0,0)",
+   "x": "вправо",
+   "y": "вниз (глубина)",
+   "units": "px",
+   "pixelSpacingMm": null
+  },
+  "frameToSource": {
+   "x": "x",
+   "y": "y",
+   "status": "provided",
+   "note": "за пределами исходного снимка — дополнение"
+  }
+ },
+ "validity": {
+  "status": "unknown",
+  "noData": null,
+  "definition": "Маски нет; область вне исходного снимка — чёрное дополнение."
+ },
+ "trajectory": {
+  "kind": "relative-sweep-index",
+  "kindNote": "Два отдельных снимка; ползунок переключает исходный и подписанный снимок. Проход условный.",
+  "s": [
+   0.0,
+   1.0
+  ],
+  "lutSize": 2,
+  "lut": [
+   0,
+   1
+  ],
+  "directionOnBody": {
+   "value": "unknown",
+   "status": "unknown",
+   "evidence": "Положение датчика не указано."
+  },
+  "bodyPlacement": {
+   "startFractionOfForearm": 0,
+   "endFractionOfForearm": 0,
+   "surface": "передняя поверхность левого предплечья (условно; сторона в источнике неизвестна)",
+   "status": "условное размещение",
+   "path": {
+    "from": [
+     0.1043,
+     0.1194,
+     0.2668
+    ],
+    "to": [
+     0.0747,
+     0.1194,
+     0.272
+    ],
+    "rayDir": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   }
+  },
+  "lengthMm": 30.0
+ },
+ "supportedMotions": {
+  "slideAlongSweep": true,
+  "lateralShift": false,
+  "rotation": false,
+  "tilt": false,
+  "compression": false,
+  "note": "Переключение между двумя снимками."
+ },
+ "calibration": {
+  "imageToSensor": "absent",
+  "note": "Калибровки датчика к фигуре нет."
+ },
+ "controlPoints": [
+  {
+   "id": "КТ1",
+   "t": 0,
+   "frameId": 0,
+   "frameSha256": "4f4e33c063291d8be6a1f6a9398cf7590df27dd5f39f64447880545817699732",
+   "image": "cases/wellcome-median-nerve-stills/frames/0000.jpg"
+  },
+  {
+   "id": "КТ2",
+   "t": 0.25,
+   "frameId": 0,
+   "frameSha256": "4f4e33c063291d8be6a1f6a9398cf7590df27dd5f39f64447880545817699732",
+   "image": "cases/wellcome-median-nerve-stills/frames/0000.jpg"
+  },
+  {
+   "id": "КТ3",
+   "t": 0.5,
+   "frameId": 1,
+   "frameSha256": "e8ec79bbd54316716a8ec4ff4ada431dacdf47e2a8acb1c1da4d0203bba0f8f2",
+   "image": "cases/wellcome-median-nerve-stills/frames/0001.jpg"
+  },
+  {
+   "id": "КТ4",
+   "t": 0.75,
+   "frameId": 1,
+   "frameSha256": "e8ec79bbd54316716a8ec4ff4ada431dacdf47e2a8acb1c1da4d0203bba0f8f2",
+   "image": "cases/wellcome-median-nerve-stills/frames/0001.jpg"
+  },
+  {
+   "id": "КТ5",
+   "t": 1,
+   "frameId": 1,
+   "frameSha256": "e8ec79bbd54316716a8ec4ff4ada431dacdf47e2a8acb1c1da4d0203bba0f8f2",
+   "image": "cases/wellcome-median-nerve-stills/frames/0001.jpg"
+  }
+ ],
+ "verification": {
+  "frameSha256": [
+   "4f4e33c063291d8be6a1f6a9398cf7590df27dd5f39f64447880545817699732",
+   "e8ec79bbd54316716a8ec4ff4ada431dacdf47e2a8acb1c1da4d0203bba0f8f2"
+  ],
+  "sourceImageSha256": [
+   "6a4c41ea8b7b5504561e814b7c5bd238a65b974a3dd6ab9b82aa35aad76dd5ff",
+   "7ebcaa9f0e7b3ae2f19eb7fb7cd2857ab4d0c4198599b37cf294ecc4698d58bd"
+  ]
+ },
+ "knownIssues": [
+  "Два статичных снимка, не проход и не видео (в описании источника упоминается фильм, но в каталоге только снимки).",
+  "Кадр 1 с подписями авторов — только справочное изображение; подписи не являются проверенной разметкой и не переносятся на другие записи.",
+  "Масштаб, сторона, метка датчика неизвестны.",
+  "Разный размер снимков: меньший дополнен чёрным справа/снизу."
+ ]
+}

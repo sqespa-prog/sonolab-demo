@@ -1,0 +1,468 @@
+{
+ "schema": "sonolab.case/1",
+ "caseId": "zenodo30999-heart-window-2",
+ "dataVersion": "1.0.0",
+ "title": "Сердце, акустическое окно 2 — настоящая 3D-эхокардиография, фазы сердечного цикла (Zenodo 30999)",
+ "region": {
+  "id": "chest",
+  "name": "Грудная клетка (сердце)"
+ },
+ "patientSide": "unknown",
+ "imageType": "recorded-sweep",
+ "imageTypeNote": "Настоящее УЗИ: 3D-эхокардиография (акустическое окно 2, участник vol_B). Фазы сердечного цикла, срез объёма: все 15 записанных фаз одного неподвижного среднего среза (z = 104 из 208). Ползунок меняет фазу сердечного цикла, а не положение датчика. Промежуточные фазы не создавались. Не симуляция.",
+ "source": {
+  "dataset": "Zenodo 30999 — 3D echocardiography sequences (Peressutti et al.)",
+  "subset": "vol_B, vol_B/vol_B_aw_2/vol_B_aw_2.raw",
+  "episode": 2,
+  "revision": "vol_B_aw_2.tar.gz SHA-256 41ab9a47bed616b5a6fe2d716474891ca5daf80ba5261f2f16eff7c0fc0bc6e7",
+  "url": "https://doi.org/10.5281/zenodo.30999",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "Peressutti D, Gomez A, Penney GP, King AP, Kings College London (2015)",
+  "task": "3D-эхокардиография, последовательность фаз сердечного цикла",
+  "articleUrl": "https://doi.org/10.1109/TBME.2016.2550487",
+  "via": "S:/SonoLab-local/assets/cardiac-phases/heart-window-2-phase-NN.js (старая сборка SonoLab-local), сверено с project/sources/acquired/cardiac-sequences/manifest.json (SHA-256 c4696d9f98ce6cf9a0575189ef64d9e9bea6ffab892fab67c24d2d3036f1c67b)",
+  "files": {
+   "assets/cardiac-phases/heart-window-2-phase-00.js": {
+    "bytes": 2302233,
+    "sha256": "eb8ebafb1b97708580c1e3f00475e9854545ba971a22eb58d211fd609f330c4e",
+    "pngSha256": "06273089e7d895a2c947a4e176d3f0f5553719fe34309954bdc35e45fd9b6e0e",
+    "voxelSha256": "a0516e83373a59bf6ae7b14252e6ee0c960334a861e1b817323ec5263ac49dfa",
+    "sourceRawFloat64Sha256": "f547ec5f450f7ef7fb77c7ce3c669093692023536ce1cfae9d4b30b158de3794",
+    "verifiedAgainst": "S:/SonoLab-local/project/sources/acquired/cardiac-sequences/manifest.json"
+   },
+   "assets/cardiac-phases/heart-window-2-phase-01.js": {
+    "bytes": 2296468,
+    "sha256": "b9d02d662f004e7287f24bcfd6154e7566fa38e4a1f2a8ec6defac5fd8e57c05",
+    "pngSha256": "51b512f228c0859e6a8e219469410d5840f4930539f9bd0b7f2a262a6896547f",
+    "voxelSha256": "1667dbce778ae73bf7dc6cf34d858ebf375c7b8417b764fa5ebece91bb3bbdd1",
+    "sourceRawFloat64Sha256": "c4d42ccd3542182ca1a8d6c75df2d8bce5e0d700fa0c42d7597ace6b53a4306d",
+    "verifiedAgainst": "S:/SonoLab-local/project/sources/acquired/cardiac-sequences/manifest.json"
+   },
+   "assets/cardiac-phases/heart-window-2-phase-02.js": {
+    "bytes": 2296881,
+    "sha256": "39ceef809641f65bd0edac2d1cd9de502419aba958cdc28191f11d4fc50cb7fb",
+    "pngSha256": "da0ee01cfd89c0623c3381113c7305cb2423d21e55e7229d287ab11d9aa6a425",
+    "voxelSha256": "f4657c21bfe8c02e7c145b5205b3a2bd0f38ec8fa895ce1db81a27f1a38952de",
+    "sourceRawFloat64Sha256": "503bbc14b47cd012c37c3c9bab133b314bf68f9e1c0331fcd30ac206b47ba429",
+    "verifiedAgainst": "S:/SonoLab-local/project/sources/acquired/cardiac-sequences/manifest.json"
+   },
+   "assets/cardiac-phases/heart-window-2-phase-03.js": {
+    "bytes": 2297197,
+    "sha256": "6b1f63a0d903474b7c4ab6a77f780b5eddc8ba0e6fa21c761d1580c8d5aa7edd",
+    "pngSha256": "f6ea363bc727ebbfffce942412648020fcfdc04ef6199a1b9128a8b255c0aa49",
+    "voxelSha256": "58e8eb13f0916d2f736fb73e2adf9afc3fbbe74b5faf6b6c02190f8fadffef49",
+    "sourceRawFloat64Sha256": "a35f50f47e7f14737624286de8322191526c44681917768bc69c3b43b9d1e2b3",
+    "verifiedAgainst": "S:/SonoLab-local/project/sources/acquired/cardiac-sequences/manifest.json"
+   },
+   "assets/cardiac-phases/heart-window-2-phase-04.js": {
+    "bytes": 2294081,
+    "sha256": "f6beaff3f4ec88afb6fe0d0e309018d9d23d0aede59329c096fb1550a59208c3",
+    "pngSha256": "b0ea1f9a5a6ab55646b465eacf6cdbdf835eb901bef67490fb751fb4043f2851",
+    "voxelSha256": "1d2e86155dd37f66e38fca4557f1a84b27d2a5d357080bc5b93ea03e5538fd74",
+    "sourceRawFloat64Sha256": "33c52194de8ed1f6986c7eba9c7a5158765b7868346eeb2b5d01f54cb37142a2",
+    "verifiedAgainst": "S:/SonoLab-local/project/sources/acquired/cardiac-sequences/manifest.json"
+   },
+   "assets/cardiac-phases/heart-window-2-phase-05.js": {
+    "bytes": 2291773,
+    "sha256": "db3269914012923c951805f49b1ac5ac954281b3a5c4239ab5784311a965eabc",
+    "pngSha256": "d5262e8242432734777461c219ee758f786ead3247187f0b9a5483d6f18cca0a",
+    "voxelSha256": "b5f257f06136574083ffb09e51582e3c74553419546172f7ee5a399138d43b01",
+    "sourceRawFloat64Sha256": "8dc3812c491c45d965aa07af5813129e7e449c19b404b9e8c8bf9a7fdda4fee9",
+    "verifiedAgainst": "S:/SonoLab-local/project/sources/acquired/cardiac-sequences/manifest.json"
+   },
+   "assets/cardiac-phases/heart-window-2-phase-06.js": {
+    "bytes": 2299761,
+    "sha256": "173641ca4ddf6c91ff12f5a902e93add0b2bfa42fc127e2af44d46987a40e541",
+    "pngSha256": "95b8383e4c8195e1e36e2861f98d2bc7ab7fa78945e3580fe3937e5726b111ac",
+    "voxelSha256": "8417132a45b4e8045a707fe92303f5bf158b9da8daafde132b776b9a456948e9",
+    "sourceRawFloat64Sha256": "3e4e6260b2c720036101724fc87e02d299ca9a28f3422cef1a13aa0bda6689e8",
+    "verifiedAgainst": "S:/SonoLab-local/project/sources/acquired/cardiac-sequences/manifest.json"
+   },
+   "assets/cardiac-phases/heart-window-2-phase-07.js": {
+    "bytes": 2308457,
+    "sha256": "026b057d4aa599cdad14f89ef64deb4408e1def42719765d650cbe0bded9aefe",
+    "pngSha256": "6cce67d82c93d987bc15b682fe42b204747cabf421262dbff45895d915b066c7",
+    "voxelSha256": "f39a43237a59d651b51935898ad209f61482a50c25f877b237d15850c0b71b27",
+    "sourceRawFloat64Sha256": "5719056d3bcf6a61a42a6d5f8707dfea538a28a99ae6832c3361b0e937e838c3",
+    "verifiedAgainst": "S:/SonoLab-local/project/sources/acquired/cardiac-sequences/manifest.json"
+   },
+   "assets/cardiac-phases/heart-window-2-phase-08.js": {
+    "bytes": 2309157,
+    "sha256": "2be0fc01906b8347dc8d47f404e6a56072d5e29246985472815365c46ddfd0d2",
+    "pngSha256": "fe552dcca8eb1fb89be811c4de8a359100a431f61c81fc3c0cb48f12a68ad7a2",
+    "voxelSha256": "3b8f8a8b37eb6a3e649929b2b6b9d6a7dd3be048171557b58e459aa1c3668157",
+    "sourceRawFloat64Sha256": "3eec84adfaa191b36303f29b5d55d9496a6f2b91b4b004a919fd1b8e1f768728",
+    "verifiedAgainst": "S:/SonoLab-local/project/sources/acquired/cardiac-sequences/manifest.json"
+   },
+   "assets/cardiac-phases/heart-window-2-phase-09.js": {
+    "bytes": 2312397,
+    "sha256": "f52152be21a3808247218f6c85335e26e0eb3e0a669135586ec67ec5846fe0a4",
+    "pngSha256": "d1cffce122fd42c98fc1c6737acfebe805fe013db8e6983d31054ec62c4362e6",
+    "voxelSha256": "e36abc319515294dbe94d40039045b66d11f6b14bae765ff99899f435fa8d982",
+    "sourceRawFloat64Sha256": "d544d13ac168752615c43b8e1681abdcc7ad2b13ec687b9a44b375ee54fac816",
+    "verifiedAgainst": "S:/SonoLab-local/project/sources/acquired/cardiac-sequences/manifest.json"
+   },
+   "assets/cardiac-phases/heart-window-2-phase-10.js": {
+    "bytes": 2307524,
+    "sha256": "b47c25353f17aa2c44833644ae80c0069248b41ba5d0a70bb7fd974dfe2824e1",
+    "pngSha256": "9f67861bf82c01ced00582cf066c67cf3eb961ac55cff9e4005d32a6743eae11",
+    "voxelSha256": "2f4616b714af7fe2f10b8cae1d642199d3c1df6443661fac29739a5a6bb36384",
+    "sourceRawFloat64Sha256": "d8825794962f031cfc2e90429fe3cff3dda213a41e30eea7985f6c0a67d144ab",
+    "verifiedAgainst": "S:/SonoLab-local/project/sources/acquired/cardiac-sequences/manifest.json"
+   },
+   "assets/cardiac-phases/heart-window-2-phase-11.js": {
+    "bytes": 2303612,
+    "sha256": "429dda995b9ad74f2c3485410981f982d573d75fd05ca692ba5f1db3347f9751",
+    "pngSha256": "801b46d976298719b46ab14f38b38eab038f00440d7c1b79796898695143c9b5",
+    "voxelSha256": "01bacee7a5fd97b24d9e589a4daa158418fe95ba199cea00bea75753a2568981",
+    "sourceRawFloat64Sha256": "9f5e414d64e5cae10311820e74ad32b2fe76f009ef5105d206c5e421a462dc01",
+    "verifiedAgainst": "S:/SonoLab-local/project/sources/acquired/cardiac-sequences/manifest.json"
+   },
+   "assets/cardiac-phases/heart-window-2-phase-12.js": {
+    "bytes": 2304600,
+    "sha256": "07bcf728e7390d56e76a67a88bfe0069fcff35d9d42402004f6cf848bad8cf7c",
+    "pngSha256": "a57fea778fa316f5d226292831fe9f8baed8ce81663ffa7836bed2922f6068bb",
+    "voxelSha256": "492c821f09e532210b18bc07c3bb00a01c4a06a4639be956d168993920b2eef7",
+    "sourceRawFloat64Sha256": "147bc99a61e0c899c86b0f80c1dc6b7ccdc485d403d641adc2958c768ca202b2",
+    "verifiedAgainst": "S:/SonoLab-local/project/sources/acquired/cardiac-sequences/manifest.json"
+   },
+   "assets/cardiac-phases/heart-window-2-phase-13.js": {
+    "bytes": 2304809,
+    "sha256": "94f87dda22777b15a15ee4a31c76ab1aa3dc3e72ae3d027babaff165db71bde5",
+    "pngSha256": "eb31ca23db87cc88332a4a6af00c86eafdfa4dc9371c7c4143a309071f531e93",
+    "voxelSha256": "cb1e300ece35cbe6fdc39f9177f9b01048e722b79c4b503aca2770191d9121a3",
+    "sourceRawFloat64Sha256": "a35a56f920bd63163d6fe34a4570bb812209ac50d282d1f97c363008218c45c6",
+    "verifiedAgainst": "S:/SonoLab-local/project/sources/acquired/cardiac-sequences/manifest.json"
+   },
+   "assets/cardiac-phases/heart-window-2-phase-14.js": {
+    "bytes": 2306293,
+    "sha256": "9f507176397e0feb7d7cc6099b4bdd948d9d28210a5ba6fb74086b4d0c2c3432",
+    "pngSha256": "9542bd97ee4245f1ade8bb44bdddd9eda9040adf1d6f87633051efe3d8c26a82",
+    "voxelSha256": "0f9ab0862d6b699b28afe37aabfdc9be2931c2cd8a4760f5d938408fe35335ea",
+    "sourceRawFloat64Sha256": "f10bc9740ae89035619c92715585639c4ba72d6ad80c0100b282d65a05a5d5b7",
+    "verifiedAgainst": "S:/SonoLab-local/project/sources/acquired/cardiac-sequences/manifest.json"
+   }
+  }
+ },
+ "probe": {
+  "model": "не указан",
+  "kind": "3D-эхокардиографический датчик (по описанию набора)",
+  "imageFormat": "срез 3D-объёма",
+  "centerFrequencyMHz": 0,
+  "imagingDepthCm": 10.0,
+  "note": "Аппарат и частота в метаданных не указаны (0 = неизвестно); глубина — высота кадра после обрезки."
+ },
+ "frames": {
+  "count": 15,
+  "fps": 0,
+  "width": 148,
+  "height": 130,
+  "pattern": "frames/{id:04d}.jpg",
+  "conversion": "фазы 0…14: плитка z=104 атласа 224×208; обрезка x 39…184, y 39…168; пересчёт по горизонтали к квадратному пикселю 0.7684 мм; JPEG q=90"
+ },
+ "imageGeometry": {
+  "orientation": "по горизонтали — ось x источника, вниз — ось y источника; без отражений; соответствие осям сердца/пациента не установлено",
+  "pixelSpacingMm": 0.7684,
+  "pixelSpacingNote": "Сетка 0.77979 × 0.76845 мм; кадр пересчитан по горизонтали к 0.7684 мм.",
+  "depthSettingCm": 10.0,
+  "probeMarkerSide": "unknown",
+  "flipApplied": false,
+  "lateralOrientation": "Метка датчика в источнике неизвестна (sourceMarkerKnown = false)."
+ },
+ "acquisition": {
+  "scanner": null,
+  "probe": null,
+  "probeType": "3D-эхокардиография",
+  "centerFrequencyMHz": null,
+  "depthCm": null,
+  "frameDepthCm": 10.0,
+  "tracking": "нет (неподвижный срез объёма)",
+  "sourceUnits": {
+   "spatial": "mm",
+   "intensity": "uint8 0..255 (без потерь из целочисленных float64 источника)",
+   "time": "номер фазы (единица времени в MHD не указана)"
+  },
+  "fieldStatus": {
+   "scanner": "unknown",
+   "probe": "unknown",
+   "centerFrequencyMHz": "unknown",
+   "depthCm": "unknown",
+   "frameDepthCm": "heuristic",
+   "sourceUnits": "provided"
+  },
+  "note": "Шаг времени между фазами в источнике без физической единицы (timingVerified = false); ЧСС и длительность не выводились."
+ },
+ "transforms": [
+  {
+   "op": "read",
+   "format": "javascript (JSON + атлас PNG в base64)",
+   "file": "assets/cardiac-phases/heart-window-2-phase-{00…14}.js",
+   "dimensions": [
+    224,
+    208,
+    208
+   ],
+   "spacingMm": [
+    0.77979,
+    0.76845,
+    0.67786
+   ],
+   "note": "по фазе на файл; SHA-256 JS и PNG сверены с манифестом cardiac-sequences"
+  },
+  {
+   "op": "decode",
+   "library": "Pillow",
+   "mode": "L",
+   "note": "атлас 16×13 плиток; плитка z=104"
+  },
+  {
+   "op": "slice",
+   "axis": "фаза (t)",
+   "start": 0,
+   "stop": 14,
+   "step": 1,
+   "z": 104,
+   "criterion": "все фазы источника; кадр N ← фаза N, срез z = 104"
+  },
+  {
+   "op": "crop",
+   "x0": 39,
+   "y0": 39,
+   "x1": 185,
+   "y1": 169,
+   "units": "px",
+   "note": "общий охват (значение > 8) этого среза во всех фазах"
+  },
+  {
+   "op": "resample",
+   "method": "bicubic",
+   "library": "Pillow",
+   "scale": 1.013699,
+   "scaleX": 1.013699,
+   "scaleY": 1,
+   "from": [
+    146,
+    130
+   ],
+   "to": [
+    148,
+    130
+   ],
+   "note": "только по горизонтали: 0.77979 → 0.76845 мм"
+  },
+  {
+   "op": "encode",
+   "format": "jpeg",
+   "quality": 90,
+   "library": "Pillow",
+   "mode": "L",
+   "optimize": true
+  }
+ ],
+ "coordinateConvention": {
+  "sourceFrame": {
+   "kind": "voxel-volume по фазам",
+   "axes": {
+    "x": "ось x источника",
+    "y": "ось y источника",
+    "z": "ось z источника",
+    "t": "номер фазы"
+   },
+   "units": "mm",
+   "voxelSizeMm": [
+    0.77979,
+    0.76845,
+    0.67786
+   ],
+   "dimensions": [
+    224,
+    208,
+    208
+   ],
+   "worldMeaning": "unknown",
+   "note": "Source-local Cartesian grid; buffer order [z,y,x], x fastest; no array flips or spatial resampling. Header MHD identity matrix and RAI label are preserved in source manifest; no clinical probe-marker orientation or avatar registration asserted."
+  },
+  "frame": {
+   "origin": "левый верхний угол пикселя (0,0)",
+   "x": "вправо",
+   "y": "вниз (глубина)",
+   "units": "px",
+   "pixelSpacingMm": 0.7684
+  },
+  "frameToSource": {
+   "x": "(x + 0.5)·146/148 − 0.5 + 39",
+   "y": "y + 39",
+   "z": "104",
+   "t": "frameId (номер фазы)",
+   "status": "provided"
+  }
+ },
+ "validity": {
+  "status": "heuristic",
+  "noData": "value <= 8",
+  "threshold": 8,
+  "definition": "Правило импортёра: пиксели ≤ 8 считались пустыми при обрезке; маски охвата источник не даёт (acquiredSupportMaskAvailable = false)."
+ },
+ "trajectory": {
+  "kind": "relative-sweep-index",
+  "kindNote": "Навигация по фазам сердечного цикла (фазы сердечного цикла, срез объёма); датчик неподвижен. Проход на фигуре условный.",
+  "s": [
+   0.0,
+   0.0714,
+   0.1429,
+   0.2143,
+   0.2857,
+   0.3571,
+   0.4286,
+   0.5,
+   0.5714,
+   0.6429,
+   0.7143,
+   0.7857,
+   0.8571,
+   0.9286,
+   1.0
+  ],
+  "lutSize": 15,
+  "lut": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "directionOnBody": {
+   "value": "unknown",
+   "status": "unknown",
+   "evidence": "Датчик неподвижен; регистрации объёма к телу нет."
+  },
+  "bodyPlacement": {
+   "startFractionOfForearm": 0,
+   "endFractionOfForearm": 0,
+   "surface": "область верхушки сердца, слева (условно: какое это окно анатомически, источник не указывает)",
+   "status": "условное размещение",
+   "path": {
+    "from": [
+     0.37,
+     0.15,
+     0.07
+    ],
+    "to": [
+     0.35,
+     0.15,
+     0.085
+    ],
+    "rayDir": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   }
+  },
+  "lengthMm": 25.0
+ },
+ "supportedMotions": {
+  "slideAlongSweep": true,
+  "lateralShift": false,
+  "rotation": false,
+  "tilt": false,
+  "compression": false,
+  "note": "Только выбор фазы сердечного цикла."
+ },
+ "calibration": {
+  "imageToSensor": "absent",
+  "note": "Калибровки датчика к фигуре нет."
+ },
+ "controlPoints": [
+  {
+   "id": "КТ1",
+   "t": 0,
+   "frameId": 0,
+   "frameSha256": "fcedb8140c238e63f81aea7998a4d23a7c82d08d4a40c5f4cb0ce3f68c2af5a3",
+   "image": "cases/zenodo30999-heart-window-2/frames/0000.jpg"
+  },
+  {
+   "id": "КТ2",
+   "t": 0.25,
+   "frameId": 4,
+   "frameSha256": "6e272d2e739cbdace35b4c15bce461d09bc54370513944c2914f59934e452311",
+   "image": "cases/zenodo30999-heart-window-2/frames/0004.jpg"
+  },
+  {
+   "id": "КТ3",
+   "t": 0.5,
+   "frameId": 7,
+   "frameSha256": "87719d9eb69aecf88a6ee9dcfd32e1986465391da57dd6ccfb2f21b6a63842a5",
+   "image": "cases/zenodo30999-heart-window-2/frames/0007.jpg"
+  },
+  {
+   "id": "КТ4",
+   "t": 0.75,
+   "frameId": 11,
+   "frameSha256": "0a047b5032a2e0af18a8ae286c59bfebca8b8099ceebc8c193c22b328bba2a2e",
+   "image": "cases/zenodo30999-heart-window-2/frames/0011.jpg"
+  },
+  {
+   "id": "КТ5",
+   "t": 1,
+   "frameId": 14,
+   "frameSha256": "a638161de6c77e46ee6acbe12a377a2d429daf92415c700011c4e87e6464bcfb",
+   "image": "cases/zenodo30999-heart-window-2/frames/0014.jpg"
+  }
+ ],
+ "verification": {
+  "frameSha256": [
+   "fcedb8140c238e63f81aea7998a4d23a7c82d08d4a40c5f4cb0ce3f68c2af5a3",
+   "a34ef0e4acf76e9c95a62612c4e95ef1aba48de68b561f30e0d7f5cafef8ee8c",
+   "a164491da0f034de564c20641afd07a211f93bc48c0d78f412bba01a5529da37",
+   "e65f763cebed2c2433adb68d3cdb19a78eaec5093c26d724ac60a79e69478961",
+   "6e272d2e739cbdace35b4c15bce461d09bc54370513944c2914f59934e452311",
+   "579ba872f2f63bbfb2f22a4dd5c16464fd4f62e416ef8d477965233755af4d25",
+   "8c1ecdd6e1b03bc3b2e9f894868a36801f56e29c1fac4dd1aaee9fea47fab5cb",
+   "87719d9eb69aecf88a6ee9dcfd32e1986465391da57dd6ccfb2f21b6a63842a5",
+   "3f01d2a8047382fb9c9b96c403119a30053b00a855b7ad4b6b886724acd5af87",
+   "3c672cfaca8329b44a0cc16d5e61025a5bbdff1286e4b05c1c4f43feee0351cb",
+   "9bf29883c5bdb9588c8d6ca8fabf9f7ec5914734b4a8b0e6a78034e46bd2fb87",
+   "0a047b5032a2e0af18a8ae286c59bfebca8b8099ceebc8c193c22b328bba2a2e",
+   "9a216d530e128905a80b4635c2280187a4bfe75ff3a3b9ba3471cdcd3939a4a4",
+   "42354e186bf10167dc980fe2f7434014f7d1afae4bf214a767bf7623f7c0389f",
+   "a638161de6c77e46ee6acbe12a377a2d429daf92415c700011c4e87e6464bcfb"
+  ],
+  "sourceAtlasPngSha256": [
+   "06273089e7d895a2c947a4e176d3f0f5553719fe34309954bdc35e45fd9b6e0e",
+   "51b512f228c0859e6a8e219469410d5840f4930539f9bd0b7f2a262a6896547f",
+   "da0ee01cfd89c0623c3381113c7305cb2423d21e55e7229d287ab11d9aa6a425",
+   "f6ea363bc727ebbfffce942412648020fcfdc04ef6199a1b9128a8b255c0aa49",
+   "b0ea1f9a5a6ab55646b465eacf6cdbdf835eb901bef67490fb751fb4043f2851",
+   "d5262e8242432734777461c219ee758f786ead3247187f0b9a5483d6f18cca0a",
+   "95b8383e4c8195e1e36e2861f98d2bc7ab7fa78945e3580fe3937e5726b111ac",
+   "6cce67d82c93d987bc15b682fe42b204747cabf421262dbff45895d915b066c7",
+   "fe552dcca8eb1fb89be811c4de8a359100a431f61c81fc3c0cb48f12a68ad7a2",
+   "d1cffce122fd42c98fc1c6737acfebe805fe013db8e6983d31054ec62c4362e6",
+   "9f67861bf82c01ced00582cf066c67cf3eb961ac55cff9e4005d32a6743eae11",
+   "801b46d976298719b46ab14f38b38eab038f00440d7c1b79796898695143c9b5",
+   "a57fea778fa316f5d226292831fe9f8baed8ce81663ffa7836bed2922f6068bb",
+   "eb31ca23db87cc88332a4a6af00c86eafdfa4dc9371c7c4143a309071f531e93",
+   "9542bd97ee4245f1ade8bb44bdddd9eda9040adf1d6f87633051efe3d8c26a82"
+  ],
+  "sliceZ": 104
+ },
+ "knownIssues": [
+  "Ограниченный объём левого желудочка, не вся грудная клетка.",
+  "Единица времени между фазами в источнике не указана: частота кадров неизвестна (fps = 0).",
+  "Какое это анатомическое окно (парастернальное, верхушечное), источник не указывает; размещение на фигуре условное.",
+  "Сторона/метка датчика неизвестны; ориентация среза к сердцу не установлена.",
+  "Ползунок меняет фазу, а не положение датчика."
+ ]
+}

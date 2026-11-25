@@ -373,7 +373,7 @@
    "hasReference": true,
    "annotations": "cases/pfus1-p055/annotations.json",
    "referenceTolerancePx": 30,
-   "referenceNote": "Эталон источника грубый (7–12 вершин на контур): на экране контуры сглажены сплайном, исходные вершины не изменены; допуск тренировки 30 пикс. Требует проверки специалистом."
+   "referenceNote": "Эталон источника грубый (7–12 вершин на контур): на экране контуры сглажены сплайном, исходные вершины не изменены; допуск тренировки 30 пикс. «Прямая кишка» и «Мочевой пузырь» — эталон источника, неточный (сверено с разметкой авторов, ошибки конвертации нет). Требует проверки специалистом."
   },
   {
    "caseId": "shoulder-pa001-a-0001",
@@ -1574,6 +1574,46 @@
    "menuGroup": "Позвоночник (фантом)",
    "title": "Позвоночник: срезы 3D-УЗИ фантома с позвоночником собаки (Masoumi et al., Zenodo 4813508)",
    "path": "cases/spine-canine-phantom-us/case.json",
+   "hasReference": false
+  },
+  {
+   "caseId": "zenodo30999-heart-window-1",
+   "region": "chest",
+   "label": "Сердце, окно 1 — 3D-эхо, фазы сердечного цикла (19)",
+   "title": "Сердце, окно 1 — 3D-эхо, 19 фаз сердечного цикла (Zenodo 30999)",
+   "path": "cases/zenodo30999-heart-window-1/case.json",
+   "hasReference": false
+  },
+  {
+   "caseId": "zenodo30999-heart-window-2",
+   "region": "chest",
+   "label": "Сердце, окно 2 — 3D-эхо, фазы сердечного цикла (15)",
+   "title": "Сердце, окно 2 — 3D-эхо, 15 фаз сердечного цикла (Zenodo 30999)",
+   "path": "cases/zenodo30999-heart-window-2/case.json",
+   "hasReference": false
+  },
+  {
+   "caseId": "darus6538-median-smi-009",
+   "region": "wrist",
+   "label": "Запястье справа — срединный нерв, SMI-допплер",
+   "title": "Запястье справа — срединный нерв, SMI-допплер (DaRUS-6538)",
+   "path": "cases/darus6538-median-smi-009/case.json",
+   "hasReference": false
+  },
+  {
+   "caseId": "wellcome-median-nerve-stills",
+   "region": "forearm",
+   "label": "Предплечье — срединный нерв, 2 снимка (справочно)",
+   "title": "Предплечье — срединный нерв, 2 снимка (Wellcome Collection, справочно)",
+   "path": "cases/wellcome-median-nerve-stills/case.json",
+   "hasReference": false
+  },
+  {
+   "caseId": "openhrf-quadriceps-invivo07",
+   "region": "thigh",
+   "label": "Бедро — четырёхглавая мышца, B-режим из RF",
+   "title": "Бедро — четырёхглавая мышца, B-режим из сырых RF (Open-H-RF)",
+   "path": "cases/openhrf-quadriceps-invivo07/case.json",
    "hasReference": false
   }
  ]
