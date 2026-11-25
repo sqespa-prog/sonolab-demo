@@ -1,0 +1,713 @@
+{
+ "schema": "sonolab.presets/1",
+ "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+ "pose": "lateral",
+ "poseNote": "положения основной позы, перенесённые тем же скелетом (tools/build_pose.py); оставлены только доступные в этой позе",
+ "presets": {
+  "POP_R": {
+   "ru": "Подколенная седалищная (вид снизу) справа",
+   "group": "Нижняя конечность",
+   "point": [
+    -0.2536,
+    0.3184,
+    -0.1095
+   ],
+   "dir": [
+    -0.7109,
+    -0.6218,
+    -0.3286
+   ],
+   "x": -0.2536,
+   "z": -0.1095,
+   "rotateDeg": 0,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 7.5,
+   "targetPoint": [
+    -0.2536,
+    0.3184,
+    -0.1095
+   ],
+   "target": {
+    "name": "Sciatic nerve",
+    "side": "right"
+   },
+   "expect": [
+    {
+     "name": "Sciatic nerve",
+     "side": "right"
+    },
+    {
+     "name": "Popliteal artery",
+     "side": "right"
+    },
+    {
+     "name": "Popliteal vein",
+     "side": "right"
+    },
+    {
+     "name": "Long head of biceps femoris",
+     "side": "right"
+    },
+    {
+     "name": "Semimembranosus muscle",
+     "side": "right"
+    },
+    {
+     "name": "Tibial nerve",
+     "side": "right"
+    },
+    {
+     "name": "Femur",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Sciatic nerve",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Tibial nerve",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Common fibular nerve",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Popliteal artery",
+     "side": "right",
+     "role": "vessel"
+    },
+    {
+     "name": "Popliteal vein",
+     "side": "right",
+     "role": "vessel"
+    },
+    {
+     "name": "Long head of biceps femoris",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Semimembranosus muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Semitendinosus muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Femur",
+     "side": "right",
+     "role": "bone"
+    }
+   ],
+   "card": {
+    "target": "Седалищный нерв у деления на большеберцовый и общий малоберцовый (5–7 см выше подколенной складки)",
+    "landmarks": [
+     "Подколенные артерия и вена (глубже и медиальнее нерва)",
+     "Двуглавая мышца бедра латерально",
+     "Полуперепончатая и полусухожильная медиально"
+    ],
+    "danger": [
+     "Подколенные артерия и вена"
+    ],
+    "typicalDepth": "2–4 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.56
+   ],
+   "modelDepthCm": 4.2
+  },
+  "SCI_R": {
+   "ru": "Подъягодичная седалищная (вид снизу) справа",
+   "group": "Нижняя конечность",
+   "point": [
+    -0.0821,
+    0.1039,
+    -0.1007
+   ],
+   "dir": [
+    -0.5207,
+    -0.7333,
+    -0.4372
+   ],
+   "x": -0.0821,
+   "z": -0.1007,
+   "rotateDeg": 0,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 7.5,
+   "targetPoint": [
+    -0.0821,
+    0.1039,
+    -0.1007
+   ],
+   "target": {
+    "name": "Sciatic nerve",
+    "side": "right"
+   },
+   "expect": [
+    {
+     "name": "Sciatic nerve",
+     "side": "right"
+    },
+    {
+     "name": "Gluteus maximus muscle",
+     "side": "right"
+    },
+    {
+     "name": "Long head of biceps femoris",
+     "side": "right"
+    },
+    {
+     "name": "Adductor magnus",
+     "side": "right"
+    },
+    {
+     "name": "Femur",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Sciatic nerve",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Gluteus maximus muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Long head of biceps femoris",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Adductor magnus",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Femur",
+     "side": "right",
+     "role": "bone"
+    },
+    {
+     "name": "Inferior gluteal artery",
+     "side": "right",
+     "role": "vessel"
+    }
+   ],
+   "card": {
+    "target": "Седалищный нерв под большой ягодичной мышцей между большим вертелом и седалищным бугром",
+    "landmarks": [
+     "Большая ягодичная мышца",
+     "Большой вертел и седалищный бугор",
+     "Длинная головка двуглавой мышцы бедра"
+    ],
+    "danger": [
+     "Нижняя ягодичная артерия",
+     "Задний кожный нерв бедра"
+    ],
+    "typicalDepth": "3–6 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.56
+   ],
+   "modelDepthCm": 4.2
+  },
+  "ESP_T5R": {
+   "ru": "ESP, T5 справа (продольно)",
+   "group": "Спина",
+   "point": [
+    0.4435,
+    0.0606,
+    -0.0336
+   ],
+   "dir": [
+    -0.0112,
+    -0.9997,
+    -0.0239
+   ],
+   "x": 0.4435,
+   "z": -0.0336,
+   "rotateDeg": 90,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 4.5,
+   "targetPoint": [
+    0.4405,
+    0.056,
+    -0.0432
+   ],
+   "target": {
+    "name": "Vertebra T5"
+   },
+   "expect": [
+    {
+     "name": "Vertebra T5"
+    },
+    {
+     "name": "Rhomboid major muscle"
+    },
+    {
+     "name": "Ascending part of trapezius muscle"
+    },
+    {
+     "name": "Pleura"
+    },
+    {
+     "name": "Longissimus thoracis muscle",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Trapezius muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Ascending part of trapezius muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Transverse part of trapezius muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Rhomboid major muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Longissimus thoracis muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Iliocostalis thoracis muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Vertebra T5",
+     "role": "target"
+    },
+    {
+     "name": "Pleura",
+     "role": "danger"
+    }
+   ],
+   "card": {
+    "target": "Плоскость между мышцей, выпрямляющей позвоночник, и верхушкой поперечного отростка T5",
+    "landmarks": [
+     "Трапециевидная мышца",
+     "Большая ромбовидная мышца",
+     "Мышца, выпрямляющая позвоночник (длиннейшая)",
+     "Поперечный отросток T5 (плоская тень)"
+    ],
+    "danger": [
+     "Плевра (между отростками)"
+    ],
+    "typicalDepth": "2–4 см (отросток); в модели мельче — мягкие ткани спины сжаты позой лёжа"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "modelDepthCm": 2.3,
+   "targetFrac": [
+    0.5,
+    0.51
+   ]
+  },
+  "ESP_L4R": {
+   "ru": "ESP, L4 справа (продольно)",
+   "group": "Спина",
+   "point": [
+    0.1414,
+    0.079,
+    -0.0328
+   ],
+   "dir": [
+    -0.0019,
+    -1.0,
+    -0.0003
+   ],
+   "x": 0.1414,
+   "z": -0.0328,
+   "rotateDeg": 90,
+   "tiltDeg": -0.2,
+   "rockDeg": -1.4,
+   "depthCm": 9.5,
+   "targetPoint": [
+    0.1397,
+    0.0789,
+    -0.0332
+   ],
+   "target": {
+    "name": "Vertebra L4"
+   },
+   "expect": [
+    {
+     "name": "Vertebra L4"
+    },
+    {
+     "name": "Iliocostalis lumborum muscle"
+    },
+    {
+     "name": "Psoas major"
+    },
+    {
+     "name": "Longissimus thoracis muscle",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Iliocostalis lumborum muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Longissimus thoracis muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Vertebra L4",
+     "role": "target"
+    },
+    {
+     "name": "Vertebra L3",
+     "role": "bone"
+    },
+    {
+     "name": "Vertebra L5",
+     "role": "bone"
+    },
+    {
+     "name": "Psoas major",
+     "side": "right",
+     "role": "muscle"
+    }
+   ],
+   "card": {
+    "target": "Плоскость под мышцей, выпрямляющей позвоночник, над поперечными отростками L3–L5 («трезубец»)",
+    "landmarks": [
+     "Поперечные отростки L3–L5 с тенями",
+     "Мышца, выпрямляющая позвоночник",
+     "Большая поясничная мышца глубже"
+    ],
+    "danger": [
+     "Почка (выше L3)",
+     "Поясничные сосуды"
+    ],
+    "typicalDepth": "3–5 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "modelDepthCm": 6.2,
+   "targetFrac": [
+    0.5,
+    0.51
+   ]
+  },
+  "PSO_L34R": {
+   "ru": "Нейроаксиальный: парамедианный сагиттальный косой L3–L4",
+   "group": "Спина",
+   "point": [
+    0.1422,
+    0.073,
+    -0.0201
+   ],
+   "dir": [
+    -0.0013,
+    -1.0,
+    -0.0004
+   ],
+   "x": 0.1422,
+   "z": -0.0201,
+   "rotateDeg": 90,
+   "tiltDeg": -19.9,
+   "rockDeg": -1.8,
+   "depthCm": 9.5,
+   "targetPoint": [
+    0.1415,
+    0.0797,
+    -0.0139
+   ],
+   "target": {
+    "name": "Vertebra L4"
+   },
+   "expect": [
+    {
+     "name": "Vertebra L4"
+    },
+    {
+     "name": "Vertebra L3"
+    },
+    {
+     "name": "Cauda equina"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Ligamenta flava",
+     "role": "target"
+    },
+    {
+     "name": "Vertebra L3",
+     "role": "bone"
+    },
+    {
+     "name": "Vertebra L4",
+     "role": "target"
+    },
+    {
+     "name": "Posterior longitudinal ligament",
+     "role": "fascia"
+    },
+    {
+     "name": "Cauda equina",
+     "role": "nerve"
+    }
+   ],
+   "card": {
+    "target": "Междужковое окно: задний комплекс (жёлтая связка + твёрдая оболочка) между пластинками L3 и L4",
+    "landmarks": [
+     "«Пила» пластинок",
+     "Задний комплекс",
+     "Передний комплекс (задняя продольная связка, тело позвонка)"
+    ],
+    "danger": [
+     "Конский хвост",
+     "Эпидуральные вены"
+    ],
+    "typicalDepth": "4–6 см (задний комплекс); в модели мельче"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "modelDepthCm": 6.3,
+   "targetFrac": [
+    0.5,
+    0.52
+   ]
+  },
+  "TLI_L34": {
+   "ru": "Нейроаксиальный: поперечный междужковый L3–L4",
+   "group": "Спина",
+   "point": [
+    0.1341,
+    0.0728,
+    -0.0
+   ],
+   "dir": [
+    -0.0017,
+    -1.0,
+    0.0002
+   ],
+   "x": 0.1341,
+   "z": -0.0,
+   "rotateDeg": 0,
+   "tiltDeg": -20,
+   "rockDeg": 0,
+   "depthCm": 9.0,
+   "targetPoint": [
+    0.1408,
+    0.0776,
+    0.0049
+   ],
+   "target": {
+    "name": "Ligamenta flava"
+   },
+   "expect": [
+    {
+     "name": "Ligamenta flava"
+    },
+    {
+     "name": "Interspinous ligaments"
+    },
+    {
+     "name": "Cauda equina"
+    },
+    {
+     "name": "Posterior longitudinal ligament"
+    },
+    {
+     "name": "Vertebra L4"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Ligamenta flava",
+     "role": "target"
+    },
+    {
+     "name": "Interspinous ligaments",
+     "role": "fascia"
+    },
+    {
+     "name": "Posterior longitudinal ligament",
+     "role": "fascia"
+    },
+    {
+     "name": "Vertebra L3",
+     "role": "bone"
+    },
+    {
+     "name": "Vertebra L4",
+     "role": "bone"
+    },
+    {
+     "name": "Cauda equina",
+     "role": "nerve"
+    }
+   ],
+   "card": {
+    "target": "Задний комплекс по средней линии в межостистом промежутке L3–L4",
+    "landmarks": [
+     "Межостистый промежуток (нет тени остистого отростка)",
+     "Суставные отростки («летучая мышь»)",
+     "Задний и передний комплексы"
+    ],
+    "danger": [
+     "Конский хвост"
+    ],
+    "typicalDepth": "4–6 см (задний комплекс); в модели мельче"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "modelDepthCm": 5.8,
+   "targetFrac": [
+    0.5,
+    0.49
+   ]
+  },
+  "QL2_R": {
+   "ru": "Задний QL (QL2), справа, заднебоковой доступ",
+   "group": "Спина",
+   "point": [
+    0.1575,
+    0.0668,
+    -0.0636
+   ],
+   "dir": [
+    -0.0001,
+    -0.9442,
+    -0.3294
+   ],
+   "x": 0.1575,
+   "z": -0.0636,
+   "rotateDeg": 0,
+   "tiltDeg": -2.0,
+   "rockDeg": 20.0,
+   "depthCm": 5.5,
+   "targetPoint": [
+    0.1597,
+    0.0691,
+    -0.07
+   ],
+   "target": {
+    "name": "Quadratus lumborum muscle",
+    "side": "right"
+   },
+   "expect": [
+    {
+     "name": "Quadratus lumborum muscle",
+     "side": "right"
+    },
+    {
+     "name": "Latissimus dorsi muscle"
+    },
+    {
+     "name": "Posterior layer of thoracolumbar fascia",
+     "side": "right"
+    },
+    {
+     "name": "Middle layer of thoracolumbar fascia",
+     "side": "right"
+    },
+    {
+     "name": "Anterior layer of thoracolumbar fascia",
+     "side": "right"
+    },
+    {
+     "name": "Transversus abdominis muscle",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Quadratus lumborum muscle",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Posterior layer of thoracolumbar fascia",
+     "side": "right",
+     "role": "fascia"
+    },
+    {
+     "name": "Middle layer of thoracolumbar fascia",
+     "side": "right",
+     "role": "fascia"
+    },
+    {
+     "name": "Anterior layer of thoracolumbar fascia",
+     "side": "right",
+     "role": "fascia"
+    },
+    {
+     "name": "Psoas major",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Latissimus dorsi muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Transversus abdominis muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Right kidney",
+     "role": "danger"
+    }
+   ],
+   "card": {
+    "target": "Задняя поверхность квадратной мышцы поясницы (грудопоясничная фасция, QL2)",
+    "landmarks": [
+     "Квадратная мышца поясницы",
+     "Грудопоясничная фасция",
+     "Большая поясничная мышца, поперечный отросток L4"
+    ],
+    "danger": [
+     "Почка",
+     "Брюшина"
+    ],
+    "typicalDepth": "3–5 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "modelDepthCm": 3.9,
+   "targetFrac": [
+    0.5,
+    0.52
+   ]
+  }
+ }
+}

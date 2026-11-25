@@ -1,0 +1,233 @@
+{
+ "schema": "sonolab.bodymodel/1",
+ "frame": "body: +X к голове, +Y вентрально (вверх), +Z к левой стороне пациента; метры; спина на Y=0; таз в X=Z=0",
+ "landmarks": {
+  "shoulderR": [
+   0.45355,
+   0.11936,
+   -0.20517
+  ],
+  "elbowR": [
+   0.45355,
+   0.11936,
+   -0.45674
+  ],
+  "wristR": [
+   0.45355,
+   0.11936,
+   -0.71922
+  ],
+  "middleFingerBaseR": [
+   0.44212,
+   0.12356,
+   -0.83193
+  ],
+  "thumbTipR": [
+   0.54312,
+   0.11998,
+   -0.83434
+  ],
+  "head": [
+   0.65471,
+   0.14449,
+   0.0
+  ],
+  "headTop": [
+   0.80858,
+   0.14398,
+   0.0
+  ],
+  "pelvis": [
+   0.0,
+   0.10424,
+   0.0
+  ],
+  "anklesMid": [
+   -0.87383,
+   0.11641,
+   0.0
+  ],
+  "shoulderL": [
+   0.45355,
+   0.11936,
+   0.20517
+  ],
+  "elbowL": [
+   0.20581,
+   0.11936,
+   0.24885
+  ],
+  "wristL": [
+   -0.05269,
+   0.11936,
+   0.29443
+  ],
+  "middleFingerBaseL": [
+   -0.16438,
+   0.12874,
+   0.31145
+  ],
+  "hipR": [
+   -0.00573,
+   0.09366,
+   -0.10977
+  ],
+  "kneeR": [
+   -0.43407,
+   0.12824,
+   -0.14925
+  ],
+  "ankleR": [
+   -0.87383,
+   0.11641,
+   -0.19636
+  ],
+  "toeR": [
+   -0.91594,
+   0.26213,
+   -0.19241
+  ],
+  "hipL": [
+   -0.00573,
+   0.09366,
+   0.10977
+  ],
+  "kneeL": [
+   -0.43407,
+   0.12824,
+   0.14925
+  ],
+  "ankleL": [
+   -0.87383,
+   0.11641,
+   0.19636
+  ],
+  "toeL": [
+   -0.91594,
+   0.26213,
+   0.19241
+  ],
+  "neck": [
+   0.55829,
+   0.11252,
+   0.0
+  ]
+ },
+ "forearmMinY": 0.08376,
+ "heightM": 1.7481,
+ "pose": {
+  "id": "abd90",
+  "ru": "Рука отведена 90°, ладонь вверх",
+  "up": [
+   0,
+   1,
+   0
+  ],
+  "supinationCheck": {
+   "twistDeg": 129,
+   "thumbCranialM": 0.0896,
+   "palmNormalVentral": 0.819
+  },
+  "arms": {
+   "right": [
+    90.0,
+    0.0
+   ],
+   "left": [
+    10.0,
+    0.0
+   ]
+  },
+  "legs": {
+   "hipFlexDeg": 0.0,
+   "kneeFlexDeg": 0.0
+  },
+  "footPlantarflexDeg": 0.0,
+  "table": {
+   "up": [
+    0,
+    1,
+    0
+   ],
+   "level": -0.002,
+   "xRange": [
+    -1.124,
+    0.878
+   ],
+   "across": [
+    -0.297,
+    0.297
+   ],
+   "head": null,
+   "armBoards": [
+    {
+     "side": "R",
+     "from": [
+      0.45355,
+      0.11936,
+      -0.20517
+     ],
+     "to": [
+      0.44212,
+      0.12356,
+      -0.83193
+     ],
+     "level": 0.0613
+    },
+    {
+     "side": "L",
+     "from": [
+      0.45355,
+      0.11936,
+      0.20517
+     ],
+     "to": [
+      -0.16438,
+      0.12874,
+      0.31145
+     ],
+     "level": 0.0613
+    }
+   ]
+  },
+  "camera": {
+   "target": [
+    -0.04,
+    0.124,
+    -0.301
+   ],
+   "dir": [
+    -0.387,
+    0.922,
+    0.0
+   ],
+   "halfLen": 0.98,
+   "halfWide": 0.679
+  }
+ },
+ "macroTargets": [
+  [
+   "macrodetails/universal-male-young-averagemuscle-averageweight.target.gz",
+   1.0
+  ],
+  [
+   "macrodetails/caucasian-male-young.target.gz",
+   1.0
+  ],
+  [
+   "macrodetails/proportions/male-young-averagemuscle-averageweight-idealproportions.target.gz",
+   0.5
+  ]
+ ],
+ "assets": [
+  "clothes/male_casualsuit06/male_casualsuit06.mhclo",
+  "hair/short02/short02.mhclo",
+  "eyes/high-poly/high-poly.mhclo",
+  "eyebrows/eyebrow001/eyebrow001.mhclo",
+  "eyelashes/eyelashes01/eyelashes01.mhclo",
+  "skins/young_caucasian_male/young_caucasian_male.mhmat",
+  "eyes/materials/brownlight.mhmat"
+ ],
+ "triangles": 62048,
+ "license": "CC0-1.0 (MakeHuman / MPFB assets); сборка — SonoLab"
+}
