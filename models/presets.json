@@ -1,0 +1,2467 @@
+{
+ "schema": "sonolab.presets/1",
+ "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+ "presets": {
+  "ISB_R": {
+   "ru": "Межлестничная (C6, поперёк) справа",
+   "group": "Верхняя конечность и шея",
+   "point": [
+    0.553,
+    0.1417,
+    -0.0463
+   ],
+   "dir": [
+    0.1951,
+    0.4535,
+    -0.8696
+   ],
+   "x": 0.5552,
+   "z": -0.0563,
+   "rotateDeg": 0,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 2,
+   "targetPoint": [
+    0.553,
+    0.1417,
+    -0.0463
+   ],
+   "target": {
+    "name": "C6 root of brachial plexus",
+    "side": "right"
+   },
+   "expect": [
+    {
+     "name": "C6 root of brachial plexus",
+     "side": "right"
+    },
+    {
+     "name": "C5 root of brachial plexus",
+     "side": "right"
+    },
+    {
+     "name": "Scalenus anterior muscle",
+     "side": "right"
+    },
+    {
+     "name": "Scalenus medius muscle",
+     "side": "right"
+    },
+    {
+     "name": "Sternocleidomastoid muscle",
+     "side": "right"
+    },
+    {
+     "name": "Right common carotid artery"
+    },
+    {
+     "name": "Internal jugular vein",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "C5 root of brachial plexus",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "C6 root of brachial plexus",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Scalenus anterior muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Scalenus medius muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Sternocleidomastoid muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Right common carotid artery",
+     "role": "danger"
+    },
+    {
+     "name": "Internal jugular vein",
+     "side": "right",
+     "role": "danger"
+    },
+    {
+     "name": "Vertebral artery",
+     "side": "right",
+     "role": "danger"
+    },
+    {
+     "name": "Vertebra C6",
+     "role": "bone"
+    }
+   ],
+   "card": {
+    "target": "Корешки C5–C6 между передней и средней лестничными мышцами",
+    "landmarks": [
+     "Передняя и средняя лестничные мышцы («светофор» корешков)",
+     "Грудино-ключично-сосцевидная мышца поверх",
+     "Поперечный отросток C6 (бугорок Шассеньяка)"
+    ],
+    "danger": [
+     "Общая сонная артерия и внутренняя яремная вена (медиальнее)",
+     "Позвоночная артерия",
+     "Диафрагмальный нерв (в модели нет) — парез диафрагмы"
+    ],
+    "typicalDepth": "1–2 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.57
+   ],
+   "modelDepthCm": 1.1
+  },
+  "SCB_R": {
+   "ru": "Надключичная справа",
+   "group": "Верхняя конечность и шея",
+   "point": [
+    0.4858,
+    0.1348,
+    -0.084
+   ],
+   "dir": [
+    0.7643,
+    0.63,
+    -0.1375
+   ],
+   "x": 0.4982,
+   "z": -0.0862,
+   "rotateDeg": -10,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 4,
+   "targetPoint": [
+    0.4858,
+    0.1348,
+    -0.084
+   ],
+   "target": {
+    "name": "Right subclavian artery"
+   },
+   "expect": [
+    {
+     "name": "Right subclavian artery"
+    },
+    {
+     "name": "Inferior trunk of brachial plexus",
+     "side": "right"
+    },
+    {
+     "name": "First rib",
+     "side": "right"
+    },
+    {
+     "name": "Middle trunk of brachial plexus",
+     "side": "right"
+    },
+    {
+     "name": "Pleura"
+    },
+    {
+     "name": "Superior trunk of brachial plexus",
+     "side": "right"
+    },
+    {
+     "name": "Scalenus anterior muscle",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Superior trunk of brachial plexus",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Middle trunk of brachial plexus",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Inferior trunk of brachial plexus",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Right subclavian artery",
+     "role": "vessel"
+    },
+    {
+     "name": "First rib",
+     "side": "right",
+     "role": "bone"
+    },
+    {
+     "name": "Pleura",
+     "role": "danger"
+    },
+    {
+     "name": "Scalenus anterior muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Scalenus medius muscle",
+     "side": "right",
+     "role": "muscle"
+    }
+   ],
+   "card": {
+    "target": "Стволы/деления плечевого сплетения («гроздь») латеральнее и поверхностнее подключичной артерии",
+    "landmarks": [
+     "Подключичная артерия на I ребре",
+     "I ребро с акустической тенью",
+     "Плевра глубже ребра"
+    ],
+    "danger": [
+     "Плевра — пневмоторакс",
+     "Подключичная артерия",
+     "Поперечная артерия шеи"
+    ],
+    "typicalDepth": "1–2,5 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.42,
+    0.35
+   ],
+   "modelDepthCm": 1.4
+  },
+  "ICB_R": {
+   "ru": "Подключичная (парасагиттально) справа",
+   "group": "Верхняя конечность и шея",
+   "point": [
+    0.4414,
+    0.1467,
+    -0.14
+   ],
+   "dir": [
+    0.5721,
+    0.8183,
+    -0.055
+   ],
+   "x": 0.4616,
+   "z": -0.1419,
+   "rotateDeg": 90,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 6.5,
+   "targetPoint": [
+    0.4414,
+    0.1467,
+    -0.14
+   ],
+   "target": {
+    "name": "Axillary artery",
+    "side": "right"
+   },
+   "expect": [
+    {
+     "name": "Axillary artery",
+     "side": "right"
+    },
+    {
+     "name": "Pectoralis minor muscle",
+     "side": "right"
+    },
+    {
+     "name": "Lateral cord of brachial plexus",
+     "side": "right"
+    },
+    {
+     "name": "Posterior cord of brachial plexus",
+     "side": "right"
+    },
+    {
+     "name": "Medial cord of brachial plexus",
+     "side": "right"
+    },
+    {
+     "name": "Axillary vein",
+     "side": "right"
+    },
+    {
+     "name": "Pleura"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Lateral cord of brachial plexus",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Posterior cord of brachial plexus",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Medial cord of brachial plexus",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Axillary artery",
+     "side": "right",
+     "role": "vessel"
+    },
+    {
+     "name": "Axillary vein",
+     "side": "right",
+     "role": "vessel"
+    },
+    {
+     "name": "Pectoralis minor muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Pleura",
+     "role": "danger"
+    }
+   ],
+   "card": {
+    "target": "Пучки плечевого сплетения вокруг подмышечной артерии (цель — позади артерии, «6 часов»)",
+    "landmarks": [
+     "Большая и малая грудные мышцы",
+     "Подмышечная артерия и вена",
+     "Латеральный, задний, медиальный пучки"
+    ],
+    "danger": [
+     "Подмышечная вена",
+     "Плевра",
+     "Грудоакромиальная артерия"
+    ],
+    "typicalDepth": "3–5 см (артерия)"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.54
+   ],
+   "modelDepthCm": 3.5
+  },
+  "AX_R": {
+   "ru": "Подмышечная справа",
+   "group": "Верхняя конечность и шея",
+   "point": [
+    0.42,
+    0.1397,
+    -0.235
+   ],
+   "dir": [
+    -0.6475,
+    0.5128,
+    -0.5637
+   ],
+   "x": 0.4027,
+   "z": -0.2501,
+   "rotateDeg": 0,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 5,
+   "targetPoint": [
+    0.42,
+    0.1397,
+    -0.235
+   ],
+   "target": {
+    "name": "Median nerve",
+    "side": "right"
+   },
+   "expect": [
+    {
+     "name": "Median nerve",
+     "side": "right"
+    },
+    {
+     "name": "Brachial artery",
+     "side": "right"
+    },
+    {
+     "name": "Ulnar nerve",
+     "side": "right"
+    },
+    {
+     "name": "Radial nerve",
+     "side": "right"
+    },
+    {
+     "name": "Musculocutaneous nerve",
+     "side": "right"
+    },
+    {
+     "name": "Coracobrachialis muscle",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Median nerve",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Ulnar nerve",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Radial nerve",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Musculocutaneous nerve",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Brachial artery",
+     "side": "right",
+     "role": "vessel"
+    },
+    {
+     "name": "Axillary artery",
+     "side": "right",
+     "role": "vessel"
+    },
+    {
+     "name": "Coracobrachialis muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Humerus",
+     "side": "right",
+     "role": "bone"
+    }
+   ],
+   "card": {
+    "target": "Срединный, локтевой, лучевой нервы вокруг подмышечной/плечевой артерии; мышечно-кожный — в клювовидно-плечевой мышце",
+    "landmarks": [
+     "Подмышечная (плечевая) артерия",
+     "Клювовидно-плечевая и двуглавая мышцы",
+     "Плечевая кость"
+    ],
+    "danger": [
+     "Подмышечные вены (сжимаются датчиком)",
+     "Артерия — внутрисосудистое введение"
+    ],
+    "typicalDepth": "0,5–2 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.53
+   ],
+   "modelDepthCm": 2.7
+  },
+  "FEM_R": {
+   "ru": "Бедренная / fascia iliaca (паховая складка) справа",
+   "group": "Тазобедренный сустав и пах",
+   "point": [
+    -0.0257,
+    0.1836,
+    -0.103
+   ],
+   "dir": [
+    -0.0007,
+    1,
+    -0.0036
+   ],
+   "x": -0.0258,
+   "z": -0.1032,
+   "rotateDeg": 0,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 5.5,
+   "targetPoint": [
+    -0.0257,
+    0.1836,
+    -0.103
+   ],
+   "target": {
+    "name": "Femoral nerve",
+    "side": "right"
+   },
+   "expect": [
+    {
+     "name": "Femoral nerve",
+     "side": "right"
+    },
+    {
+     "name": "Femoral artery",
+     "side": "right"
+    },
+    {
+     "name": "Femoral vein",
+     "side": "right"
+    },
+    {
+     "name": "Iliacus muscle",
+     "side": "right"
+    },
+    {
+     "name": "Iliopsoas fascia",
+     "side": "right"
+    },
+    {
+     "name": "Sartorius muscle",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Femoral nerve",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Iliopsoas fascia",
+     "side": "right",
+     "role": "fascia"
+    },
+    {
+     "name": "Iliacus muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Sartorius muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Femoral artery",
+     "side": "right",
+     "role": "vessel"
+    },
+    {
+     "name": "Femoral vein",
+     "side": "right",
+     "role": "vessel"
+    },
+    {
+     "name": "Femur",
+     "side": "right",
+     "role": "bone"
+    }
+   ],
+   "card": {
+    "target": "Бедренный нерв под подвздошной фасцией латеральнее артерии (fascia iliaca — плоскость под фасцией)",
+    "landmarks": [
+     "Бедренная артерия (медиальнее нерва)",
+     "Подвздошная фасция и подвздошно-поясничная мышца",
+     "Портняжная мышца латерально"
+    ],
+    "danger": [
+     "Бедренная артерия и вена",
+     "Глубокая артерия бедра (ветвление ниже)"
+    ],
+    "typicalDepth": "2–4 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.56
+   ],
+   "modelDepthCm": 3.1
+  },
+  "ADD_R": {
+   "ru": "Приводящий канал (середина бедра) справа",
+   "group": "Нижняя конечность",
+   "point": [
+    -0.2199,
+    0.1751,
+    -0.0967
+   ],
+   "dir": [
+    -0.1109,
+    0.7727,
+    0.625
+   ],
+   "x": -0.2235,
+   "z": -0.0767,
+   "rotateDeg": 0,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 6,
+   "targetPoint": [
+    -0.2199,
+    0.1751,
+    -0.0967
+   ],
+   "target": {
+    "name": "Femoral artery",
+    "side": "right"
+   },
+   "expect": [
+    {
+     "name": "Femoral artery",
+     "side": "right"
+    },
+    {
+     "name": "Sartorius muscle",
+     "side": "right"
+    },
+    {
+     "name": "Vastus medialis muscle",
+     "side": "right"
+    },
+    {
+     "name": "Saphenous nerve",
+     "side": "right"
+    },
+    {
+     "name": "Femoral vein",
+     "side": "right"
+    },
+    {
+     "name": "Adductor longus",
+     "side": "right"
+    },
+    {
+     "name": "Adductor magnus",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Saphenous nerve",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Femoral artery",
+     "side": "right",
+     "role": "vessel"
+    },
+    {
+     "name": "Femoral vein",
+     "side": "right",
+     "role": "vessel"
+    },
+    {
+     "name": "Sartorius muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Vastus medialis muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Adductor longus",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Adductor magnus",
+     "side": "right",
+     "role": "muscle"
+    }
+   ],
+   "card": {
+    "target": "Подкожный нерв рядом с бедренной артерией под портняжной мышцей (плоскость канала)",
+    "landmarks": [
+     "Портняжная мышца — «крыша» канала",
+     "Бедренная артерия и вена",
+     "Медиальная широкая и длинная/большая приводящие мышцы"
+    ],
+    "danger": [
+     "Бедренная артерия и вена"
+    ],
+    "typicalDepth": "2–4 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.53
+   ],
+   "modelDepthCm": 3.2
+  },
+  "POP_R": {
+   "ru": "Подколенная седалищная (вид снизу) справа",
+   "group": "Нижняя конечность",
+   "point": [
+    -0.335,
+    0.1087,
+    -0.14
+   ],
+   "dir": [
+    -0.0782,
+    -0.9619,
+    -0.262
+   ],
+   "x": -0.3383,
+   "z": -0.1509,
+   "rotateDeg": 0,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 7.5,
+   "targetPoint": [
+    -0.335,
+    0.1087,
+    -0.14
+   ],
+   "target": {
+    "name": "Sciatic nerve",
+    "side": "right"
+   },
+   "expect": [
+    {
+     "name": "Sciatic nerve",
+     "side": "right"
+    },
+    {
+     "name": "Popliteal artery",
+     "side": "right"
+    },
+    {
+     "name": "Popliteal vein",
+     "side": "right"
+    },
+    {
+     "name": "Long head of biceps femoris",
+     "side": "right"
+    },
+    {
+     "name": "Semimembranosus muscle",
+     "side": "right"
+    },
+    {
+     "name": "Tibial nerve",
+     "side": "right"
+    },
+    {
+     "name": "Femur",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Sciatic nerve",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Tibial nerve",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Common fibular nerve",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Popliteal artery",
+     "side": "right",
+     "role": "vessel"
+    },
+    {
+     "name": "Popliteal vein",
+     "side": "right",
+     "role": "vessel"
+    },
+    {
+     "name": "Long head of biceps femoris",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Semimembranosus muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Semitendinosus muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Femur",
+     "side": "right",
+     "role": "bone"
+    }
+   ],
+   "card": {
+    "target": "Седалищный нерв у деления на большеберцовый и общий малоберцовый (5–7 см выше подколенной складки)",
+    "landmarks": [
+     "Подколенные артерия и вена (глубже и медиальнее нерва)",
+     "Двуглавая мышца бедра латерально",
+     "Полуперепончатая и полусухожильная медиально"
+    ],
+    "danger": [
+     "Подколенные артерия и вена"
+    ],
+    "typicalDepth": "2–4 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.56
+   ],
+   "modelDepthCm": 4.2
+  },
+  "SCI_R": {
+   "ru": "Подъягодичная седалищная (вид снизу) справа",
+   "group": "Нижняя конечность",
+   "point": [
+    -0.0807,
+    0.0727,
+    -0.1065
+   ],
+   "dir": [
+    -0.1751,
+    -0.9005,
+    -0.3981
+   ],
+   "x": -0.0881,
+   "z": -0.1232,
+   "rotateDeg": 0,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 7.5,
+   "targetPoint": [
+    -0.0807,
+    0.0727,
+    -0.1065
+   ],
+   "target": {
+    "name": "Sciatic nerve",
+    "side": "right"
+   },
+   "expect": [
+    {
+     "name": "Sciatic nerve",
+     "side": "right"
+    },
+    {
+     "name": "Gluteus maximus muscle",
+     "side": "right"
+    },
+    {
+     "name": "Long head of biceps femoris",
+     "side": "right"
+    },
+    {
+     "name": "Adductor magnus",
+     "side": "right"
+    },
+    {
+     "name": "Femur",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Sciatic nerve",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Gluteus maximus muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Long head of biceps femoris",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Adductor magnus",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Femur",
+     "side": "right",
+     "role": "bone"
+    },
+    {
+     "name": "Inferior gluteal artery",
+     "side": "right",
+     "role": "vessel"
+    }
+   ],
+   "card": {
+    "target": "Седалищный нерв под большой ягодичной мышцей между большим вертелом и седалищным бугром",
+    "landmarks": [
+     "Большая ягодичная мышца",
+     "Большой вертел и седалищный бугор",
+     "Длинная головка двуглавой мышцы бедра"
+    ],
+    "danger": [
+     "Нижняя ягодичная артерия",
+     "Задний кожный нерв бедра"
+    ],
+    "typicalDepth": "3–6 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.56
+   ],
+   "modelDepthCm": 4.2
+  },
+  "ISB_L": {
+   "ru": "Межлестничная (C6, поперёк) слева",
+   "group": "Верхняя конечность и шея",
+   "point": [
+    0.553,
+    0.1432,
+    0.0451
+   ],
+   "dir": [
+    0.1757,
+    0.6726,
+    0.7189
+   ],
+   "x": 0.5551,
+   "z": 0.0535,
+   "rotateDeg": 0,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 2,
+   "targetPoint": [
+    0.553,
+    0.1432,
+    0.0451
+   ],
+   "target": {
+    "name": "C6 root of brachial plexus",
+    "side": "left"
+   },
+   "expect": [
+    {
+     "name": "C6 root of brachial plexus",
+     "side": "left"
+    },
+    {
+     "name": "C5 root of brachial plexus",
+     "side": "left"
+    },
+    {
+     "name": "Scalenus anterior muscle",
+     "side": "left"
+    },
+    {
+     "name": "Scalenus medius muscle",
+     "side": "left"
+    },
+    {
+     "name": "Sternocleidomastoid muscle",
+     "side": "left"
+    },
+    {
+     "name": "Left common carotid artery"
+    },
+    {
+     "name": "Internal jugular vein",
+     "side": "left"
+    }
+   ],
+   "labels": [
+    {
+     "name": "C5 root of brachial plexus",
+     "side": "left",
+     "role": "target"
+    },
+    {
+     "name": "C6 root of brachial plexus",
+     "side": "left",
+     "role": "target"
+    },
+    {
+     "name": "Scalenus anterior muscle",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Scalenus medius muscle",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Sternocleidomastoid muscle",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Left common carotid artery",
+     "role": "danger"
+    },
+    {
+     "name": "Internal jugular vein",
+     "side": "left",
+     "role": "danger"
+    },
+    {
+     "name": "Vertebral artery",
+     "side": "left",
+     "role": "danger"
+    },
+    {
+     "name": "Vertebra C6",
+     "role": "bone"
+    }
+   ],
+   "card": {
+    "target": "Корешки C5–C6 между передней и средней лестничными мышцами",
+    "landmarks": [
+     "Передняя и средняя лестничные мышцы («светофор» корешков)",
+     "Грудино-ключично-сосцевидная мышца поверх",
+     "Поперечный отросток C6 (бугорок Шассеньяка)"
+    ],
+    "danger": [
+     "Общая сонная артерия и внутренняя яремная вена (медиальнее)",
+     "Позвоночная артерия",
+     "Диафрагмальный нерв (в модели нет) — парез диафрагмы"
+    ],
+    "typicalDepth": "1–2 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.58
+   ],
+   "modelDepthCm": 1.2
+  },
+  "SCB_L": {
+   "ru": "Надключичная слева",
+   "group": "Верхняя конечность и шея",
+   "point": [
+    0.5081,
+    0.1367,
+    0.084
+   ],
+   "dir": [
+    0.5309,
+    0.7693,
+    0.3554
+   ],
+   "x": 0.5155,
+   "z": 0.089,
+   "rotateDeg": 80,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 3.5,
+   "targetPoint": [
+    0.5081,
+    0.1367,
+    0.084
+   ],
+   "target": {
+    "name": "Left subclavian artery"
+   },
+   "expect": [
+    {
+     "name": "Left subclavian artery"
+    },
+    {
+     "name": "Inferior trunk of brachial plexus",
+     "side": "left"
+    },
+    {
+     "name": "First rib",
+     "side": "left"
+    },
+    {
+     "name": "Pleura"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Superior trunk of brachial plexus",
+     "side": "left",
+     "role": "target"
+    },
+    {
+     "name": "Middle trunk of brachial plexus",
+     "side": "left",
+     "role": "target"
+    },
+    {
+     "name": "Inferior trunk of brachial plexus",
+     "side": "left",
+     "role": "target"
+    },
+    {
+     "name": "Left subclavian artery",
+     "role": "vessel"
+    },
+    {
+     "name": "First rib",
+     "side": "left",
+     "role": "bone"
+    },
+    {
+     "name": "Pleura",
+     "role": "danger"
+    },
+    {
+     "name": "Scalenus anterior muscle",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Scalenus medius muscle",
+     "side": "left",
+     "role": "muscle"
+    }
+   ],
+   "card": {
+    "target": "Стволы/деления плечевого сплетения («гроздь») латеральнее и поверхностнее подключичной артерии",
+    "landmarks": [
+     "Подключичная артерия на I ребре",
+     "I ребро с акустической тенью",
+     "Плевра глубже ребра"
+    ],
+    "danger": [
+     "Плевра — пневмоторакс",
+     "Подключичная артерия",
+     "Поперечная артерия шеи"
+    ],
+    "typicalDepth": "1–2,5 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.4
+   ],
+   "modelDepthCm": 1.4
+  },
+  "FEM_L": {
+   "ru": "Бедренная / fascia iliaca (паховая складка) слева",
+   "group": "Тазобедренный сустав и пах",
+   "point": [
+    -0.0257,
+    0.1836,
+    0.103
+   ],
+   "dir": [
+    -0.0007,
+    1,
+    0.0036
+   ],
+   "x": -0.0258,
+   "z": 0.1031,
+   "rotateDeg": 0,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 5.5,
+   "targetPoint": [
+    -0.0257,
+    0.1836,
+    0.103
+   ],
+   "target": {
+    "name": "Femoral nerve",
+    "side": "left"
+   },
+   "expect": [
+    {
+     "name": "Femoral nerve",
+     "side": "left"
+    },
+    {
+     "name": "Femoral artery",
+     "side": "left"
+    },
+    {
+     "name": "Femoral vein",
+     "side": "left"
+    },
+    {
+     "name": "Iliacus muscle",
+     "side": "left"
+    },
+    {
+     "name": "Sartorius muscle",
+     "side": "left"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Femoral nerve",
+     "side": "left",
+     "role": "target"
+    },
+    {
+     "name": "Iliopsoas fascia",
+     "side": "left",
+     "role": "fascia"
+    },
+    {
+     "name": "Iliacus muscle",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Sartorius muscle",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Femoral artery",
+     "side": "left",
+     "role": "vessel"
+    },
+    {
+     "name": "Femoral vein",
+     "side": "left",
+     "role": "vessel"
+    },
+    {
+     "name": "Femur",
+     "side": "left",
+     "role": "bone"
+    }
+   ],
+   "card": {
+    "target": "Бедренный нерв под подвздошной фасцией латеральнее артерии (fascia iliaca — плоскость под фасцией)",
+    "landmarks": [
+     "Бедренная артерия (медиальнее нерва)",
+     "Подвздошная фасция и подвздошно-поясничная мышца",
+     "Портняжная мышца латерально"
+    ],
+    "danger": [
+     "Бедренная артерия и вена",
+     "Глубокая артерия бедра (ветвление ниже)"
+    ],
+    "typicalDepth": "2–4 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.56
+   ],
+   "modelDepthCm": 3.1
+  },
+  "ADD_L": {
+   "ru": "Приводящий канал (середина бедра) слева",
+   "group": "Нижняя конечность",
+   "point": [
+    -0.2199,
+    0.1751,
+    0.0968
+   ],
+   "dir": [
+    -0.1103,
+    0.7721,
+    -0.6258
+   ],
+   "x": -0.2234,
+   "z": 0.0766,
+   "rotateDeg": 0,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 6,
+   "targetPoint": [
+    -0.2199,
+    0.1751,
+    0.0968
+   ],
+   "target": {
+    "name": "Femoral artery",
+    "side": "left"
+   },
+   "expect": [
+    {
+     "name": "Femoral artery",
+     "side": "left"
+    },
+    {
+     "name": "Sartorius muscle",
+     "side": "left"
+    },
+    {
+     "name": "Vastus medialis muscle",
+     "side": "left"
+    },
+    {
+     "name": "Saphenous nerve",
+     "side": "left"
+    },
+    {
+     "name": "Femoral vein",
+     "side": "left"
+    },
+    {
+     "name": "Adductor longus",
+     "side": "left"
+    },
+    {
+     "name": "Adductor magnus",
+     "side": "left"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Saphenous nerve",
+     "side": "left",
+     "role": "target"
+    },
+    {
+     "name": "Femoral artery",
+     "side": "left",
+     "role": "vessel"
+    },
+    {
+     "name": "Femoral vein",
+     "side": "left",
+     "role": "vessel"
+    },
+    {
+     "name": "Sartorius muscle",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Vastus medialis muscle",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Adductor longus",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Adductor magnus",
+     "side": "left",
+     "role": "muscle"
+    }
+   ],
+   "card": {
+    "target": "Подкожный нерв рядом с бедренной артерией под портняжной мышцей (плоскость канала)",
+    "landmarks": [
+     "Портняжная мышца — «крыша» канала",
+     "Бедренная артерия и вена",
+     "Медиальная широкая и длинная/большая приводящие мышцы"
+    ],
+    "danger": [
+     "Бедренная артерия и вена"
+    ],
+    "typicalDepth": "2–4 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.54
+   ],
+   "modelDepthCm": 3.2
+  },
+  "POP_L": {
+   "ru": "Подколенная седалищная (вид снизу) слева",
+   "group": "Нижняя конечность",
+   "point": [
+    -0.335,
+    0.1087,
+    0.14
+   ],
+   "dir": [
+    -0.0781,
+    -0.9618,
+    0.2625
+   ],
+   "x": -0.3383,
+   "z": 0.1509,
+   "rotateDeg": 0,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 7.5,
+   "targetPoint": [
+    -0.335,
+    0.1087,
+    0.14
+   ],
+   "target": {
+    "name": "Sciatic nerve",
+    "side": "left"
+   },
+   "expect": [
+    {
+     "name": "Sciatic nerve",
+     "side": "left"
+    },
+    {
+     "name": "Popliteal artery",
+     "side": "left"
+    },
+    {
+     "name": "Popliteal vein",
+     "side": "left"
+    },
+    {
+     "name": "Long head of biceps femoris",
+     "side": "left"
+    },
+    {
+     "name": "Semimembranosus muscle",
+     "side": "left"
+    },
+    {
+     "name": "Tibial nerve",
+     "side": "left"
+    },
+    {
+     "name": "Femur",
+     "side": "left"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Sciatic nerve",
+     "side": "left",
+     "role": "target"
+    },
+    {
+     "name": "Tibial nerve",
+     "side": "left",
+     "role": "target"
+    },
+    {
+     "name": "Common fibular nerve",
+     "side": "left",
+     "role": "target"
+    },
+    {
+     "name": "Popliteal artery",
+     "side": "left",
+     "role": "vessel"
+    },
+    {
+     "name": "Popliteal vein",
+     "side": "left",
+     "role": "vessel"
+    },
+    {
+     "name": "Long head of biceps femoris",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Semimembranosus muscle",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Semitendinosus muscle",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Femur",
+     "side": "left",
+     "role": "bone"
+    }
+   ],
+   "card": {
+    "target": "Седалищный нерв у деления на большеберцовый и общий малоберцовый (5–7 см выше подколенной складки)",
+    "landmarks": [
+     "Подколенные артерия и вена (глубже и медиальнее нерва)",
+     "Двуглавая мышца бедра латерально",
+     "Полуперепончатая и полусухожильная медиально"
+    ],
+    "danger": [
+     "Подколенные артерия и вена"
+    ],
+    "typicalDepth": "2–4 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.56
+   ],
+   "modelDepthCm": 4.2
+  },
+  "SCI_L": {
+   "ru": "Подъягодичная седалищная (вид снизу) слева",
+   "group": "Нижняя конечность",
+   "point": [
+    -0.0807,
+    0.0738,
+    0.1063
+   ],
+   "dir": [
+    -0.175,
+    -0.9003,
+    0.3986
+   ],
+   "x": -0.0882,
+   "z": 0.1234,
+   "rotateDeg": 0,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 8,
+   "targetPoint": [
+    -0.0807,
+    0.0738,
+    0.1063
+   ],
+   "target": {
+    "name": "Sciatic nerve",
+    "side": "left"
+   },
+   "expect": [
+    {
+     "name": "Sciatic nerve",
+     "side": "left"
+    },
+    {
+     "name": "Gluteus maximus muscle",
+     "side": "left"
+    },
+    {
+     "name": "Long head of biceps femoris",
+     "side": "left"
+    },
+    {
+     "name": "Adductor magnus",
+     "side": "left"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Sciatic nerve",
+     "side": "left",
+     "role": "target"
+    },
+    {
+     "name": "Gluteus maximus muscle",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Long head of biceps femoris",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Adductor magnus",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Femur",
+     "side": "left",
+     "role": "bone"
+    },
+    {
+     "name": "Inferior gluteal artery",
+     "side": "left",
+     "role": "vessel"
+    }
+   ],
+   "card": {
+    "target": "Седалищный нерв под большой ягодичной мышцей между большим вертелом и седалищным бугром",
+    "landmarks": [
+     "Большая ягодичная мышца",
+     "Большой вертел и седалищный бугор",
+     "Длинная головка двуглавой мышцы бедра"
+    ],
+    "danger": [
+     "Нижняя ягодичная артерия",
+     "Задний кожный нерв бедра"
+    ],
+    "typicalDepth": "3–6 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.54
+   ],
+   "modelDepthCm": 4.3
+  },
+  "TAP_R": {
+   "ru": "TAP, средняя подмышечная линия справа",
+   "group": "Передняя брюшная стенка",
+   "point": [
+    0.1796,
+    0.1526,
+    -0.1004
+   ],
+   "dir": [
+    -0.0746,
+    -0.0166,
+    -0.9971
+   ],
+   "x": 0.1767,
+   "z": -0.1394,
+   "rotateDeg": 0,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 7,
+   "targetPoint": [
+    0.1796,
+    0.1526,
+    -0.1004
+   ],
+   "target": {
+    "name": "Transversus abdominis muscle",
+    "side": "right"
+   },
+   "expect": [
+    {
+     "name": "Transversus abdominis muscle",
+     "side": "right"
+    },
+    {
+     "name": "External abdominal oblique muscle",
+     "side": "right"
+    },
+    {
+     "name": "Internal abdominal oblique muscle",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "External abdominal oblique muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Internal abdominal oblique muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Transversus abdominis muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Transversus abdominis muscle",
+     "side": "right",
+     "role": "target"
+    }
+   ],
+   "card": {
+    "target": "Плоскость между внутренней косой и поперечной мышцами живота",
+    "landmarks": [
+     "Наружная косая мышца",
+     "Внутренняя косая мышца (самая толстая)",
+     "Поперечная мышца живота и брюшина под ней"
+    ],
+    "danger": [
+     "Брюшина и кишка",
+     "Печень справа (при высоком доступе)"
+    ],
+    "typicalDepth": "1–3 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.56
+   ],
+   "modelDepthCm": 3.9
+  },
+  "TAP_SC_R": {
+   "ru": "TAP подрёберный справа",
+   "group": "Передняя брюшная стенка",
+   "point": [
+    0.2299,
+    0.1898,
+    -0.0819
+   ],
+   "dir": [
+    -0.093,
+    0.9691,
+    -0.2284
+   ],
+   "x": 0.226,
+   "z": -0.0916,
+   "rotateDeg": -25,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 7.5,
+   "targetPoint": [
+    0.2299,
+    0.1898,
+    -0.0819
+   ],
+   "target": {
+    "name": "Transversus abdominis muscle",
+    "side": "right"
+   },
+   "expect": [
+    {
+     "name": "Transversus abdominis muscle",
+     "side": "right"
+    },
+    {
+     "name": "Rectus abdominis muscle",
+     "side": "right"
+    },
+    {
+     "name": "Internal abdominal oblique muscle",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Rectus abdominis muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Transversus abdominis muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Internal abdominal oblique muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Transversus abdominis muscle",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Costal cartilage of eighth rib",
+     "side": "right",
+     "role": "bone"
+    }
+   ],
+   "card": {
+    "target": "Плоскость между прямой (или внутренней косой) и поперечной мышцами под рёберной дугой",
+    "landmarks": [
+     "Рёберная дуга",
+     "Прямая мышца живота",
+     "Поперечная мышца живота"
+    ],
+    "danger": [
+     "Брюшина",
+     "Печень",
+     "Верхние надчревные сосуды"
+    ],
+    "typicalDepth": "1–3 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.57
+   ],
+   "modelDepthCm": 4.3
+  },
+  "PENGR": {
+   "ru": "PENG справа — вдоль паховой связки, над ПЛВ",
+   "group": "Тазобедренный сустав и пах",
+   "point": [
+    0.0012,
+    0.1696,
+    -0.0785
+   ],
+   "dir": [
+    -0.1674,
+    0.9714,
+    -0.1685
+   ],
+   "x": -0.0064,
+   "z": -0.0861,
+   "rotateDeg": -40,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 7.5,
+   "targetPoint": [
+    0.0012,
+    0.1696,
+    -0.0785
+   ],
+   "target": {
+    "name": "Hip bone",
+    "side": "right"
+   },
+   "expect": [
+    {
+     "name": "Hip bone",
+     "side": "right"
+    },
+    {
+     "name": "Femoral artery",
+     "side": "right"
+    },
+    {
+     "name": "Iliacus muscle",
+     "side": "right"
+    },
+    {
+     "name": "Iliopsoas fascia",
+     "side": "right"
+    },
+    {
+     "name": "Femoral vein",
+     "side": "right"
+    },
+    {
+     "name": "Femoral nerve",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Hip bone",
+     "side": "right",
+     "role": "bone"
+    },
+    {
+     "name": "Psoas major",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Iliacus muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Iliopsoas fascia",
+     "side": "right",
+     "role": "fascia"
+    },
+    {
+     "name": "Femoral artery",
+     "side": "right",
+     "role": "vessel"
+    },
+    {
+     "name": "Femoral vein",
+     "side": "right",
+     "role": "danger"
+    },
+    {
+     "name": "Femoral nerve",
+     "side": "right",
+     "role": "nerve"
+    }
+   ],
+   "card": {
+    "target": "Плоскость между сухожилием поясничной мышцы и подвздошно-лобковым возвышением (ПЛВ)",
+    "landmarks": [
+     "Подвздошно-лобковое возвышение и ПНПО (наклонная кортикальная линия)",
+     "Сухожилие поясничной мышцы над костью",
+     "Бедренная артерия медиально"
+    ],
+    "danger": [
+     "Бедренные артерия и вена",
+     "Бедренный нерв (латерально, поверхностнее)"
+    ],
+    "typicalDepth": "3–5 см (кость), кадр 5–6 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.6
+   ],
+   "modelDepthCm": 4.5
+  },
+  "PENGL": {
+   "ru": "PENG слева — вдоль паховой связки, над ПЛВ",
+   "group": "Тазобедренный сустав и пах",
+   "point": [
+    0.0012,
+    0.1697,
+    0.0785
+   ],
+   "dir": [
+    -0.1675,
+    0.9714,
+    0.1682
+   ],
+   "x": -0.0064,
+   "z": 0.0861,
+   "rotateDeg": 40,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 7.5,
+   "targetPoint": [
+    0.0012,
+    0.1697,
+    0.0785
+   ],
+   "target": {
+    "name": "Hip bone",
+    "side": "left"
+   },
+   "expect": [
+    {
+     "name": "Hip bone",
+     "side": "left"
+    },
+    {
+     "name": "Femoral artery",
+     "side": "left"
+    },
+    {
+     "name": "Iliacus muscle",
+     "side": "left"
+    },
+    {
+     "name": "Femoral vein",
+     "side": "left"
+    },
+    {
+     "name": "Femoral nerve",
+     "side": "left"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Hip bone",
+     "side": "left",
+     "role": "bone"
+    },
+    {
+     "name": "Psoas major",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Iliacus muscle",
+     "side": "left",
+     "role": "muscle"
+    },
+    {
+     "name": "Iliopsoas fascia",
+     "side": "left",
+     "role": "fascia"
+    },
+    {
+     "name": "Femoral artery",
+     "side": "left",
+     "role": "vessel"
+    },
+    {
+     "name": "Femoral vein",
+     "side": "left",
+     "role": "danger"
+    },
+    {
+     "name": "Femoral nerve",
+     "side": "left",
+     "role": "nerve"
+    }
+   ],
+   "card": {
+    "target": "Плоскость между сухожилием поясничной мышцы и подвздошно-лобковым возвышением (ПЛВ)",
+    "landmarks": [
+     "Подвздошно-лобковое возвышение и ПНПО (наклонная кортикальная линия)",
+     "Сухожилие поясничной мышцы над костью",
+     "Бедренная артерия медиально"
+    ],
+    "danger": [
+     "Бедренные артерия и вена",
+     "Бедренный нерв (латерально, поверхностнее)"
+    ],
+    "typicalDepth": "3–5 см (кость), кадр 5–6 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "targetFrac": [
+    0.5,
+    0.6
+   ],
+   "modelDepthCm": 4.5
+  },
+  "ESP_T5R": {
+   "ru": "ESP, T5 справа (продольно)",
+   "group": "Спина (вид снизу)",
+   "point": [
+    0.4439,
+    0.063,
+    -0.0302
+   ],
+   "dir": [
+    0,
+    -1,
+    0
+   ],
+   "x": 0.4439,
+   "z": -0.0302,
+   "rotateDeg": 90,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 4.5,
+   "targetPoint": [
+    0.4408,
+    0.0586,
+    -0.0393
+   ],
+   "target": {
+    "name": "Vertebra T5"
+   },
+   "expect": [
+    {
+     "name": "Vertebra T5"
+    },
+    {
+     "name": "Rhomboid major muscle"
+    },
+    {
+     "name": "Ascending part of trapezius muscle"
+    },
+    {
+     "name": "Pleura"
+    },
+    {
+     "name": "Longissimus thoracis muscle",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Trapezius muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Ascending part of trapezius muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Transverse part of trapezius muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Rhomboid major muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Longissimus thoracis muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Iliocostalis thoracis muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Vertebra T5",
+     "role": "target"
+    },
+    {
+     "name": "Pleura",
+     "role": "danger"
+    }
+   ],
+   "card": {
+    "target": "Плоскость между мышцей, выпрямляющей позвоночник, и верхушкой поперечного отростка T5",
+    "landmarks": [
+     "Трапециевидная мышца",
+     "Большая ромбовидная мышца",
+     "Мышца, выпрямляющая позвоночник (длиннейшая)",
+     "Поперечный отросток T5 (плоская тень)"
+    ],
+    "danger": [
+     "Плевра (между отростками)"
+    ],
+    "typicalDepth": "2–4 см (отросток); в модели мельче — мягкие ткани спины сжаты позой лёжа"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "modelDepthCm": 2.3,
+   "targetFrac": [
+    0.5,
+    0.51
+   ]
+  },
+  "ESP_L4R": {
+   "ru": "ESP, L4 справа (продольно)",
+   "group": "Спина (вид снизу)",
+   "point": [
+    0.1416,
+    0.0796,
+    -0.0327
+   ],
+   "dir": [
+    0,
+    -1,
+    0
+   ],
+   "x": 0.1416,
+   "z": -0.0327,
+   "rotateDeg": 90,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 6.5,
+   "targetPoint": [
+    0.1399,
+    0.0795,
+    -0.0331
+   ],
+   "target": {
+    "name": "Vertebra L4"
+   },
+   "expect": [
+    {
+     "name": "Vertebra L4"
+    },
+    {
+     "name": "Iliocostalis lumborum muscle"
+    },
+    {
+     "name": "Psoas major"
+    },
+    {
+     "name": "Longissimus thoracis muscle",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Iliocostalis lumborum muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Longissimus thoracis muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Vertebra L4",
+     "role": "target"
+    },
+    {
+     "name": "Vertebra L3",
+     "role": "bone"
+    },
+    {
+     "name": "Vertebra L5",
+     "role": "bone"
+    },
+    {
+     "name": "Psoas major",
+     "side": "right",
+     "role": "muscle"
+    }
+   ],
+   "card": {
+    "target": "Плоскость под мышцей, выпрямляющей позвоночник, над поперечными отростками L3–L5 («трезубец»)",
+    "landmarks": [
+     "Поперечные отростки L3–L5 с тенями",
+     "Мышца, выпрямляющая позвоночник",
+     "Большая поясничная мышца глубже"
+    ],
+    "danger": [
+     "Почка (выше L3)",
+     "Поясничные сосуды"
+    ],
+    "typicalDepth": "3–5 см; в модели мельче (сжатие позой лёжа)"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "modelDepthCm": 3.3,
+   "targetFrac": [
+    0.5,
+    0.51
+   ]
+  },
+  "PSO_L34R": {
+   "ru": "Нейроаксиальный: парамедианный сагиттальный косой L3–L4",
+   "group": "Спина (вид снизу)",
+   "point": [
+    0.1423,
+    0.0735,
+    -0.02
+   ],
+   "dir": [
+    0,
+    -1,
+    0
+   ],
+   "x": 0.1423,
+   "z": -0.02,
+   "rotateDeg": 90,
+   "tiltDeg": -20,
+   "rockDeg": 0,
+   "depthCm": 6.5,
+   "targetPoint": [
+    0.1416,
+    0.0802,
+    -0.0138
+   ],
+   "target": {
+    "name": "Vertebra L4"
+   },
+   "expect": [
+    {
+     "name": "Vertebra L4"
+    },
+    {
+     "name": "Vertebra L3"
+    },
+    {
+     "name": "Cauda equina"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Ligamenta flava",
+     "role": "target"
+    },
+    {
+     "name": "Vertebra L3",
+     "role": "bone"
+    },
+    {
+     "name": "Vertebra L4",
+     "role": "target"
+    },
+    {
+     "name": "Posterior longitudinal ligament",
+     "role": "fascia"
+    },
+    {
+     "name": "Cauda equina",
+     "role": "nerve"
+    }
+   ],
+   "card": {
+    "target": "Междужковое окно: задний комплекс (жёлтая связка + твёрдая оболочка) между пластинками L3 и L4",
+    "landmarks": [
+     "«Пила» пластинок",
+     "Задний комплекс",
+     "Передний комплекс (задняя продольная связка, тело позвонка)"
+    ],
+    "danger": [
+     "Конский хвост",
+     "Эпидуральные вены"
+    ],
+    "typicalDepth": "4–6 см (задний комплекс); в модели мельче"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "modelDepthCm": 3.4,
+   "targetFrac": [
+    0.5,
+    0.52
+   ]
+  },
+  "TLI_L34": {
+   "ru": "Нейроаксиальный: поперечный междужковый L3–L4",
+   "group": "Спина (вид снизу)",
+   "point": [
+    0.1343,
+    0.0735,
+    0
+   ],
+   "dir": [
+    0,
+    -1,
+    0
+   ],
+   "x": 0.1343,
+   "z": 0,
+   "rotateDeg": 0,
+   "tiltDeg": -20,
+   "rockDeg": 0,
+   "depthCm": 6,
+   "targetPoint": [
+    0.1409,
+    0.0781,
+    0.0049
+   ],
+   "target": {
+    "name": "Ligamenta flava"
+   },
+   "expect": [
+    {
+     "name": "Ligamenta flava"
+    },
+    {
+     "name": "Interspinous ligaments"
+    },
+    {
+     "name": "Cauda equina"
+    },
+    {
+     "name": "Posterior longitudinal ligament"
+    },
+    {
+     "name": "Vertebra L4"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Ligamenta flava",
+     "role": "target"
+    },
+    {
+     "name": "Interspinous ligaments",
+     "role": "fascia"
+    },
+    {
+     "name": "Posterior longitudinal ligament",
+     "role": "fascia"
+    },
+    {
+     "name": "Vertebra L3",
+     "role": "bone"
+    },
+    {
+     "name": "Vertebra L4",
+     "role": "bone"
+    },
+    {
+     "name": "Cauda equina",
+     "role": "nerve"
+    }
+   ],
+   "card": {
+    "target": "Задний комплекс по средней линии в межостистом промежутке L3–L4",
+    "landmarks": [
+     "Межостистый промежуток (нет тени остистого отростка)",
+     "Суставные отростки («летучая мышь»)",
+     "Задний и передний комплексы"
+    ],
+    "danger": [
+     "Конский хвост"
+    ],
+    "typicalDepth": "4–6 см (задний комплекс); в модели мельче"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "modelDepthCm": 2.9,
+   "targetFrac": [
+    0.5,
+    0.49
+   ]
+  },
+  "QL2_R": {
+   "ru": "Задний QL (QL2), справа, заднебоковой доступ",
+   "group": "Спина (вид снизу)",
+   "point": [
+    0.1576,
+    0.0671,
+    -0.0635
+   ],
+   "dir": [
+    0,
+    -0.7071,
+    -0.7071
+   ],
+   "x": 0.1576,
+   "z": -0.0635,
+   "rotateDeg": 0,
+   "tiltDeg": 0,
+   "rockDeg": 0,
+   "depthCm": 3,
+   "targetPoint": [
+    0.1598,
+    0.0694,
+    -0.0699
+   ],
+   "target": {
+    "name": "Quadratus lumborum muscle",
+    "side": "right"
+   },
+   "expect": [
+    {
+     "name": "Quadratus lumborum muscle",
+     "side": "right"
+    },
+    {
+     "name": "Latissimus dorsi muscle"
+    },
+    {
+     "name": "Posterior layer of thoracolumbar fascia",
+     "side": "right"
+    },
+    {
+     "name": "Middle layer of thoracolumbar fascia",
+     "side": "right"
+    },
+    {
+     "name": "Anterior layer of thoracolumbar fascia",
+     "side": "right"
+    },
+    {
+     "name": "Transversus abdominis muscle",
+     "side": "right"
+    }
+   ],
+   "labels": [
+    {
+     "name": "Quadratus lumborum muscle",
+     "side": "right",
+     "role": "target"
+    },
+    {
+     "name": "Posterior layer of thoracolumbar fascia",
+     "side": "right",
+     "role": "fascia"
+    },
+    {
+     "name": "Middle layer of thoracolumbar fascia",
+     "side": "right",
+     "role": "fascia"
+    },
+    {
+     "name": "Anterior layer of thoracolumbar fascia",
+     "side": "right",
+     "role": "fascia"
+    },
+    {
+     "name": "Psoas major",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Latissimus dorsi muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Transversus abdominis muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Right kidney",
+     "role": "danger"
+    }
+   ],
+   "card": {
+    "target": "Задняя поверхность квадратной мышцы поясницы (грудопоясничная фасция, QL2)",
+    "landmarks": [
+     "Квадратная мышца поясницы",
+     "Грудопоясничная фасция",
+     "Большая поясничная мышца, поперечный отросток L4"
+    ],
+    "danger": [
+     "Почка",
+     "Брюшина"
+    ],
+    "typicalDepth": "3–5 см"
+   },
+   "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "modelDepthCm": 1.6,
+   "targetFrac": [
+    0.5,
+    0.52
+   ]
+  }
+ }
+}
