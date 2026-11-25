@@ -4,360 +4,536 @@
   {
    "caseId": "cuhk-tracked-us-ep0",
    "region": "forearm",
-   "label": "Предплечье — CUHK tracked_us",
+   "label": "Предплечье: демонстрация трекинга датчика (низкое качество)",
+   "title": "Предплечье — CUHK tracked_us",
    "path": "cases/cuhk-tracked-us-ep0/case.json",
-   "default": true
+   "hasReference": false,
+   "quality": "low",
+   "qualityNote": "низкое качество, только для демонстрации трекинга: анатомию предплечья по кадрам не опознать"
   },
   {
    "caseId": "segthy-001-p1-1-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 001 (P1, скан 1)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 1",
+   "title": "Шея слева — SegThy 001 (P1, скан 1)",
+   "group": "neck-p1-left",
+   "variant": "скан 1 из 4 (запись 001)",
    "path": "cases/segthy-001-p1-1-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-001-p1-1-left/annotations.json"
   },
   {
    "caseId": "segthy-001-p1-1-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 001 (P1, скан 1)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 1",
+   "title": "Шея справа — SegThy 001 (P1, скан 1)",
+   "group": "neck-p1-right",
+   "variant": "скан 1 из 4 (запись 001)",
    "path": "cases/segthy-001-p1-1-right/case.json",
+   "default": true,
+   "hasReference": true,
    "annotations": "cases/segthy-001-p1-1-right/annotations.json"
   },
   {
    "caseId": "segthy-002-p2-2-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 002 (P2, скан 2)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 2",
+   "title": "Шея слева — SegThy 002 (P2, скан 2)",
+   "group": "neck-p2-left",
+   "variant": "скан 1 из 6 (запись 002)",
    "path": "cases/segthy-002-p2-2-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-002-p2-2-left/annotations.json"
   },
   {
    "caseId": "segthy-002-p2-2-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 002 (P2, скан 2)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 2",
+   "title": "Шея справа — SegThy 002 (P2, скан 2)",
+   "group": "neck-p2-right",
+   "variant": "скан 1 из 6 (запись 002)",
    "path": "cases/segthy-002-p2-2-right/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-002-p2-2-right/annotations.json"
   },
   {
    "caseId": "segthy-003-p3-1-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 003 (P3, скан 1)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 3",
+   "title": "Шея слева — SegThy 003 (P3, скан 1)",
+   "group": "neck-p3-left",
+   "variant": "скан 1 из 6 (запись 003)",
    "path": "cases/segthy-003-p3-1-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-003-p3-1-left/annotations.json"
   },
   {
    "caseId": "segthy-003-p3-1-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 003 (P3, скан 1)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 3",
+   "title": "Шея справа — SegThy 003 (P3, скан 1)",
+   "group": "neck-p3-right",
+   "variant": "скан 1 из 6 (запись 003)",
    "path": "cases/segthy-003-p3-1-right/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-003-p3-1-right/annotations.json"
   },
   {
    "caseId": "segthy-005-p1-1-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 005 (P1, скан 1)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 1",
+   "title": "Шея слева — SegThy 005 (P1, скан 1)",
+   "group": "neck-p1-left",
+   "variant": "скан 2 из 4 (запись 005)",
    "path": "cases/segthy-005-p1-1-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-005-p1-1-left/annotations.json"
   },
   {
    "caseId": "segthy-005-p1-1-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 005 (P1, скан 1)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 1",
+   "title": "Шея справа — SegThy 005 (P1, скан 1)",
+   "group": "neck-p1-right",
+   "variant": "скан 2 из 4 (запись 005)",
    "path": "cases/segthy-005-p1-1-right/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-005-p1-1-right/annotations.json"
   },
   {
    "caseId": "segthy-006-p2-1-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 006 (P2, скан 1)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 2",
+   "title": "Шея слева — SegThy 006 (P2, скан 1)",
+   "group": "neck-p2-left",
+   "variant": "скан 2 из 6 (запись 006)",
    "path": "cases/segthy-006-p2-1-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-006-p2-1-left/annotations.json"
   },
   {
    "caseId": "segthy-006-p2-1-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 006 (P2, скан 1)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 2",
+   "title": "Шея справа — SegThy 006 (P2, скан 1)",
+   "group": "neck-p2-right",
+   "variant": "скан 2 из 6 (запись 006)",
    "path": "cases/segthy-006-p2-1-right/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-006-p2-1-right/annotations.json"
   },
   {
    "caseId": "segthy-007-p3-1-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 007 (P3, скан 1)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 3",
+   "title": "Шея слева — SegThy 007 (P3, скан 1)",
+   "group": "neck-p3-left",
+   "variant": "скан 2 из 6 (запись 007)",
    "path": "cases/segthy-007-p3-1-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-007-p3-1-left/annotations.json"
   },
   {
    "caseId": "segthy-007-p3-1-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 007 (P3, скан 1)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 3",
+   "title": "Шея справа — SegThy 007 (P3, скан 1)",
+   "group": "neck-p3-right",
+   "variant": "скан 2 из 6 (запись 007)",
    "path": "cases/segthy-007-p3-1-right/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-007-p3-1-right/annotations.json"
   },
   {
    "caseId": "segthy-008-p1-1-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 008 (P1, скан 1)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 1",
+   "title": "Шея слева — SegThy 008 (P1, скан 1)",
+   "group": "neck-p1-left",
+   "variant": "скан 3 из 4 (запись 008)",
    "path": "cases/segthy-008-p1-1-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-008-p1-1-left/annotations.json"
   },
   {
    "caseId": "segthy-008-p1-1-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 008 (P1, скан 1)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 1",
+   "title": "Шея справа — SegThy 008 (P1, скан 1)",
+   "group": "neck-p1-right",
+   "variant": "скан 3 из 4 (запись 008)",
    "path": "cases/segthy-008-p1-1-right/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-008-p1-1-right/annotations.json"
   },
   {
    "caseId": "segthy-011-p2-3-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 011 (P2, скан 3)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 2",
+   "title": "Шея слева — SegThy 011 (P2, скан 3)",
+   "group": "neck-p2-left",
+   "variant": "скан 3 из 6 (запись 011)",
    "path": "cases/segthy-011-p2-3-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-011-p2-3-left/annotations.json"
   },
   {
    "caseId": "segthy-011-p2-3-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 011 (P2, скан 3)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 2",
+   "title": "Шея справа — SegThy 011 (P2, скан 3)",
+   "group": "neck-p2-right",
+   "variant": "скан 3 из 6 (запись 011)",
    "path": "cases/segthy-011-p2-3-right/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-011-p2-3-right/annotations.json"
   },
   {
    "caseId": "segthy-014-p3-1-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 014 (P3, скан 1)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 3",
+   "title": "Шея слева — SegThy 014 (P3, скан 1)",
+   "group": "neck-p3-left",
+   "variant": "скан 3 из 6 (запись 014)",
    "path": "cases/segthy-014-p3-1-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-014-p3-1-left/annotations.json"
   },
   {
    "caseId": "segthy-014-p3-1-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 014 (P3, скан 1)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 3",
+   "title": "Шея справа — SegThy 014 (P3, скан 1)",
+   "group": "neck-p3-right",
+   "variant": "скан 3 из 6 (запись 014)",
    "path": "cases/segthy-014-p3-1-right/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-014-p3-1-right/annotations.json"
   },
   {
    "caseId": "segthy-015-p1-1-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 015 (P1, скан 1)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 1",
+   "title": "Шея слева — SegThy 015 (P1, скан 1)",
+   "group": "neck-p1-left",
+   "variant": "скан 4 из 4 (запись 015)",
    "path": "cases/segthy-015-p1-1-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-015-p1-1-left/annotations.json"
   },
   {
    "caseId": "segthy-015-p1-1-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 015 (P1, скан 1)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 1",
+   "title": "Шея справа — SegThy 015 (P1, скан 1)",
+   "group": "neck-p1-right",
+   "variant": "скан 4 из 4 (запись 015)",
    "path": "cases/segthy-015-p1-1-right/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-015-p1-1-right/annotations.json"
   },
   {
    "caseId": "segthy-020-p2-1-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 020 (P2, скан 1)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 2",
+   "title": "Шея слева — SegThy 020 (P2, скан 1)",
+   "group": "neck-p2-left",
+   "variant": "скан 4 из 6 (запись 020)",
    "path": "cases/segthy-020-p2-1-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-020-p2-1-left/annotations.json"
   },
   {
    "caseId": "segthy-020-p2-1-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 020 (P2, скан 1)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 2",
+   "title": "Шея справа — SegThy 020 (P2, скан 1)",
+   "group": "neck-p2-right",
+   "variant": "скан 4 из 6 (запись 020)",
    "path": "cases/segthy-020-p2-1-right/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-020-p2-1-right/annotations.json"
   },
   {
    "caseId": "segthy-021-p3-1-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 021 (P3, скан 1)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 3",
+   "title": "Шея слева — SegThy 021 (P3, скан 1)",
+   "group": "neck-p3-left",
+   "variant": "скан 4 из 6 (запись 021)",
    "path": "cases/segthy-021-p3-1-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-021-p3-1-left/annotations.json"
   },
   {
    "caseId": "segthy-021-p3-1-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 021 (P3, скан 1)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 3",
+   "title": "Шея справа — SegThy 021 (P3, скан 1)",
+   "group": "neck-p3-right",
+   "variant": "скан 4 из 6 (запись 021)",
    "path": "cases/segthy-021-p3-1-right/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-021-p3-1-right/annotations.json"
   },
   {
    "caseId": "segthy-024-p3-1-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 024 (P3, скан 1)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 3",
+   "title": "Шея слева — SegThy 024 (P3, скан 1)",
+   "group": "neck-p3-left",
+   "variant": "скан 5 из 6 (запись 024)",
    "path": "cases/segthy-024-p3-1-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-024-p3-1-left/annotations.json"
   },
   {
    "caseId": "segthy-024-p3-1-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 024 (P3, скан 1)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 3",
+   "title": "Шея справа — SegThy 024 (P3, скан 1)",
+   "group": "neck-p3-right",
+   "variant": "скан 5 из 6 (запись 024)",
    "path": "cases/segthy-024-p3-1-right/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-024-p3-1-right/annotations.json"
   },
   {
    "caseId": "segthy-026-p2-2-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 026 (P2, скан 2)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 2",
+   "title": "Шея слева — SegThy 026 (P2, скан 2)",
+   "group": "neck-p2-left",
+   "variant": "скан 5 из 6 (запись 026)",
    "path": "cases/segthy-026-p2-2-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-026-p2-2-left/annotations.json"
   },
   {
    "caseId": "segthy-026-p2-2-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 026 (P2, скан 2)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 2",
+   "title": "Шея справа — SegThy 026 (P2, скан 2)",
+   "group": "neck-p2-right",
+   "variant": "скан 5 из 6 (запись 026)",
    "path": "cases/segthy-026-p2-2-right/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-026-p2-2-right/annotations.json"
   },
   {
    "caseId": "segthy-028-p3-1-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 028 (P3, скан 1)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 3",
+   "title": "Шея слева — SegThy 028 (P3, скан 1)",
+   "group": "neck-p3-left",
+   "variant": "скан 6 из 6 (запись 028)",
    "path": "cases/segthy-028-p3-1-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-028-p3-1-left/annotations.json"
   },
   {
    "caseId": "segthy-028-p3-1-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 028 (P3, скан 1)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 3",
+   "title": "Шея справа — SegThy 028 (P3, скан 1)",
+   "group": "neck-p3-right",
+   "variant": "скан 6 из 6 (запись 028)",
    "path": "cases/segthy-028-p3-1-right/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-028-p3-1-right/annotations.json"
   },
   {
    "caseId": "segthy-029-p2-1-left",
    "region": "neck",
-   "label": "Шея слева — SegThy 029 (P2, скан 1)",
+   "label": "Шея, слева: щитовидная железа, ОСА, ВЯВ — пациент 2",
+   "title": "Шея слева — SegThy 029 (P2, скан 1)",
+   "group": "neck-p2-left",
+   "variant": "скан 6 из 6 (запись 029)",
    "path": "cases/segthy-029-p2-1-left/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-029-p2-1-left/annotations.json"
   },
   {
    "caseId": "segthy-029-p2-1-right",
    "region": "neck",
-   "label": "Шея справа — SegThy 029 (P2, скан 1)",
+   "label": "Шея, справа: щитовидная железа, ОСА, ВЯВ — пациент 2",
+   "title": "Шея справа — SegThy 029 (P2, скан 1)",
+   "group": "neck-p2-right",
+   "variant": "скан 6 из 6 (запись 029)",
    "path": "cases/segthy-029-p2-1-right/case.json",
+   "hasReference": true,
    "annotations": "cases/segthy-029-p2-1-right/annotations.json"
   },
   {
    "caseId": "pfus1-p055",
    "region": "pelvis",
-   "label": "Тазовое дно — PFUS1 P055 (трансперинеально)",
+   "label": "Тазовое дно, трансперинеально: мочевой пузырь, уретра, матка, прямая кишка",
+   "title": "Тазовое дно — PFUS1 P055 (трансперинеально)",
    "path": "cases/pfus1-p055/case.json",
-   "annotations": "cases/pfus1-p055/annotations.json"
+   "hasReference": true,
+   "annotations": "cases/pfus1-p055/annotations.json",
+   "referenceTolerancePx": 30,
+   "referenceNote": "Эталон источника грубый (7–12 вершин на контур): на экране контуры сглажены сплайном, исходные вершины не изменены; допуск тренировки 30 пикс. Требует проверки специалистом."
   },
   {
    "caseId": "shoulder-pa001-a-0001",
    "region": "shoulder",
-   "label": "Плечо — 3D-объём УЗИ (Zenodo 20283247)",
-   "path": "cases/shoulder-pa001-a-0001/case.json"
+   "label": "Плечевой сустав, переднелатерально: 3D-объём",
+   "title": "Плечо — 3D-объём УЗИ (Zenodo 20283247)",
+   "path": "cases/shoulder-pa001-a-0001/case.json",
+   "hasReference": false
   },
   {
    "caseId": "figshare8153201-left-liver",
    "region": "abdomen",
-   "label": "Печень, левая доля — 3D-УЗИ (Figshare)",
-   "path": "cases/figshare8153201-left-liver/case.json"
+   "label": "Печень, левая доля: 3D-объём",
+   "title": "Печень, левая доля — 3D-УЗИ (Figshare)",
+   "path": "cases/figshare8153201-left-liver/case.json",
+   "hasReference": false
   },
   {
    "caseId": "figshare8153201-right-liver",
    "region": "abdomen",
-   "label": "Печень, правая доля — 3D-УЗИ (Figshare)",
-   "path": "cases/figshare8153201-right-liver/case.json"
+   "label": "Печень, правая доля: 3D-объём",
+   "title": "Печень, правая доля — 3D-УЗИ (Figshare)",
+   "path": "cases/figshare8153201-right-liver/case.json",
+   "hasReference": false
   },
   {
    "caseId": "figshare8153201-left-kidney",
    "region": "abdomen",
-   "label": "Левая почка — 3D-УЗИ (Figshare)",
-   "path": "cases/figshare8153201-left-kidney/case.json"
+   "label": "Левая почка: 3D-объём",
+   "title": "Левая почка — 3D-УЗИ (Figshare)",
+   "path": "cases/figshare8153201-left-kidney/case.json",
+   "hasReference": false
   },
   {
    "caseId": "figshare8153201-right-kidney",
    "region": "abdomen",
-   "label": "Правая почка — 3D-УЗИ (Figshare)",
-   "path": "cases/figshare8153201-right-kidney/case.json"
+   "label": "Правая почка: 3D-объём",
+   "title": "Правая почка — 3D-УЗИ (Figshare)",
+   "path": "cases/figshare8153201-right-kidney/case.json",
+   "hasReference": false
   },
   {
    "caseId": "chang2018-nerve-01",
    "region": "upperarm",
-   "label": "Плечо (сегмент руки) — медиальный кожный нерв плеча (видео S1, Chang 2018)",
-   "path": "cases/chang2018-nerve-01/case.json"
+   "label": "Плечо (сегмент руки): медиальный кожный нерв плеча",
+   "title": "Плечо (сегмент руки) — медиальный кожный нерв плеча (видео S1, Chang 2018)",
+   "path": "cases/chang2018-nerve-01/case.json",
+   "hasReference": false
   },
   {
    "caseId": "chang2018-nerve-02",
    "region": "upperarm",
-   "label": "Плечо (сегмент руки) — межрёберно-плечевой нерв (видео S2, Chang 2018)",
-   "path": "cases/chang2018-nerve-02/case.json"
+   "label": "Плечо (сегмент руки): межрёберно-плечевой нерв",
+   "title": "Плечо (сегмент руки) — межрёберно-плечевой нерв (видео S2, Chang 2018)",
+   "path": "cases/chang2018-nerve-02/case.json",
+   "hasReference": false
   },
   {
    "caseId": "chang2018-nerve-03",
    "region": "forearm",
-   "label": "Предплечье — медиальный кожный нерв предплечья (видео S3, Chang 2018)",
-   "path": "cases/chang2018-nerve-03/case.json"
+   "label": "Предплечье: медиальный кожный нерв предплечья",
+   "title": "Предплечье — медиальный кожный нерв предплечья (видео S3, Chang 2018)",
+   "path": "cases/chang2018-nerve-03/case.json",
+   "hasReference": false
   },
   {
    "caseId": "chang2018-nerve-04",
    "region": "forearm",
-   "label": "Предплечье — латеральный кожный нерв предплечья (видео S4, Chang 2018)",
-   "path": "cases/chang2018-nerve-04/case.json"
+   "label": "Предплечье: латеральный кожный нерв предплечья",
+   "title": "Предплечье — латеральный кожный нерв предплечья (видео S4, Chang 2018)",
+   "path": "cases/chang2018-nerve-04/case.json",
+   "hasReference": false
   },
   {
    "caseId": "chang2018-nerve-05",
    "region": "forearm",
-   "label": "Предплечье — задний кожный нерв предплечья (видео S5, Chang 2018)",
-   "path": "cases/chang2018-nerve-05/case.json"
+   "label": "Предплечье: задний кожный нерв предплечья",
+   "title": "Предплечье — задний кожный нерв предплечья (видео S5, Chang 2018)",
+   "path": "cases/chang2018-nerve-05/case.json",
+   "hasReference": false
   },
   {
    "caseId": "chang2018-nerve-06",
    "region": "forearm",
-   "label": "Предплечье — поверхностная ветвь лучевого нерва (видео S6, Chang 2018)",
-   "path": "cases/chang2018-nerve-06/case.json"
+   "label": "Предплечье: поверхностная ветвь лучевого нерва",
+   "title": "Предплечье — поверхностная ветвь лучевого нерва (видео S6, Chang 2018)",
+   "path": "cases/chang2018-nerve-06/case.json",
+   "hasReference": false
   },
   {
    "caseId": "chang2018-nerve-07",
    "region": "wrist",
-   "label": "Запястье — тыльная кожная ветвь локтевого нерва (видео S7, Chang 2018)",
-   "path": "cases/chang2018-nerve-07/case.json"
+   "label": "Запястье: тыльная кожная ветвь локтевого нерва",
+   "title": "Запястье — тыльная кожная ветвь локтевого нерва (видео S7, Chang 2018)",
+   "path": "cases/chang2018-nerve-07/case.json",
+   "hasReference": false
   },
   {
    "caseId": "chang2018-nerve-08",
    "region": "wrist",
-   "label": "Запястье — ладонная кожная ветвь срединного нерва (видео S8, Chang 2018)",
-   "path": "cases/chang2018-nerve-08/case.json"
+   "label": "Запястье: ладонная кожная ветвь срединного нерва",
+   "title": "Запястье — ладонная кожная ветвь срединного нерва (видео S8, Chang 2018)",
+   "path": "cases/chang2018-nerve-08/case.json",
+   "hasReference": false
   },
   {
    "caseId": "chang2018-nerve-09",
    "region": "thigh",
-   "label": "Бедро — передние кожные ветви бедренного нерва (видео S9, Chang 2018)",
-   "path": "cases/chang2018-nerve-09/case.json"
+   "label": "Бедро: передние кожные ветви бедренного нерва",
+   "title": "Бедро — передние кожные ветви бедренного нерва (видео S9, Chang 2018)",
+   "path": "cases/chang2018-nerve-09/case.json",
+   "hasReference": false
   },
   {
    "caseId": "chang2018-nerve-10",
    "region": "thigh",
-   "label": "Бедро — задний кожный нерв бедра (видео S10, Chang 2018)",
-   "path": "cases/chang2018-nerve-10/case.json"
+   "label": "Бедро: задний кожный нерв бедра",
+   "title": "Бедро — задний кожный нерв бедра (видео S10, Chang 2018)",
+   "path": "cases/chang2018-nerve-10/case.json",
+   "hasReference": false
   },
   {
    "caseId": "chang2018-nerve-11",
    "region": "thigh",
-   "label": "Бедро — латеральный кожный нерв бедра (видео S11, Chang 2018)",
-   "path": "cases/chang2018-nerve-11/case.json"
+   "label": "Бедро: латеральный кожный нерв бедра",
+   "title": "Бедро — латеральный кожный нерв бедра (видео S11, Chang 2018)",
+   "path": "cases/chang2018-nerve-11/case.json",
+   "hasReference": false
   },
   {
    "caseId": "chang2018-nerve-12",
    "region": "lowerleg",
-   "label": "Голень — медиальный кожный нерв икры (видео S12, Chang 2018)",
-   "path": "cases/chang2018-nerve-12/case.json"
+   "label": "Голень: медиальный кожный нерв икры",
+   "title": "Голень — медиальный кожный нерв икры (видео S12, Chang 2018)",
+   "path": "cases/chang2018-nerve-12/case.json",
+   "hasReference": false
   },
   {
    "caseId": "chang2018-nerve-13",
    "region": "lowerleg",
-   "label": "Голень — латеральный кожный нерв икры (видео S13, Chang 2018)",
-   "path": "cases/chang2018-nerve-13/case.json"
+   "label": "Голень: латеральный кожный нерв икры",
+   "title": "Голень — латеральный кожный нерв икры (видео S13, Chang 2018)",
+   "path": "cases/chang2018-nerve-13/case.json",
+   "hasReference": false
   },
   {
    "caseId": "chang2018-nerve-14",
    "region": "lowerleg",
-   "label": "Голень — икроножный нерв (видео S14, Chang 2018)",
-   "path": "cases/chang2018-nerve-14/case.json"
+   "label": "Голень: икроножный нерв",
+   "title": "Голень — икроножный нерв (видео S14, Chang 2018)",
+   "path": "cases/chang2018-nerve-14/case.json",
+   "hasReference": false
   },
   {
    "caseId": "chang2018-nerve-15",
    "region": "knee",
-   "label": "Колено — подкожный нерв: поднадколенниковая и портняжная ветви (видео S15, Chang 2018)",
-   "path": "cases/chang2018-nerve-15/case.json"
+   "label": "Колено: подкожный нерв — поднадколенниковая и портняжная ветви",
+   "title": "Колено — подкожный нерв: поднадколенниковая и портняжная ветви (видео S15, Chang 2018)",
+   "path": "cases/chang2018-nerve-15/case.json",
+   "hasReference": false
   }
  ]
 }
