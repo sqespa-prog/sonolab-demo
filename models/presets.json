@@ -133,25 +133,25 @@
    "ru": "Надключичная справа",
    "group": "Верхняя конечность и шея",
    "point": [
-    0.4858,
-    0.1348,
-    -0.084
+    0.4862,
+    0.1328,
+    -0.0861
    ],
    "dir": [
     0.7643,
     0.63,
     -0.1375
    ],
-   "x": 0.4982,
-   "z": -0.0862,
-   "rotateDeg": -10,
+   "x": 0.4988,
+   "z": -0.0884,
+   "rotateDeg": -40,
    "tiltDeg": 0,
    "rockDeg": 0,
    "depthCm": 4,
    "targetPoint": [
-    0.4897,
-    0.1281,
-    -0.0795
+    0.489,
+    0.1311,
+    -0.0862
    ],
    "target": {
     "name": "Right subclavian artery"
@@ -177,10 +177,6 @@
     },
     {
      "name": "Superior trunk of brachial plexus",
-     "side": "right"
-    },
-    {
-     "name": "Scalenus anterior muscle",
      "side": "right"
     }
    ],
@@ -244,10 +240,10 @@
    },
    "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
    "targetFrac": [
-    0.36,
-    0.48
+    0.52,
+    0.39
    ],
-   "modelDepthCm": 1.9
+   "modelDepthCm": 1.6
   },
   "ICB_R": {
    "ru": "Подключичная (парасагиттально) справа",
@@ -489,7 +485,7 @@
    "point": [
     -0.0257,
     0.1836,
-    -0.0938
+    -0.092
    ],
    "dir": [
     0.0848,
@@ -497,15 +493,15 @@
     0.101
    ],
    "x": -0.0231,
-   "z": -0.0907,
+   "z": -0.089,
    "rotateDeg": 0,
-   "tiltDeg": 0,
+   "tiltDeg": 8,
    "rockDeg": 0,
    "depthCm": 6,
    "targetPoint": [
-    -0.0253,
-    0.1826,
-    -0.0993
+    -0.0209,
+    0.1827,
+    -0.097
    ],
    "target": {
     "name": "Femoral nerve",
@@ -590,7 +586,7 @@
    "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
    "targetFrac": [
     0.37,
-    0.54
+    0.53
    ],
    "modelDepthCm": 3.2
   },
@@ -1077,25 +1073,25 @@
    "ru": "Надключичная слева",
    "group": "Верхняя конечность и шея",
    "point": [
-    0.5081,
-    0.1367,
-    0.084
+    0.5156,
+    0.1318,
+    0.0834
    ],
    "dir": [
     0.5309,
     0.7693,
     0.3554
    ],
-   "x": 0.5155,
-   "z": 0.089,
-   "rotateDeg": 80,
+   "x": 0.5227,
+   "z": 0.0881,
+   "rotateDeg": 45,
    "tiltDeg": 0,
    "rockDeg": 0,
    "depthCm": 3.5,
    "targetPoint": [
-    0.5128,
-    0.1327,
-    0.0833
+    0.5132,
+    0.1322,
+    0.0831
    ],
    "target": {
     "name": "Left subclavian artery"
@@ -1113,7 +1109,15 @@
      "side": "left"
     },
     {
+     "name": "Middle trunk of brachial plexus",
+     "side": "left"
+    },
+    {
      "name": "Pleura"
+    },
+    {
+     "name": "Superior trunk of brachial plexus",
+     "side": "left"
     }
    ],
    "labels": [
@@ -1176,10 +1180,10 @@
    },
    "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
    "targetFrac": [
-    0.35,
-    0.43
+    0.44,
+    0.41
    ],
-   "modelDepthCm": 1.5
+   "modelDepthCm": 1.4
   },
   "FEM_L": {
    "ru": "Бедренная / fascia iliaca (паховая складка) слева",
@@ -1187,7 +1191,7 @@
    "point": [
     -0.0257,
     0.1836,
-    0.0938
+    0.092
    ],
    "dir": [
     0.0846,
@@ -1195,15 +1199,15 @@
     -0.101
    ],
    "x": -0.0231,
-   "z": 0.0907,
+   "z": 0.0889,
    "rotateDeg": 0,
-   "tiltDeg": 0,
+   "tiltDeg": 8,
    "rockDeg": 0,
    "depthCm": 6,
    "targetPoint": [
-    -0.0253,
-    0.1823,
-    0.0995
+    -0.0209,
+    0.1829,
+    0.0969
    ],
    "target": {
     "name": "Femoral nerve",
@@ -1283,10 +1287,10 @@
    },
    "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
    "targetFrac": [
-    0.64,
-    0.54
+    0.63,
+    0.53
    ],
-   "modelDepthCm": 3.3
+   "modelDepthCm": 3.2
   },
   "ADD_L": {
    "ru": "Приводящий канал (середина бедра) слева",
@@ -2376,6 +2380,10 @@
      "name": "Pleura"
     },
     {
+     "name": "Longissimus colli muscle",
+     "side": "right"
+    },
+    {
      "name": "Longissimus thoracis muscle",
      "side": "right"
     }
@@ -2398,6 +2406,11 @@
     },
     {
      "name": "Rhomboid major muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Longissimus colli muscle",
      "side": "right",
      "role": "muscle"
     },
@@ -2438,6 +2451,18 @@
     ]
    },
    "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "labelAs": [
+    {
+     "name": "Longissimus colli muscle",
+     "side": "right",
+     "ru": "Мышца, выпрямляющая позвоночник (длиннейшая)"
+    }
+   ],
+   "noLabel": [
+    "Splenius colli muscle",
+    "Superficial investing cervical fascia",
+    "Investing abdominal fascia"
+   ],
    "modelDepthCm": 2.6,
    "targetFrac": [
     0.5,

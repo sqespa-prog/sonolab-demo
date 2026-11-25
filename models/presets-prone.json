@@ -801,6 +801,10 @@
      "name": "Pleura"
     },
     {
+     "name": "Longissimus colli muscle",
+     "side": "right"
+    },
+    {
      "name": "Longissimus thoracis muscle",
      "side": "right"
     }
@@ -823,6 +827,11 @@
     },
     {
      "name": "Rhomboid major muscle",
+     "side": "right",
+     "role": "muscle"
+    },
+    {
+     "name": "Longissimus colli muscle",
      "side": "right",
      "role": "muscle"
     },
@@ -863,6 +872,18 @@
     ]
    },
    "note": "Учебная модель по типичным значениям взрослого; положение, глубины и ориентиры — требует проверки специалистом.",
+   "labelAs": [
+    {
+     "name": "Longissimus colli muscle",
+     "side": "right",
+     "ru": "Мышца, выпрямляющая позвоночник (длиннейшая)"
+    }
+   ],
+   "noLabel": [
+    "Splenius colli muscle",
+    "Superficial investing cervical fascia",
+    "Investing abdominal fascia"
+   ],
    "modelDepthCm": 2.6,
    "targetFrac": [
     0.5,
